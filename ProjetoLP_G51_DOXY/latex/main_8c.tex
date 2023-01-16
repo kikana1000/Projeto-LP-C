@@ -1,0 +1,91 @@
+\hypertarget{main_8c}{}\doxysection{Projeto\+LP\+\_\+\+G51/main.c File Reference}
+\label{main_8c}\index{ProjetoLP\_G51/main.c@{ProjetoLP\_G51/main.c}}
+
+
+Contem os Menus.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Tabelas\+\_\+\+IRS.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Funcionarios.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}logs.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Seg\+Soc.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}input.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Proc\+\_\+\+Salario.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Ficheiros.\+h\char`\"{}}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{main_8c_ab74130af9b45242fa51d183ce42b1014}\label{main_8c_ab74130af9b45242fa51d183ce42b1014}} 
+\#define {\bfseries OPC\+\_\+\+ESC}~\char`\"{}\textbackslash{}t\textbackslash{}t\+Escolha uma das opções\+:\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{main_8c_a2b556d054655da3bd41306dc8a87f03c}\label{main_8c_a2b556d054655da3bd41306dc8a87f03c}} 
+\#define {\bfseries MENU\+\_\+\+PRINCIPAL}~\char`\"{}\textbackslash{}t\textbackslash{}t   -\/Menu Principal-\/\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{main_8c_af9a04df5f2a1f03416151bc1e8a6cf9c}\label{main_8c_af9a04df5f2a1f03416151bc1e8a6cf9c}} 
+\#define {\bfseries MENU\+\_\+\+FUNC}~\char`\"{}\textbackslash{}t   -\/Menu de Gestão de Funcionarios-\/\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{main_8c_aba222c61ab073d84cee6e29940296ae3}\label{main_8c_aba222c61ab073d84cee6e29940296ae3}} 
+\#define {\bfseries MENU\+\_\+\+TAB\+\_\+\+SS}~\char`\"{}     -\/Menu de Gestão da Tabela da Segurança Social-\/\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{main_8c_a307f07c46aae0a235cb88a0e6856a4a7}\label{main_8c_a307f07c46aae0a235cb88a0e6856a4a7}} 
+\#define {\bfseries MENU\+\_\+\+TAB\+\_\+\+IRS}~\char`\"{}\textbackslash{}t  -\/Menu de Gestão da Tabela do IRS-\/\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{main_8c_aabf5d0afa7e89340352e82ec328d9a21}\label{main_8c_aabf5d0afa7e89340352e82ec328d9a21}} 
+\#define {\bfseries MENU\+\_\+\+PROC\+\_\+\+SAL}~\char`\"{}\textbackslash{}t  -\/Menu de Processamento de Salario-\/\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{main_8c_aa434b768741d01f880ef15217b942b0e}\label{main_8c_aa434b768741d01f880ef15217b942b0e}} 
+\#define {\bfseries OPCS\+\_\+\+MENU\+\_\+\+PRINC}~\char`\"{}1.Gerir Funcionarios\textbackslash{}t\textbackslash{}t\textbackslash{}t2.\+Processar Salarios\textbackslash{}n3.\+Gerir Tabela de Descontos da SS\textbackslash{}t4.\+Gerir Tabela de retenção do IRS\textbackslash{}n9.\+Sair\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{main_8c_a1d01dd30d27831069c3d8ea3a8652445}\label{main_8c_a1d01dd30d27831069c3d8ea3a8652445}} 
+\#define {\bfseries OPCS\+\_\+\+MENU\+\_\+\+FUNC}~\char`\"{}1.Criar Funcionario\textbackslash{}t\textbackslash{}t\textbackslash{}t2.\+Editar Funcionario\textbackslash{}n3.\+Remover Funcionario\textbackslash{}t\textbackslash{}t\textbackslash{}t4.\+Listar Funcionarios Existente\textbackslash{}n5.\+Gravar Funcionarios em ficheiros\textbackslash{}t6.\+Carregar Funcionarios de um ficheiro\textbackslash{}n0.\+Voltar ao menu anterior\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{main_8c_a58e0b5277549f5b41060b9ec9f327fe4}\label{main_8c_a58e0b5277549f5b41060b9ec9f327fe4}} 
+\#define {\bfseries OPCS\+\_\+\+MENU\+\_\+\+TAB\+\_\+\+SS}~\char`\"{}1.Adicionar Critério\textbackslash{}t\textbackslash{}t2.\+Alterar Criterio\textbackslash{}n3.\+Apagar Criterio\textbackslash{}t\textbackslash{}t4.\+Gravar Tabela de Criterios em ficheiro\textbackslash{}n5.\+Carregar Tabela de Criterios\textbackslash{}t0.\+Voltar ao menu anterior\textbackslash{}n  de um ficheiro\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{main_8c_a7933b1a4a4f95d751d30c25b991ece68}\label{main_8c_a7933b1a4a4f95d751d30c25b991ece68}} 
+\#define {\bfseries OPCS\+\_\+\+MENU\+\_\+\+TAB\+\_\+\+IRS}~\char`\"{}1.Aceder a Tabela de Solteiro\textbackslash{}t\textbackslash{}t2.\+Aceder a Tabela Casado 1 Titular\textbackslash{}n3.\+Aceder a Tabela Casado 2 Titulares\textbackslash{}t4.\+Listar todas as Tabelas\textbackslash{}n5.\+Gravar Tabelas em ficheiro\textbackslash{}t\textbackslash{}t6.\+Carregar Tabelas de ficheiros\textbackslash{}n0.\+Voltar ao menu anterior\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{main_8c_ae8f098893839c259011d8fab48534252}\label{main_8c_ae8f098893839c259011d8fab48534252}} 
+\#define {\bfseries OPCS\+\_\+\+MENU\+\_\+\+TAB\+\_\+\+IRS\+\_\+\+OPC}~\char`\"{}1.Criar linha\textbackslash{}t\textbackslash{}t2.\+Apagar linha\textbackslash{}n3.\+Alterar linha\textbackslash{}t\textbackslash{}t4.\+Gravar tabela\textbackslash{}n5.\+Carregar Tabela\textbackslash{}t0.\+Voltar ao menu anterior\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{main_8c_a77c550923578917ca809ea116a200671}\label{main_8c_a77c550923578917ca809ea116a200671}} 
+\#define {\bfseries OPCS\+\_\+\+MENU\+\_\+\+PROC\+\_\+\+SAL}~\char`\"{}1.Calcular Salarios\textbackslash{}t\textbackslash{}t\textbackslash{}t2.\+Menu de Listar depesas de Meses Calculados\textbackslash{}n3.\+Guardar Meses Calculados em ficheiro\textbackslash{}t4.\+Guardar depesas de ano em ficheiro\textbackslash{}n5.\+Carregar Mes Calculado de um ficheiro\textbackslash{}t6.\+Menu Tabela de Bonus\textbackslash{}n0.\+Voltar ao menu anterior\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{main_8c_a51d7932c4ee6e0a3ac90f20d2234d24a}\label{main_8c_a51d7932c4ee6e0a3ac90f20d2234d24a}} 
+\#define {\bfseries MENU\+\_\+\+TAB\+\_\+\+BONUS}~\char`\"{}\textbackslash{}t-\/Menu da Tabela de Bonus-\/\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{main_8c_a01b6fa0595e6768c0465cee6c89e468b}\label{main_8c_a01b6fa0595e6768c0465cee6c89e468b}} 
+\#define {\bfseries OPCS\+\_\+\+MENU\+\_\+\+TAB\+\_\+\+BONUS}~\char`\"{}1.Criar linha\textbackslash{}t\textbackslash{}t2.\+Alterar linha\textbackslash{}n3.\+Apagar linha\textbackslash{}t\textbackslash{}t4.\+Carregar Tabela\textbackslash{}n5.\+Gravar Tabela\textbackslash{}t\textbackslash{}t6.\+Listar o maior bonus que cada funcionario tem direito\textbackslash{}n0.\+Sair\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{main_8c_a0c18464f93a3ec94deb4cd92a7647d7a}\label{main_8c_a0c18464f93a3ec94deb4cd92a7647d7a}} 
+\#define {\bfseries OPC\+\_\+\+INV}~\char`\"{}Opção invalida.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{main_8c_a35aa28583ba37276873fbe9727d39b4e}\label{main_8c_a35aa28583ba37276873fbe9727d39b4e}} 
+\#define {\bfseries VAL\+\_\+\+MIN\+\_\+\+OPC}~0
+\item 
+\mbox{\Hypertarget{main_8c_a87e85a9404bc2bd77044c4605e63454e}\label{main_8c_a87e85a9404bc2bd77044c4605e63454e}} 
+\#define {\bfseries VAL\+\_\+\+MAX\+\_\+\+OPC}~9
+\item 
+\mbox{\Hypertarget{main_8c_a4661702e637fb46008f42db389c83e04}\label{main_8c_a4661702e637fb46008f42db389c83e04}} 
+\#define {\bfseries MAX\+\_\+\+QUANT}~3
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{main_8c_a3c04138a5bfe5d72780bb7e82a18e627}\label{main_8c_a3c04138a5bfe5d72780bb7e82a18e627}} 
+int {\bfseries main} (int argc, char $\ast$$\ast$argv)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Contem os Menus. 
+
+Projeto de LP -\/ G51 \begin{DoxyAuthor}{Author}
+André Eiras nº 8200587 1-\/C LSIRC 
+
+José Francisco nº 8200472 1-\/C LEI 
+\end{DoxyAuthor}

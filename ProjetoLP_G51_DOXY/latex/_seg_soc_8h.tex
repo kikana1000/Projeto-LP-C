@@ -1,0 +1,295 @@
+\hypertarget{_seg_soc_8h}{}\doxysection{Projeto\+LP\+\_\+\+G51/\+Seg\+Soc.h File Reference}
+\label{_seg_soc_8h}\index{ProjetoLP\_G51/SegSoc.h@{ProjetoLP\_G51/SegSoc.h}}
+
+
+Este modulo contem todas as funções relativas a segurança social.  
+
+
+\doxysubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_cargo_s_s}{Cargo\+SS}}
+\item 
+struct \mbox{\hyperlink{struct_linha__segsoc}{Linha\+\_\+segsoc}}
+\item 
+struct \mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a995348082a216c9e752bcc7583e4f551}\label{_seg_soc_8h_a995348082a216c9e752bcc7583e4f551}} 
+\#define {\bfseries MSG\+\_\+\+EDIT\+\_\+\+FUNCAO\+\_\+\+SS}~\char`\"{}Deseja alterar o nome da função a qual esta taxa será aplicada(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_aff744817199a1daf2c55454bdc4e9001}\label{_seg_soc_8h_aff744817199a1daf2c55454bdc4e9001}} 
+\#define {\bfseries MSG\+\_\+\+EDIT\+\_\+\+TIPO\+\_\+\+OU\+\_\+\+FUNCAO\+\_\+\+SS}~\char`\"{}Deseja alterar \char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a502fdcdc8a9060b393ce5bffb5a8e3ad}\label{_seg_soc_8h_a502fdcdc8a9060b393ce5bffb5a8e3ad}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+FUNCAO\+\_\+\+SS}~\char`\"{}Insira o nome da função a que se vai aplicar a taxa\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a37db4de1c96613d5c0ec1c99da024952}\label{_seg_soc_8h_a37db4de1c96613d5c0ec1c99da024952}} 
+\#define {\bfseries MSG\+\_\+\+EDIT\+\_\+\+LINHA}~\char`\"{}Linha da tabela de segurança social editada com sucesso.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a0837b802f3f67946cd155adadafab80f}\label{_seg_soc_8h_a0837b802f3f67946cd155adadafab80f}} 
+\#define {\bfseries MSG\+\_\+\+EDIT\+\_\+\+TRABALHADOR}~\char`\"{}Deseja editar o valor a pagar pelo trabalhador que se aplica o critério(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_adbf14aa892e2f2987882f15d8b1db7cd}\label{_seg_soc_8h_adbf14aa892e2f2987882f15d8b1db7cd}} 
+\#define {\bfseries MSG\+\_\+\+EDIT\+\_\+\+ENTEMPREGADORA}~\char`\"{}Deseja editar o valor a pagar pela entidade empregadora que se aplica o critério(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a2ead55896727f4ffac7fab30e2e30eac}\label{_seg_soc_8h_a2ead55896727f4ffac7fab30e2e30eac}} 
+\#define {\bfseries MSG\+\_\+\+EDIT\+\_\+\+AUTO}~\char`\"{}Deseja inserir como data \char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a87923769d1565b45596d9892002d3070}\label{_seg_soc_8h_a87923769d1565b45596d9892002d3070}} 
+\#define {\bfseries MSG\+\_\+\+EDIT\+\_\+\+TIPO}~\char`\"{}Deseja editar a que tipo de cargo se aplica o critério(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_ad4c08aeee4b6686b5da1937edfd6000b}\label{_seg_soc_8h_ad4c08aeee4b6686b5da1937edfd6000b}} 
+\#define {\bfseries MSG\+\_\+\+EDIT\+\_\+\+TAB\+\_\+\+SS}~\char`\"{}Tabela da segurança social editada com sucesso.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a7e33f41c28f7d4bb48de015e187322c6}\label{_seg_soc_8h_a7e33f41c28f7d4bb48de015e187322c6}} 
+\#define {\bfseries MSG\+\_\+\+REMOV\+\_\+\+TAB\+\_\+\+SS}~\char`\"{}Linha removida com sucesso.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a34149bcedbe0560d59cfb92ab39f7756}\label{_seg_soc_8h_a34149bcedbe0560d59cfb92ab39f7756}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+NLINHA\+\_\+\+REM}~\char`\"{}Insira o número da \mbox{\hyperlink{structlinha}{linha}} que deseja remover\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a9f376223ddee077ff5129bef668d961c}\label{_seg_soc_8h_a9f376223ddee077ff5129bef668d961c}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+NLINHA\+\_\+\+EDIT}~\char`\"{}Insira o número da \mbox{\hyperlink{structlinha}{linha}} que deseja editar\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_affaddcac7f0bc634e03410f364b16f2e}\label{_seg_soc_8h_affaddcac7f0bc634e03410f364b16f2e}} 
+\#define {\bfseries MSG\+\_\+\+CRIADO\+\_\+\+TAB\+\_\+\+SS}~\char`\"{}Valores foram adicionados a tabela.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a7adad25c90f9c80ede96808e84948b60}\label{_seg_soc_8h_a7adad25c90f9c80ede96808e84948b60}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+VALOR\+\_\+\+ENTEMPREGADORA}~\char`\"{}Insira a taxa a pagar pela entidade empregadora para a segurança social\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a8c8318b5acb9db15b8c2ff59d315d059}\label{_seg_soc_8h_a8c8318b5acb9db15b8c2ff59d315d059}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+VALOR\+\_\+\+TRABALHADOR}~\char`\"{}Insira a taxa a pagar pelo funcionário para a segurança social\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_abbe1c091c2e78f2c2e2c567cac57631d}\label{_seg_soc_8h_abbe1c091c2e78f2c2e2c567cac57631d}} 
+\#define {\bfseries MSG\+\_\+\+SEGSOC\+\_\+\+ADD}~\char`\"{}Opção de adicionar valores a tabela de Segurança Social escolhida.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a61481edaa008c8d2d9dd5a77345157aa}\label{_seg_soc_8h_a61481edaa008c8d2d9dd5a77345157aa}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+TIPO}~\char`\"{}A qual cargo este criterio aplica-\/se(1-\/Chefes/2-\/Administradores/3-\/Funcionarios)\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a0d2709f85399665510403f640126a63b}\label{_seg_soc_8h_a0d2709f85399665510403f640126a63b}} 
+\#define {\bfseries MSG\+\_\+\+SEGSOC\+\_\+\+CARR}~\char`\"{}Tabelas carregadas do Ficheiro \%s\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a0611bb348d52d7f79232ed1e3188a7ec}\label{_seg_soc_8h_a0611bb348d52d7f79232ed1e3188a7ec}} 
+\#define {\bfseries MSG\+\_\+\+GUARDAR\+\_\+\+TAB\+\_\+\+SS}~\char`\"{}Tabela guardada no ficheiro \%s\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_ad4a4aa3dd2ac35684e9e173ac67bc93d}\label{_seg_soc_8h_ad4a4aa3dd2ac35684e9e173ac67bc93d}} 
+\#define {\bfseries MSG\+\_\+\+LIST\+\_\+\+TAB\+\_\+\+SS}~\char`\"{}Lista de taxas contributivas foram carregadas.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a5a6e3e082c89830470cb57fc0d841c4c}\label{_seg_soc_8h_a5a6e3e082c89830470cb57fc0d841c4c}} 
+\#define {\bfseries MSG\+\_\+\+CARGO\+\_\+\+FUNCAO}~\char`\"{}Deseja fazer para uma função especifica(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a1117981b4ab32e1e2cf17773b8b21d70}\label{_seg_soc_8h_a1117981b4ab32e1e2cf17773b8b21d70}} 
+\#define {\bfseries MSG\+\_\+\+SEGSOC\+\_\+\+N\+\_\+\+CARR}~\char`\"{} \%d sem tabela de segurança social.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a77a44a0082700d6d4c1ae001db478621}\label{_seg_soc_8h_a77a44a0082700d6d4c1ae001db478621}} 
+\#define {\bfseries ERR\+\_\+\+N\+\_\+\+EXISTE\+\_\+\+LINHAS}~\char`\"{}Não existe linhas para editar.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a43179b96fcb0b033a02e84868accd864}\label{_seg_soc_8h_a43179b96fcb0b033a02e84868accd864}} 
+\#define {\bfseries ERR\+\_\+\+SEGSOC\+\_\+\+VAZIA\+\_\+\+LISTA}~\char`\"{}Tabela vazia. \textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a9d193bcf44536cf5aff312714cce51f3}\label{_seg_soc_8h_a9d193bcf44536cf5aff312714cce51f3}} 
+\#define {\bfseries ERR\+\_\+\+FILE\+\_\+\+N\+\_\+\+EXISTE\+\_\+\+TAB\+\_\+\+SS}~\char`\"{}Ficheiro \%s não existe.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_adfd3d2098a509b4e5459145a5ef04b11}\label{_seg_soc_8h_adfd3d2098a509b4e5459145a5ef04b11}} 
+\#define {\bfseries ERR\+\_\+\+VAZIA\+\_\+\+GUARDAR\+\_\+\+TAB\+\_\+\+SS}~\char`\"{}Sem tabelas para Guardar no ficheiro \%s\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a90516a57b66dd3624adbfa5b6b87be42}\label{_seg_soc_8h_a90516a57b66dd3624adbfa5b6b87be42}} 
+\#define {\bfseries ERR\+\_\+\+VAZIA\+\_\+\+LIST\+\_\+\+TAB\+\_\+\+SS}~\char`\"{}Sem tabelas para listar.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a6471110a7f89b493c825d33c5e364e6f}\label{_seg_soc_8h_a6471110a7f89b493c825d33c5e364e6f}} 
+\#define {\bfseries ERR\+\_\+\+EXISTE\+\_\+\+CRIT}~\char`\"{}Ja existe este criterio na tabela!\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a7953ac9c418be42a7ef23b741f50f31c}\label{_seg_soc_8h_a7953ac9c418be42a7ef23b741f50f31c}} 
+\#define {\bfseries ERR\+\_\+\+FILE\+\_\+\+SS}~\char`\"{}Tipo de ficheiro invalido(.bin)!\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a9081d8ed99ed168ee88e9f55ae8fb21b}\label{_seg_soc_8h_a9081d8ed99ed168ee88e9f55ae8fb21b}} 
+\#define {\bfseries VAL\+\_\+\+INV}~\char`\"{}Informação inserida invalida!\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a002eee186798f4d17bdff81990a57a15}\label{_seg_soc_8h_a002eee186798f4d17bdff81990a57a15}} 
+\#define {\bfseries MAX\+\_\+\+STRING\+\_\+\+SS}~50
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_ac3273650642b0e8047c9ee0d562c7d18}\label{_seg_soc_8h_ac3273650642b0e8047c9ee0d562c7d18}} 
+\#define {\bfseries MIN\+\_\+\+TIPO}~1
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_ab65eb4cb4e4631ad72ed5e9579bc9e5d}\label{_seg_soc_8h_ab65eb4cb4e4631ad72ed5e9579bc9e5d}} 
+\#define {\bfseries MAX\+\_\+\+TIPO}~3
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a60e4893a0209f1e2e789fd1aaec4a90e}\label{_seg_soc_8h_a60e4893a0209f1e2e789fd1aaec4a90e}} 
+\#define {\bfseries MIN\+\_\+\+PORC\+\_\+\+TAB\+\_\+\+SS}~0
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a1bafbd618287f357e64fea9cc601ab9e}\label{_seg_soc_8h_a1bafbd618287f357e64fea9cc601ab9e}} 
+\#define {\bfseries MAX\+\_\+\+PORC\+\_\+\+TAB\+\_\+\+SS}~100
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a9e8407dd9893dd8ca7ab08a7ee310822}\label{_seg_soc_8h_a9e8407dd9893dd8ca7ab08a7ee310822}} 
+\#define {\bfseries MIN\+\_\+\+LINHA\+\_\+\+SEGSOC}~1
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_ae9282d38def85a98a4c2220ac50b9cf5}\label{_seg_soc_8h_ae9282d38def85a98a4c2220ac50b9cf5}} 
+\#define {\bfseries MIN\+\_\+\+DEP\+\_\+\+TAB\+\_\+\+SS}~0
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a41d58b487827902e1a4076e4f2911647}\label{_seg_soc_8h_a41d58b487827902e1a4076e4f2911647}} 
+\#define {\bfseries MAX\+\_\+\+DEP\+\_\+\+TAB\+\_\+\+SS}~100
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a29c9d2cf58130f3a2bfd62fe7901f2db}\label{_seg_soc_8h_a29c9d2cf58130f3a2bfd62fe7901f2db}} 
+\#define {\bfseries MIN\+\_\+\+ANOSSERVICO}~1
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_afafe11c77a380394ca8ec6a75ce73345}\label{_seg_soc_8h_afafe11c77a380394ca8ec6a75ce73345}} 
+\#define {\bfseries MAX\+\_\+\+ANOSSERVICO}~60
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_aa814a398147c1d795c0d92140480d27a}\label{_seg_soc_8h_aa814a398147c1d795c0d92140480d27a}} 
+\#define {\bfseries MIN\+\_\+\+ESTADOCIVIL}~1
+\item 
+\mbox{\Hypertarget{_seg_soc_8h_a7b88cbf1705dac77918ab015a736d965}\label{_seg_soc_8h_a7b88cbf1705dac77918ab015a736d965}} 
+\#define {\bfseries MAX\+\_\+\+ESTADOCIVIL}~4
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{_seg_soc_8h_a0b15dff61fe93ee20ec52c1075a99e95}{ver\+\_\+criterio}} (\mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} segsoc, int nlinha, int cont)
+\item 
+void \mbox{\hyperlink{_seg_soc_8h_a3a54cb56bf02bfa53bfacb9874b4dc9a}{Seg\+Soc\+\_\+remove}} (\mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} $\ast$segsoc)
+\item 
+void \mbox{\hyperlink{_seg_soc_8h_a39ef8a649f2685a31b7691dca1c9f856}{expandir\+\_\+\+Seg\+Soc}} (\mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} $\ast$segsoc)
+\item 
+void \mbox{\hyperlink{_seg_soc_8h_ac0339b37e35350579c4d5fb1899d8fe5}{Seg\+Soc\+\_\+add}} (\mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} $\ast$segsoc)
+\item 
+int \mbox{\hyperlink{_seg_soc_8h_ac228db5f25e9749955280b53f14dc2d7}{carregar\+\_\+\+Seg\+Soc}} (\mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} $\ast$segsoc, char $\ast$file)
+\item 
+void \mbox{\hyperlink{_seg_soc_8h_a76c872849713290a6c63f6a0bb8b19b3}{guardar\+\_\+\+Seg\+Soc}} (\mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} $\ast$segsoc, char $\ast$file)
+\item 
+void \mbox{\hyperlink{_seg_soc_8h_a42f0355d591b5e5b2bdeda7cc0c4f550}{Seg\+Soc\+\_\+list}} (\mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} segsoc)
+\item 
+void \mbox{\hyperlink{_seg_soc_8h_a89d3243a2c20e0988a076b3a835bcb58}{Seg\+Soc\+\_\+edit}} (\mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} $\ast$segsoc)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Este modulo contem todas as funções relativas a segurança social. 
+
+Projeto de LP -\/ G51 \begin{DoxyAuthor}{Author}
+André Eiras nº 8200587 1-\/C LSIRC 
+
+José Francisco nº 8200472 1-\/C LEI 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_seg_soc_8h_ac228db5f25e9749955280b53f14dc2d7}\label{_seg_soc_8h_ac228db5f25e9749955280b53f14dc2d7}} 
+\index{SegSoc.h@{SegSoc.h}!carregar\_SegSoc@{carregar\_SegSoc}}
+\index{carregar\_SegSoc@{carregar\_SegSoc}!SegSoc.h@{SegSoc.h}}
+\doxysubsubsection{\texorpdfstring{carregar\_SegSoc()}{carregar\_SegSoc()}}
+{\footnotesize\ttfamily int carregar\+\_\+\+Seg\+Soc (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} $\ast$}]{segsoc,  }\item[{char $\ast$}]{file }\end{DoxyParamCaption})}
+
+Esta função tem o propósito de carregar de uma ficheiro em .bin para memória dinámica os valores de uma tabela de Segurança Social \mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em segsoc} & recebe como argumento um apontador da struct \mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} \\
+\hline
+{\em file} & recebe como argumento um array de caracteres \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+dá return de um inteiro com significado de um boolean 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_seg_soc_8h_a39ef8a649f2685a31b7691dca1c9f856}\label{_seg_soc_8h_a39ef8a649f2685a31b7691dca1c9f856}} 
+\index{SegSoc.h@{SegSoc.h}!expandir\_SegSoc@{expandir\_SegSoc}}
+\index{expandir\_SegSoc@{expandir\_SegSoc}!SegSoc.h@{SegSoc.h}}
+\doxysubsubsection{\texorpdfstring{expandir\_SegSoc()}{expandir\_SegSoc()}}
+{\footnotesize\ttfamily void expandir\+\_\+\+Seg\+Soc (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} $\ast$}]{segsoc }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo alocar mais espaço na memória dinamica para as variáveis da struct \mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em segsoc} & recebe como argumento um apontador da struct \mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_seg_soc_8h_a76c872849713290a6c63f6a0bb8b19b3}\label{_seg_soc_8h_a76c872849713290a6c63f6a0bb8b19b3}} 
+\index{SegSoc.h@{SegSoc.h}!guardar\_SegSoc@{guardar\_SegSoc}}
+\index{guardar\_SegSoc@{guardar\_SegSoc}!SegSoc.h@{SegSoc.h}}
+\doxysubsubsection{\texorpdfstring{guardar\_SegSoc()}{guardar\_SegSoc()}}
+{\footnotesize\ttfamily void guardar\+\_\+\+Seg\+Soc (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} $\ast$}]{segsoc,  }\item[{char $\ast$}]{file }\end{DoxyParamCaption})}
+
+Esta função tem como finalidade guardar o valor das variáveis para um ficheiro (.bin)
+
+
+\begin{DoxyParams}{Parameters}
+{\em segsoc} & recebe como argumento um apontador da struct \mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} \\
+\hline
+{\em file} & recebe como argumento um array de caracteres \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_seg_soc_8h_ac0339b37e35350579c4d5fb1899d8fe5}\label{_seg_soc_8h_ac0339b37e35350579c4d5fb1899d8fe5}} 
+\index{SegSoc.h@{SegSoc.h}!SegSoc\_add@{SegSoc\_add}}
+\index{SegSoc\_add@{SegSoc\_add}!SegSoc.h@{SegSoc.h}}
+\doxysubsubsection{\texorpdfstring{SegSoc\_add()}{SegSoc\_add()}}
+{\footnotesize\ttfamily void Seg\+Soc\+\_\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} $\ast$}]{segsoc }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo adicionar variáveis para a memória dinamica para a struct \mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em segsoc} & recebe como argumento um apontador da struct \mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_seg_soc_8h_a89d3243a2c20e0988a076b3a835bcb58}\label{_seg_soc_8h_a89d3243a2c20e0988a076b3a835bcb58}} 
+\index{SegSoc.h@{SegSoc.h}!SegSoc\_edit@{SegSoc\_edit}}
+\index{SegSoc\_edit@{SegSoc\_edit}!SegSoc.h@{SegSoc.h}}
+\doxysubsubsection{\texorpdfstring{SegSoc\_edit()}{SegSoc\_edit()}}
+{\footnotesize\ttfamily void Seg\+Soc\+\_\+edit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} $\ast$}]{segsoc }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo editar os valores apontados da struct \mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em segsoc} & recebe como argumento um apontador da struct \mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_seg_soc_8h_a42f0355d591b5e5b2bdeda7cc0c4f550}\label{_seg_soc_8h_a42f0355d591b5e5b2bdeda7cc0c4f550}} 
+\index{SegSoc.h@{SegSoc.h}!SegSoc\_list@{SegSoc\_list}}
+\index{SegSoc\_list@{SegSoc\_list}!SegSoc.h@{SegSoc.h}}
+\doxysubsubsection{\texorpdfstring{SegSoc\_list()}{SegSoc\_list()}}
+{\footnotesize\ttfamily void Seg\+Soc\+\_\+list (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}}}]{segsoc }\end{DoxyParamCaption})}
+
+Esta função serve para imprimir no ecra os valores da tabela da struct de \mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em segsoc} & recebe como argumento uma variavel da estrutura \mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_seg_soc_8h_a3a54cb56bf02bfa53bfacb9874b4dc9a}\label{_seg_soc_8h_a3a54cb56bf02bfa53bfacb9874b4dc9a}} 
+\index{SegSoc.h@{SegSoc.h}!SegSoc\_remove@{SegSoc\_remove}}
+\index{SegSoc\_remove@{SegSoc\_remove}!SegSoc.h@{SegSoc.h}}
+\doxysubsubsection{\texorpdfstring{SegSoc\_remove()}{SegSoc\_remove()}}
+{\footnotesize\ttfamily void Seg\+Soc\+\_\+remove (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} $\ast$}]{segsoc }\end{DoxyParamCaption})}
+
+Esta função tem como finalidade apagar valores de uma linha especifica da struct \mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em segsoc} & recebe como argumento um apontador da struct \mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_seg_soc_8h_a0b15dff61fe93ee20ec52c1075a99e95}\label{_seg_soc_8h_a0b15dff61fe93ee20ec52c1075a99e95}} 
+\index{SegSoc.h@{SegSoc.h}!ver\_criterio@{ver\_criterio}}
+\index{ver\_criterio@{ver\_criterio}!SegSoc.h@{SegSoc.h}}
+\doxysubsubsection{\texorpdfstring{ver\_criterio()}{ver\_criterio()}}
+{\footnotesize\ttfamily int ver\+\_\+criterio (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}}}]{segsoc,  }\item[{int}]{nlinha,  }\item[{int}]{cont }\end{DoxyParamCaption})}
+
+Esta função serve para a verificação do estado do cargo e se ele já existe
+
+
+\begin{DoxyParams}{Parameters}
+{\em segsoc} & recebe como argumento uma variavel da estrutura \mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} \\
+\hline
+{\em nlinha} & recebe um inteiro \\
+\hline
+{\em cont} & recebe um inteiro \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+dá return de um inteiro com significado de um boolean 
+\end{DoxyReturn}

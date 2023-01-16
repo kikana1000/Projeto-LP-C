@@ -1,0 +1,56 @@
+\hypertarget{_ficheiros_8h}{}\doxysection{Projeto\+LP\+\_\+\+G51/\+Ficheiros.h File Reference}
+\label{_ficheiros_8h}\index{ProjetoLP\_G51/Ficheiros.h@{ProjetoLP\_G51/Ficheiros.h}}
+
+
+Este modulo contem todas as funções relativas a manipulação de ficheiros geral.  
+
+
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_ficheiros_8h_a08153e5032adaba604d151dc4ce768ac}\label{_ficheiros_8h_a08153e5032adaba604d151dc4ce768ac}} 
+\#define {\bfseries FILE\+\_\+\+TYPE\+\_\+\+CSV}~\char`\"{}.csv\char`\"{}
+\item 
+\mbox{\Hypertarget{_ficheiros_8h_ace28149d62039953b3e74344d6da2713}\label{_ficheiros_8h_ace28149d62039953b3e74344d6da2713}} 
+\#define {\bfseries FILE\+\_\+\+TYPE\+\_\+\+BIN}~\char`\"{}.bin\char`\"{}
+\item 
+\mbox{\Hypertarget{_ficheiros_8h_a5d383deb8a6bab4af5b13afa463455ca}\label{_ficheiros_8h_a5d383deb8a6bab4af5b13afa463455ca}} 
+\#define {\bfseries MSG\+\_\+\+LER\+\_\+\+FILE}~\char`\"{}Insira o destino e nome do Ficheiro onde deseja carregar(Completo/Parcial)\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_ficheiros_8h_a6172fd7d98f05be290eae76b9d8c1cb5}\label{_ficheiros_8h_a6172fd7d98f05be290eae76b9d8c1cb5}} 
+\#define {\bfseries MSG\+\_\+\+GRAV\+\_\+\+FILE}~\char`\"{}Insira o destino e nome do Ficheiro onde deseja gravar(Completo/Parcial)\+:\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{_ficheiros_8h_ae656c7107d6a78a98b55b1b3bdd78e12}{conta\+\_\+linhas}} (char $\ast$file)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Este modulo contem todas as funções relativas a manipulação de ficheiros geral. 
+
+Projeto de LP -\/ G51 \begin{DoxyAuthor}{Author}
+André Eiras nº 8200587 1-\/C LSIRC 
+
+José Francisco nº 8200472 1-\/C LEI 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_ficheiros_8h_ae656c7107d6a78a98b55b1b3bdd78e12}\label{_ficheiros_8h_ae656c7107d6a78a98b55b1b3bdd78e12}} 
+\index{Ficheiros.h@{Ficheiros.h}!conta\_linhas@{conta\_linhas}}
+\index{conta\_linhas@{conta\_linhas}!Ficheiros.h@{Ficheiros.h}}
+\doxysubsubsection{\texorpdfstring{conta\_linhas()}{conta\_linhas()}}
+{\footnotesize\ttfamily int conta\+\_\+linhas (\begin{DoxyParamCaption}\item[{char $\ast$}]{file }\end{DoxyParamCaption})}
+
+Conta as linhas de um ficheiro ou seja sempre que encontra um enter ele aumenta o contador
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & recebe o array de carateres do ficheiro \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o contador que é numero de linhas do ficheiro 
+\end{DoxyReturn}

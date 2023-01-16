@@ -1,0 +1,2069 @@
+2021-01-07 22:18:52 - Iniciou o Programa
+2021-01-07 22:21:31 - Iniciou o Programa
+2021-01-07 22:22:51 - Iniciou o Programa
+2021-01-07 22:23:14 - Iniciou o Programa
+2021-01-07 22:23:18 - Menu do IRS
+2021-01-07 22:23:20 - Listou todas as Tabelas do IRS
+2021-01-07 22:25:51 - Iniciou o Programa
+2021-01-07 22:30:48 - Iniciou o Programa
+2021-01-07 22:36:04 - Iniciou o Programa
+2021-01-07 22:39:20 - Menu do IRS
+2021-01-07 22:39:24 - Listou todas as Tabelas do IRS
+2021-01-07 22:53:31 - Iniciou o Programa
+2021-01-07 22:55:42 - Iniciou o Programa
+2021-01-07 23:17:25 - Iniciou o Programa
+2021-01-07 23:17:29 - Menu do IRS
+2021-01-07 23:17:32 - Listou todas as Tabelas do IRS
+2021-01-07 23:18:06 - Iniciou o Programa
+2021-01-07 23:18:25 - Menu do IRS
+2021-01-07 23:18:31 - Listou todas as Tabelas do IRS
+2021-01-07 23:19:28 - Iniciou o Programa
+2021-01-07 23:19:30 - Menu do IRS
+2021-01-07 23:19:34 - Acedeu a Tabela de IRS de Solteiro
+2021-01-07 23:19:37 - Acedeu a Tabela de IRS de Casado de 1 Titular
+2021-01-07 23:19:39 - Acedeu a Tabela de IRS de Casado de 2 Titulares
+2021-01-07 23:19:39 - Listou todas as Tabelas do IRS
+2021-01-07 23:21:31 - Iniciou o Programa
+2021-01-07 23:21:48 - Iniciou o Programa
+2021-01-07 23:21:53 - Menu do IRS
+2021-01-07 23:21:55 - Listou todas as Tabelas do IRS
+2021-01-07 23:23:13 - Iniciou o Programa
+2021-01-07 23:23:15 - Menu do IRS
+2021-01-07 23:23:15 - Listou todas as Tabelas do IRS
+2021-01-07 23:24:08 - Iniciou o Programa
+2021-01-07 23:24:10 - Menu do IRS
+2021-01-07 23:24:12 - Listou todas as Tabelas do IRS
+2021-01-07 23:25:01 - Iniciou o Programa
+2021-01-07 23:25:03 - Menu do IRS
+2021-01-07 23:25:12 - Listou todas as Tabelas do IRS
+2021-01-07 23:26:31 - Iniciou o Programa
+2021-01-07 23:26:35 - Menu do IRS
+2021-01-07 23:26:36 - Listou todas as Tabelas do IRS
+2021-01-07 23:27:21 - Iniciou o Programa
+2021-01-07 23:27:25 - Menu do IRS
+2021-01-07 23:27:26 - Listou todas as Tabelas do IRS
+2021-01-07 23:27:41 - Iniciou o Programa
+2021-01-07 23:27:43 - Menu do IRS
+2021-01-07 23:27:44 - Listou todas as Tabelas do IRS
+2021-01-07 23:28:25 - Iniciou o Programa
+2021-01-07 23:28:27 - Menu do IRS
+2021-01-07 23:28:28 - Listou todas as Tabelas do IRS
+2021-01-07 23:29:04 - Iniciou o Programa
+2021-01-07 23:29:05 - Menu do IRS
+2021-01-07 23:29:16 - Listou todas as Tabelas do IRS
+2021-01-07 23:29:59 - Iniciou o Programa
+2021-01-07 23:34:53 - Menu do IRS
+2021-01-07 23:34:55 - Listou todas as Tabelas do IRS
+2021-01-07 23:35:41 - Iniciou o Programa
+2021-01-07 23:35:42 - Menu do IRS
+2021-01-07 23:35:44 - Listou todas as Tabelas do IRS
+2021-01-07 23:38:00 - Iniciou o Programa
+2021-01-07 23:38:01 - Menu do IRS
+2021-01-07 23:38:02 - Listou todas as Tabelas do IRS
+2021-01-07 23:40:19 - Iniciou o Programa
+2021-01-07 23:40:26 - Menu do IRS
+2021-01-07 23:40:27 - Listou todas as Tabelas do IRS
+2021-01-07 23:47:42 - Iniciou o Programa
+2021-01-07 23:47:53 - Menu do IRS
+2021-01-07 23:47:53 - Listou todas as Tabelas do IRS
+2021-01-07 23:58:07 - Iniciou o Programa
+2021-01-07 23:58:10 - Menu do IRS
+2021-01-07 23:58:11 - Listou todas as Tabelas do IRS
+2021-01-08 00:09:06 - Iniciou o Programa
+2021-01-08 00:09:09 - Menu do IRS
+2021-01-08 00:09:13 - Listou todas as Tabelas do IRS
+2021-01-08 00:22:30 - Iniciou o Programa
+2021-01-08 00:22:34 - Menu do IRS
+2021-01-08 00:22:39 - Listou todas as Tabelas do IRS
+2021-01-08 00:23:33 - Iniciou o Programa
+2021-01-08 00:23:36 - Menu do IRS
+2021-01-08 00:23:37 - Listou todas as Tabelas do IRS
+2021-01-08 00:33:46 - Iniciou o Programa
+2021-01-08 00:33:55 - Menu do IRS
+2021-01-08 00:33:56 - Listou todas as Tabelas do IRS
+2021-01-08 00:37:51 - Iniciou o Programa
+2021-01-08 00:38:10 - Iniciou o Programa
+2021-01-08 00:39:20 - Iniciou o Programa
+2021-01-08 00:39:24 - Menu do IRS
+2021-01-08 00:39:25 - Listou todas as Tabelas do IRS
+2021-01-08 00:54:27 - Iniciou o Programa
+2021-01-08 00:55:03 - Iniciou o Programa
+2021-01-08 00:55:06 - Menu do IRS
+2021-01-08 00:55:38 - Listou todas as Tabelas do IRS
+2021-01-08 01:07:36 - Iniciou o Programa
+2021-01-08 01:07:44 - Menu do IRS
+2021-01-08 01:07:45 - Acedeu a Tabela de IRS de Solteiro
+2021-01-08 01:08:58 - Iniciou o Programa
+2021-01-08 01:09:21 - Iniciou o Programa
+2021-01-08 01:16:54 - Iniciou o Programa
+2021-01-08 01:17:09 - Iniciou o Programa
+2021-01-08 01:17:12 - Menu da SS
+2021-01-08 01:17:29 - Iniciou o Programa
+2021-01-08 01:17:30 - Menu da SS
+2021-01-08 01:17:33 - Voltou ao menu Principal
+2021-01-08 01:17:34 - Menu do IRS
+2021-01-08 01:19:03 - Iniciou o Programa
+2021-01-08 01:19:19 - Iniciou o Programa
+2021-01-08 01:19:31 - Iniciou o Programa
+2021-01-08 01:19:40 - Iniciou o Programa
+2021-01-08 01:19:44 - Menu de Funcionario
+2021-01-08 01:20:05 - Iniciou o Programa
+2021-01-08 01:20:08 - Menu de Funcionario
+2021-01-08 01:20:36 - Iniciou o Programa
+2021-01-08 01:20:38 - Menu do IRS
+2021-01-08 01:20:55 - Iniciou o Programa
+2021-01-08 01:20:56 - Menu do IRS
+2021-01-08 01:21:04 - Voltou ao menu Principal
+2021-01-08 01:21:08 - Menu de Funcionario
+2021-01-08 01:21:29 - Voltou ao menu Principal
+2021-01-08 01:21:31 - Menu do IRS
+2021-01-08 01:21:41 - Voltou ao menu Principal
+2021-01-08 01:21:43 - Menu da SS
+2021-01-08 01:21:54 - Iniciou o Programa
+2021-01-08 01:21:56 - Menu de Funcionario
+2021-01-08 01:22:04 - Voltou ao menu Principal
+2021-01-08 01:22:07 - Menu da SS
+2021-01-08 01:22:22 - Voltou ao menu Principal
+2021-01-08 01:22:22 - Menu do IRS
+2021-01-08 01:23:07 - Iniciou o Programa
+2021-01-08 01:23:10 - Menu da SS
+2021-01-08 01:23:57 - Iniciou o Programa
+2021-01-08 01:23:58 - Menu da SS
+2021-01-08 01:59:59 - Iniciou o Programa
+2021-01-08 02:00:03 - Menu de Funcionario
+2021-01-08 02:00:53 - Criou Funcionario
+2021-01-08 02:00:58 - Gravou o funcionario em ficheiros
+2021-01-08 02:01:21 - Listou os funcionarios
+2021-01-08 02:02:50 - Iniciou o Programa
+2021-01-08 02:08:40 - Iniciou o Programa
+2021-01-08 02:08:42 - Menu de Funcionario
+2021-01-08 02:09:20 - Criou Funcionario
+2021-01-08 02:09:22 - Gravou o funcionario em ficheiros
+2021-01-08 02:09:24 - Listou os funcionarios
+2021-01-08 02:10:35 - Voltou ao menu Principal
+2021-01-08 02:10:41 - Saiu do Programa
+2021-01-08 02:10:45 - Iniciou o Programa
+2021-01-08 02:10:50 - Menu de Funcionario
+2021-01-08 02:11:25 - Criou Funcionario
+2021-01-08 02:11:27 - Gravou o funcionario em ficheiros
+2021-01-08 02:11:29 - Listou os funcionarios
+2021-01-08 02:12:41 - Iniciou o Programa
+2021-01-08 02:12:44 - Menu de Funcionario
+2021-01-08 02:13:33 - Criou Funcionario
+2021-01-08 02:13:35 - Gravou o funcionario em ficheiros
+2021-01-08 02:13:36 - Listou os funcionarios
+2021-01-08 02:14:26 - Gravou o funcionario em ficheiros
+2021-01-08 02:14:26 - Voltou ao menu Principal
+2021-01-08 02:16:28 - Menu do IRS
+2021-01-08 02:16:34 - Listou todas as Tabelas do IRS
+2021-01-08 02:16:36 - Acedeu a Tabela de IRS de Solteiro
+2021-01-08 02:17:27 - Iniciou o Programa
+2021-01-08 02:17:29 - Menu do IRS
+2021-01-08 02:17:30 - Listou todas as Tabelas do IRS
+2021-01-08 02:18:22 - Iniciou o Programa
+2021-01-08 02:18:26 - Menu do IRS
+2021-01-08 02:18:28 - Listou todas as Tabelas do IRS
+2021-01-08 12:22:33 - Iniciou o Programa
+2021-01-08 12:23:26 - Iniciou o Programa
+2021-01-08 12:23:56 - Iniciou o Programa
+2021-01-08 12:23:58 - Menu de Funcionario
+2021-01-08 12:24:30 - Criou Funcionario
+2021-01-08 12:24:32 - Gravou o funcionario em ficheiros
+2021-01-08 12:24:38 - Gravou o funcionario em ficheiros
+2021-01-08 12:24:38 - Voltou ao menu Principal
+2021-01-08 12:24:42 - Gravou o funcionario em ficheiros
+2021-01-08 12:24:42 - Saiu do Programa
+2021-01-08 12:24:45 - Iniciou o Programa
+2021-01-08 12:24:51 - Menu de Funcionario
+2021-01-08 12:24:52 - Listou os funcionarios
+2021-01-08 12:33:01 - Iniciou o Programa
+2021-01-08 12:33:59 - Iniciou o Programa
+2021-01-08 12:34:03 - Saiu do Programa
+2021-01-08 12:35:00 - Iniciou o Programa
+2021-01-08 12:35:08 - Saiu do Programa
+2021-01-08 12:37:17 - Iniciou o Programa
+2021-01-08 12:37:21 - Saiu do Programa
+2021-01-08 12:37:27 - Iniciou o Programa
+2021-01-08 12:43:19 - Menu do IRS
+2021-01-08 12:43:35 - Acedeu a Tabela de IRS de Solteiro
+2021-01-08 12:43:47 - Acedeu a Tabela de IRS de Casado de 1 Titular
+2021-01-08 12:43:54 - Acedeu a Tabela de IRS de Casado de 2 Titulares
+2021-01-08 12:43:59 - Listou todas as Tabelas do IRS
+2021-01-08 14:00:06 - Iniciou o Programa
+2021-01-08 14:00:08 - Menu do IRS
+2021-01-08 14:00:10 - Acedeu a Tabela de IRS de Solteiro
+2021-01-08 14:00:14 - Gravou o funcionario em ficheiros
+2021-01-08 14:00:46 - Iniciou o Programa
+2021-01-08 14:01:54 - Iniciou o Programa
+2021-01-08 14:01:56 - Menu do IRS
+2021-01-08 14:02:02 - Gravou a Tabela do IRS em ficheiros
+2021-01-08 14:02:06 - Listou todas as Tabelas do IRS
+2021-01-08 14:02:11 - Voltou ao menu Principal
+2021-01-08 14:02:13 - Saiu do Programa
+2021-01-08 14:02:20 - Iniciou o Programa
+2021-01-08 14:05:47 - Iniciou o Programa
+2021-01-08 14:05:49 - Menu do IRS
+2021-01-08 14:05:52 - Gravou a Tabela do IRS em ficheiros
+2021-01-08 14:05:55 - Voltou ao menu Principal
+2021-01-08 14:05:55 - Saiu do Programa
+2021-01-08 14:05:58 - Iniciou o Programa
+2021-01-08 14:06:01 - Menu do IRS
+2021-01-08 14:06:03 - Gravou a Tabela do IRS em ficheiros
+2021-01-08 14:06:04 - Listou todas as Tabelas do IRS
+2021-01-08 14:07:57 - Iniciou o Programa
+2021-01-08 14:08:00 - Menu do IRS
+2021-01-08 14:08:03 - Listou todas as Tabelas do IRS
+2021-01-08 14:10:16 - Iniciou o Programa
+2021-01-08 14:11:35 - Menu de Funcionario
+2021-01-08 14:13:19 - Iniciou o Programa
+2021-01-08 14:13:29 - Menu de Funcionario
+2021-01-08 16:03:08 - Iniciou o Programa
+2021-01-08 16:03:16 - Menu do IRS
+2021-01-08 16:03:18 - Listou todas as Tabelas do IRS
+2021-01-08 16:05:33 - Iniciou o Programa
+2021-01-08 16:05:36 - Menu do IRS
+2021-01-08 16:05:38 - Listou todas as Tabelas do IRS
+2021-01-08 16:08:42 - Iniciou o Programa
+2021-01-08 16:08:44 - Menu do IRS
+2021-01-08 16:08:45 - Listou todas as Tabelas do IRS
+2021-01-08 16:08:52 - Acedeu a Tabela de IRS de Solteiro
+2021-01-08 16:08:54 - Acedeu a Tabela de IRS de Casado de 1 Titular
+2021-01-08 16:08:55 - Acedeu a Tabela de IRS de Casado de 2 Titulares
+2021-01-08 16:17:59 - Iniciou o Programa
+2021-01-08 16:18:37 - Iniciou o Programa
+2021-01-08 16:18:39 - Menu do IRS
+2021-01-08 16:18:41 - Listou todas as Tabelas do IRS
+2021-01-08 16:20:05 - Acedeu a Tabela de IRS de Solteiro
+2021-01-08 16:20:06 - Acedeu a Tabela de IRS de Casado de 1 Titular
+2021-01-08 16:20:08 - Acedeu a Tabela de IRS de Casado de 2 Titulares
+2021-01-08 18:12:38 - Iniciou o Programa
+2021-01-08 18:12:41 - Menu de Funcionario
+2021-01-08 18:13:19 - Criou Funcionario
+2021-01-08 18:13:23 - Gravou o funcionario em ficheiros
+2021-01-08 18:13:25 - Listou os funcionarios
+2021-01-08 18:13:47 - Removeu Funcionario
+2021-01-08 18:13:50 - Gravou o funcionario em ficheiros
+2021-01-08 18:13:52 - Listou os funcionarios
+2021-01-08 23:09:14 - Iniciou o Programa
+2021-01-08 23:09:38 - Iniciou o Programa
+2021-01-08 23:09:40 - Menu de Funcionario
+2021-01-08 23:10:39 - Criou Funcionario
+2021-01-08 23:10:41 - Gravou o funcionario em ficheiros
+2021-01-08 23:10:43 - Listou os funcionarios
+2021-01-08 23:12:08 - Iniciou o Programa
+2021-01-08 23:12:12 - Menu de Funcionario
+2021-01-08 23:12:51 - Criou Funcionario
+2021-01-08 23:13:00 - Gravou o funcionario em ficheiros
+2021-01-08 23:13:09 - Listou os funcionarios
+2021-01-09 02:30:13 - Iniciou o Programa
+2021-01-09 02:30:16 - Menu do IRS
+2021-01-09 02:30:19 - Listou todas as Tabelas do IRS
+2021-01-09 02:30:48 - Iniciou o Programa
+2021-01-09 02:30:57 - Menu do IRS
+2021-01-09 02:30:59 - Listou todas as Tabelas do IRS
+2021-01-09 02:31:04 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 02:35:10 - Iniciou o Programa
+2021-01-09 02:35:14 - Menu do IRS
+2021-01-09 02:35:16 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 02:37:21 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 02:38:30 - Iniciou o Programa
+2021-01-09 02:38:32 - Menu do IRS
+2021-01-09 02:38:33 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 02:47:30 - Iniciou o Programa
+2021-01-09 02:51:34 - Iniciou o Programa
+2021-01-09 02:51:35 - Menu do IRS
+2021-01-09 02:51:37 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 02:51:58 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 02:53:09 - Iniciou o Programa
+2021-01-09 02:53:11 - Menu do IRS
+2021-01-09 02:53:12 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 02:53:20 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 02:54:34 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 02:56:38 - Iniciou o Programa
+2021-01-09 02:56:40 - Menu do IRS
+2021-01-09 02:56:41 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 02:56:49 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 02:56:54 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 02:59:39 - Iniciou o Programa
+2021-01-09 02:59:42 - Menu do IRS
+2021-01-09 02:59:44 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 03:07:31 - Iniciou o Programa
+2021-01-09 03:08:17 - Iniciou o Programa
+2021-01-09 03:08:21 - Menu do IRS
+2021-01-09 03:08:25 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 03:08:31 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 12:49:15 - Iniciou o Programa
+2021-01-09 12:49:21 - Menu do IRS
+2021-01-09 12:49:22 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 12:51:06 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 12:53:04 - Iniciou o Programa
+2021-01-09 12:53:05 - Menu do IRS
+2021-01-09 12:53:06 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 12:53:37 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 12:53:47 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 16:05:22 - Iniciou o Programa
+2021-01-09 16:05:24 - Menu de Funcionario
+2021-01-09 16:05:26 - Listou os funcionarios
+2021-01-09 16:07:14 - Iniciou o Programa
+2021-01-09 16:07:15 - Menu de Funcionario
+2021-01-09 16:07:16 - Listou os funcionarios
+2021-01-09 16:08:00 - Criou Funcionario
+2021-01-09 16:08:02 - Listou os funcionarios
+2021-01-09 16:08:53 - Gravou os funcionarios no ficheiro info\\funcionario.bin
+2021-01-09 16:09:06 - Removeu Funcionario
+2021-01-09 16:09:08 - Listou os funcionarios
+2021-01-09 16:09:20 - Carregou os funcionarios do ficheiro info\\funcinarios.bin
+2021-01-09 16:09:56 - Carregou os funcionarios do ficheiro info\\funcionario.bin
+2021-01-09 16:09:58 - Listou os funcionarios
+2021-01-09 16:10:19 - Voltou ao menu Principal
+2021-01-09 16:10:21 - Menu da SS
+2021-01-09 16:10:24 - Gravou a Tabela da segurança social no ficheiro
+2021-01-09 16:10:25 - Voltou ao menu Principal
+2021-01-09 16:10:27 - Menu do IRS
+2021-01-09 16:10:35 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 16:11:42 - Acedeu a Tabela de IRS de Solteiro info\\Tab_solteiro.txt
+2021-01-09 16:11:42 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 16:12:38 - Criou linha na Tabela do IRS
+2021-01-09 16:12:38 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 16:16:47 - Iniciou o Programa
+2021-01-09 16:16:48 - Menu do IRS
+2021-01-09 16:17:17 - Carregou a Tabela do IRS de Solteiro do ficheiro info\\Tab_solteiro
+2021-01-09 16:17:49 - Carregou a Tabela do IRS de Casado 1 Titular do ficheiro info\\Tab_casado.txt
+2021-01-09 16:18:04 - Carregou a Tabela do IRS de Casado 2 Titular do ficheiro info\\Tab_casado_2.txt
+2021-01-09 16:18:07 - Acedeu a Tabela de IRS de Casado 1 Titular
+2021-01-09 16:18:10 - Voltou ao Menu das Tabelas do IRS
+2021-01-09 16:18:11 - Acedeu a Tabela de IRS de Casado 2 Titulares
+2021-01-09 16:19:10 - Voltou ao Menu das Tabelas do IRS
+2021-01-09 16:19:13 - Acedeu a Tabela de IRS de Casado 1 Titular
+2021-01-09 16:19:15 - Voltou ao Menu das Tabelas do IRS
+2021-01-09 16:19:18 - Voltou ao menu Principal
+2021-01-09 16:19:20 - Menu da SS
+2021-01-09 16:20:36 - Iniciou o Programa
+2021-01-09 16:20:38 - Menu do IRS
+2021-01-09 16:20:43 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 16:20:46 - Voltou ao Menu das Tabelas do IRS
+2021-01-09 16:20:48 - Voltou ao menu Principal
+2021-01-09 16:20:50 - Menu da SS
+2021-01-09 16:21:16 - Voltou ao menu Principal
+2021-01-09 16:21:18 - Menu do IRS
+2021-01-09 16:21:20 - Voltou ao menu Principal
+2021-01-09 16:21:24 - Processou Salario
+2021-01-09 16:21:25 - Menu da SS
+2021-01-09 16:21:51 - Iniciou o Programa
+2021-01-09 16:21:55 - Menu do IRS
+2021-01-09 16:22:04 - Acedeu a Tabela de IRS de Casado 1 Titular
+2021-01-09 16:22:06 - Voltou ao Menu das Tabelas do IRS
+2021-01-09 16:22:07 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 16:22:09 - Voltou ao Menu das Tabelas do IRS
+2021-01-09 16:22:11 - Voltou ao menu Principal
+2021-01-09 16:22:12 - Menu do IRS
+2021-01-09 16:22:15 - Voltou ao menu Principal
+2021-01-09 16:22:16 - Menu da SS
+2021-01-09 16:23:35 - Voltou ao menu Principal
+2021-01-09 16:25:15 - Iniciou o Programa
+2021-01-09 16:25:17 - Menu do IRS
+2021-01-09 16:25:19 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 16:26:45 - Iniciou o Programa
+2021-01-09 16:26:46 - Menu do IRS
+2021-01-09 16:26:46 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 16:27:03 - Iniciou o Programa
+2021-01-09 16:27:20 - Iniciou o Programa
+2021-01-09 16:27:28 - Menu do IRS
+2021-01-09 16:27:29 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 16:28:23 - Iniciou o Programa
+2021-01-09 16:28:24 - Menu do IRS
+2021-01-09 16:28:25 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 16:30:46 - Iniciou o Programa
+2021-01-09 16:30:48 - Menu de Funcionario
+2021-01-09 16:32:31 - Iniciou o Programa
+2021-01-09 16:32:34 - Menu de Funcionario
+2021-01-09 16:34:26 - Iniciou o Programa
+2021-01-09 16:34:29 - Menu de Funcionario
+2021-01-09 16:36:11 - Criou Funcionario
+2021-01-09 16:36:13 - Listou os funcionarios
+2021-01-09 16:43:02 - Iniciou o Programa
+2021-01-09 16:43:06 - Menu de Funcionario
+2021-01-09 16:43:43 - Criou Funcionario
+2021-01-09 16:43:45 - Listou os funcionarios
+2021-01-09 16:45:10 - Criou Funcionario
+2021-01-09 16:45:12 - Listou os funcionarios
+2021-01-09 16:48:37 - Voltou ao menu Principal
+2021-01-09 16:48:41 - Menu da SS
+2021-01-09 16:48:44 - Voltou ao menu Principal
+2021-01-09 17:08:14 - Iniciou o Programa
+2021-01-09 17:08:59 - Iniciou o Programa
+2021-01-09 17:09:01 - Menu do IRS
+2021-01-09 17:09:08 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 17:09:26 - Acedeu a Tabela de IRS de Solteiro 
+2021-01-09 17:09:27 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 17:09:36 - Voltou ao Menu das Tabelas do IRS
+2021-01-09 17:09:38 - Voltou ao menu Principal
+2021-01-09 17:09:43 - Menu de Funcionario
+2021-01-09 17:11:04 - Criou Funcionario
+2021-01-09 17:11:06 - Listou os funcionarios
+2021-01-09 17:48:21 - Voltou ao menu Principal
+2021-01-09 17:49:41 - Iniciou o Programa
+2021-01-09 17:49:43 - Menu do IRS
+2021-01-09 17:49:57 - Carregou a Tabela do IRS de Solteiro do ficheiro info\\tab_solteiro.txt
+2021-01-09 17:50:08 - Carregou a Tabela do IRS de Casado 1 Titular do ficheiro info\\tab_casado.txt
+2021-01-09 17:50:21 - Carregou a Tabela do IRS de Casado 2 Titular do ficheiro info\\tab_casado2.txt
+2021-01-09 17:50:32 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 17:50:51 - Iniciou o Programa
+2021-01-09 17:50:53 - Menu do IRS
+2021-01-09 17:50:55 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 17:52:05 - Iniciou o Programa
+2021-01-09 17:52:07 - Menu do IRS
+2021-01-09 17:52:08 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 17:53:06 - Iniciou o Programa
+2021-01-09 17:53:57 - Iniciou o Programa
+2021-01-09 17:54:00 - Menu do IRS
+2021-01-09 17:54:01 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 17:55:14 - Iniciou o Programa
+2021-01-09 17:55:15 - Menu do IRS
+2021-01-09 17:55:16 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 17:57:56 - Iniciou o Programa
+2021-01-09 17:58:04 - Menu do IRS
+2021-01-09 17:58:06 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 18:04:12 - Iniciou o Programa
+2021-01-09 18:06:34 - Iniciou o Programa
+2021-01-09 18:06:36 - Menu de Funcionario
+2021-01-09 18:06:40 - Voltou ao menu Principal
+2021-01-09 18:06:46 - Menu do IRS
+2021-01-09 18:06:47 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 18:07:22 - Criou linha na Tabela do IRS
+2021-01-09 18:07:23 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 18:07:53 - Criou linha na Tabela do IRS
+2021-01-09 18:07:53 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 18:59:13 - Iniciou o Programa
+2021-01-09 18:59:26 - Menu de Funcionario
+2021-01-09 19:04:35 - Criou Funcionario
+2021-01-09 19:04:39 - Listou os funcionarios
+2021-01-09 19:04:58 - Removeu Funcionario
+2021-01-09 19:04:59 - Listou os funcionarios
+2021-01-09 19:25:11 - Iniciou o Programa
+2021-01-09 19:25:17 - Menu da SS
+2021-01-09 19:26:46 - Voltou ao menu Principal
+2021-01-09 19:26:49 - Menu do IRS
+2021-01-09 19:26:53 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 19:27:05 - Acedeu a Tabela de IRS de Solteiro info\\tab_solteiro.txt
+2021-01-09 19:27:05 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 19:27:52 - Iniciou o Programa
+2021-01-09 19:27:57 - Menu do IRS
+2021-01-09 19:28:08 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 19:28:13 - Acedeu a Tabela de IRS de Solteiro info\\tab_solteiro.txt
+2021-01-09 19:28:13 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 19:29:12 - Iniciou o Programa
+2021-01-09 19:29:27 - Menu do IRS
+2021-01-09 19:29:28 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 19:29:39 - Iniciou o Programa
+2021-01-09 19:30:08 - Menu do IRS
+2021-01-09 19:30:10 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 19:30:12 - Acedeu a Tabela de IRS de Solteiro info\\tab_solteiro.txt
+2021-01-09 19:30:12 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 19:30:50 - Iniciou o Programa
+2021-01-09 19:30:59 - Menu do IRS
+2021-01-09 19:31:01 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 19:31:07 - Acedeu a Tabela de IRS de Solteiro info\\tab_solteiro.txt
+2021-01-09 19:31:07 - Acedeu a Tabela de IRS de Solteiro
+2021-01-09 20:02:33 - Iniciou o Programa
+2021-01-09 21:40:23 - Iniciou o Programa
+2021-01-09 21:40:27 - Menu da SS
+2021-01-09 21:41:52 - Iniciou o Programa
+2021-01-09 21:44:20 - Iniciou o Programa
+2021-01-09 21:44:28 - Menu da SS
+2021-01-09 21:46:11 - Iniciou o Programa
+2021-01-09 21:46:15 - Menu da SS
+2021-01-09 21:58:40 - Iniciou o Programa
+2021-01-09 21:58:48 - Menu da SS
+2021-01-09 21:59:15 - Adicionou criterio
+2021-01-09 22:00:37 - Gravou a Tabela da segurança social no ficheiro info\\tab_SS.txt
+2021-01-09 22:00:51 - Iniciou o Programa
+2021-01-09 22:00:54 - Menu da SS
+2021-01-09 22:01:08 - Carregou a Tabela da segurança social do ficheiro info\\tab_SS.txt
+2021-01-09 22:01:22 - Carregou a Tabela da segurança social do ficheiro info\\tab_ss.txt
+2021-01-09 22:02:08 - Adicionou criterio
+2021-01-09 22:03:16 - Gravou a Tabela da segurança social no ficheiro info\\tab_SS.bin
+2021-01-09 22:04:09 - Voltou ao menu Principal
+2021-01-09 22:04:11 - Saiu do Programa
+2021-01-09 22:04:16 - Iniciou o Programa
+2021-01-09 22:04:21 - Menu da SS
+2021-01-09 22:04:29 - Carregou a Tabela da segurança social do ficheiro info\\tab_SS.bin
+2021-01-09 22:06:40 - Iniciou o Programa
+2021-01-09 22:06:43 - Menu da SS
+2021-01-09 22:06:56 - Carregou a Tabela da segurança social do ficheiro info\\tab_SS.bin
+2021-01-09 22:09:49 - Iniciou o Programa
+2021-01-09 22:09:51 - Menu da SS
+2021-01-09 22:10:08 - Carregou a Tabela da segurança social do ficheiro info\\tab_SS.bin
+2021-01-09 22:10:57 - Iniciou o Programa
+2021-01-09 22:11:00 - Menu da SS
+2021-01-09 22:11:04 - Carregou a Tabela da segurança social do ficheiro      
+2021-01-09 22:11:14 - Carregou a Tabela da segurança social do ficheiro info\\tab_SS.txt
+2021-01-09 22:11:32 - Carregou a Tabela da segurança social do ficheiro info\\tab_SS.bin
+2021-01-09 22:12:17 - Adicionou criterio
+2021-01-09 22:13:08 - Adicionou criterio
+2021-01-09 22:14:22 - Gravou a Tabela da segurança social no ficheiro info\\tab_SS.bin
+2021-01-09 22:14:32 - Iniciou o Programa
+2021-01-09 22:14:34 - Menu da SS
+2021-01-09 22:14:39 - Carregou a Tabela da segurança social do ficheiro info\\tab_SS.bin
+2021-01-09 22:18:00 - Adicionou criterio
+2021-01-09 22:22:45 - Alterou criterio
+2021-01-09 22:27:02 - Adicionou criterio
+2021-01-09 22:27:26 - Adicionou criterio
+2021-01-09 22:27:41 - Gravou a Tabela da segurança social no ficheiro info\\tab_SS.bin
+2021-01-09 22:27:50 - Iniciou o Programa
+2021-01-09 22:27:56 - Menu da SS
+2021-01-09 22:28:13 - Carregou a Tabela da segurança social do ficheiro info\\tab_SS.bin
+2021-01-09 22:28:46 - Iniciou o Programa
+2021-01-09 22:28:51 - Menu da SS
+2021-01-09 22:29:06 - Adicionou criterio
+2021-01-09 22:32:48 - Adicionou criterio
+2021-01-09 22:34:12 - Adicionou criterio
+2021-01-09 22:34:37 - Gravou a Tabela da segurança social no ficheiro info\\tabss.bin
+2021-01-09 22:46:13 - Iniciou o Programa
+2021-01-09 22:53:05 - Iniciou o Programa
+2021-01-09 22:53:34 - Iniciou o Programa
+2021-01-09 22:54:08 - Menu da SS
+2021-01-09 22:54:18 - Adicionou criterio
+2021-01-09 22:57:00 - Adicionou criterio
+2021-01-09 22:57:46 - Adicionou criterio
+2021-01-09 22:58:53 - Gravou a Tabela da segurança social no ficheiro tab.bin
+2021-01-09 23:02:33 - Gravou a Tabela da segurança social no ficheiro tab.bin
+2021-01-09 23:03:59 - Apagou criterio
+2021-01-09 23:10:44 - Iniciou o Programa
+2021-01-09 23:11:05 - Menu da SS
+2021-01-09 23:11:38 - Adicionou criterio
+2021-01-09 23:12:16 - Adicionou criterio
+2021-01-09 23:13:18 - Adicionou criterio
+2021-01-09 23:13:22 - Apagou criterio
+2021-01-09 23:13:39 - Adicionou criterio
+2021-01-09 23:14:07 - Gravou a Tabela da segurança social no ficheiro info\\tab_SS.bin
+2021-01-09 23:14:17 - Voltou ao menu Principal
+2021-01-09 23:14:18 - Saiu do Programa
+2021-01-09 23:14:22 - Iniciou o Programa
+2021-01-09 23:14:43 - Menu da SS
+2021-01-09 23:14:49 - Carregou a Tabela da segurança social do ficheiro info\\tab_SS.bin
+2021-01-09 23:16:18 - Voltou ao menu Principal
+2021-01-09 23:16:20 - Saiu do Programa
+2021-01-09 23:18:21 - Iniciou o Programa
+2021-01-09 23:18:34 - Menu da SS
+2021-01-09 23:18:52 - Carregou a Tabela da segurança social do ficheiro info\\tab_SS.bin
+2021-01-09 23:19:24 - Voltou ao menu Principal
+2021-01-09 23:19:26 - Saiu do Programa
+2021-01-09 23:20:18 - Iniciou o Programa
+2021-01-09 23:20:21 - Menu da SS
+2021-01-09 23:20:40 - Carregou a Tabela da segurança social do ficheiro info\\tab_SS.bin
+2021-01-09 23:21:52 - Iniciou o Programa
+2021-01-09 23:21:54 - Menu da SS
+2021-01-09 23:21:57 - Carregou a Tabela da segurança social do ficheiro info\\tab_SS.bin
+2021-01-09 23:27:32 - Voltou ao menu Principal
+2021-01-09 23:27:39 - Menu de Funcionario
+2021-01-09 23:28:29 - Criou Funcionario
+2021-01-09 23:30:51 - Criou Funcionario
+2021-01-09 23:46:31 - Criou Funcionario
+2021-01-10 17:54:03 - Iniciou o Programa
+2021-01-10 17:54:05 - Menu de Funcionario
+2021-01-10 17:56:35 - Criou Funcionario
+2021-01-10 17:56:49 - Listou os funcionarios
+2021-01-10 17:58:02 - Editou Funcionario
+2021-01-10 17:58:13 - Listou os funcionarios
+2021-01-10 17:59:22 - Iniciou o Programa
+2021-01-10 17:59:28 - Menu de Funcionario
+2021-01-10 18:00:23 - Criou Funcionario
+2021-01-10 18:01:21 - Editou Funcionario
+2021-01-10 18:20:24 - Iniciou o Programa
+2021-01-10 18:20:26 - Menu do IRS
+2021-01-10 18:20:28 - Acedeu a Tabela de IRS de Solteiro
+2021-01-10 18:20:46 - Acedeu a Tabela de IRS de Solteiro info\\tab_solteiro.txt
+2021-01-10 18:20:46 - Acedeu a Tabela de IRS de Solteiro
+2021-01-10 18:23:05 - Criou linha na Tabela do IRS
+2021-01-10 18:23:06 - Acedeu a Tabela de IRS de Solteiro
+2021-01-10 18:24:04 - Alterou linha na Tabela do IRS
+2021-01-10 18:24:05 - Acedeu a Tabela de IRS de Solteiro
+2021-01-10 18:24:38 - Apagou linha na Tabela do IRS
+2021-01-10 18:24:39 - Acedeu a Tabela de IRS de Solteiro
+2021-01-10 18:25:54 - Criou linha na Tabela do IRS
+2021-01-10 18:25:54 - Acedeu a Tabela de IRS de Solteiro
+2021-01-10 18:55:10 - Iniciou o Programa
+2021-01-10 18:55:11 - Menu de Funcionario
+2021-01-10 18:55:30 - Carregou os funcionarios do ficheiro info\\funcionarios.bin
+2021-01-10 18:55:53 - Listou os funcionarios
+2021-01-10 18:56:48 - Iniciou o Programa
+2021-01-10 18:56:50 - Menu de Funcionario
+2021-01-10 18:58:06 - Criou Funcionario
+2021-01-10 18:58:13 - Listou os funcionarios
+2021-01-10 18:58:41 - Removeu Funcionario
+2021-01-10 18:58:45 - Listou os funcionarios
+2021-01-10 22:38:53 - Iniciou o Programa
+2021-01-10 22:39:28 - Menu da SS
+2021-01-10 22:54:08 - Adicionou criterio
+2021-01-10 22:54:14 - Voltou ao menu Principal
+2021-01-10 22:54:19 - Menu de Funcionario
+2021-01-10 23:15:01 - Iniciou o Programa
+2021-01-10 23:15:26 - Menu de Funcionario
+2021-01-10 23:16:51 - Criou Funcionario
+2021-01-10 23:16:53 - Listou os funcionarios
+2021-01-10 23:22:13 - Voltou ao menu Principal
+2021-01-10 23:22:21 - Menu do IRS
+2021-01-10 23:22:41 - Carregou a Tabela do IRS de Solteiro do ficheiro info\\tab_solteiro.txt
+2021-01-10 23:22:57 - Carregou a Tabela do IRS de Casado 1 Titular do ficheiro info\\tab_casado.txt
+2021-01-10 23:23:36 - Carregou a Tabela do IRS de Casado 2 Titular do ficheiro info\\tab_casado2.txt
+2021-01-10 23:23:44 - Acedeu a Tabela de IRS de Solteiro
+2021-01-10 23:24:17 - Apagou linha na Tabela do IRS
+2021-01-10 23:24:17 - Acedeu a Tabela de IRS de Solteiro
+2021-01-10 23:32:45 - Criou linha na Tabela do IRS
+2021-01-10 23:32:45 - Acedeu a Tabela de IRS de Solteiro
+2021-01-10 23:33:31 - Alterou linha na Tabela do IRS
+2021-01-10 23:33:32 - Acedeu a Tabela de IRS de Solteiro
+2021-01-10 23:33:43 - Apagou linha na Tabela do IRS
+2021-01-10 23:33:43 - Acedeu a Tabela de IRS de Solteiro
+2021-01-10 23:34:43 - Voltou ao Menu das Tabelas do IRS
+2021-01-10 23:34:45 - Voltou ao menu Principal
+2021-01-10 23:34:50 - Saiu do Programa
+2021-01-11 04:25:06 - Iniciou o Programa
+2021-01-11 04:26:02 - Iniciou o Programa
+2021-01-11 04:26:36 - Iniciou o Programa
+2021-01-11 04:26:39 - Menu do IRS
+2021-01-11 04:26:45 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 04:27:48 - Criou linha na Tabela do IRS
+2021-01-11 04:27:49 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 04:32:44 - Criou linha na Tabela do IRS
+2021-01-11 04:32:44 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 04:32:52 - Iniciou o Programa
+2021-01-11 04:33:09 - Menu de Funcionario
+2021-01-11 04:33:14 - Voltou ao menu Principal
+2021-01-11 04:33:16 - Menu do IRS
+2021-01-11 04:33:20 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 04:34:20 - Criou linha na Tabela do IRS
+2021-01-11 04:34:20 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 04:34:55 - Iniciou o Programa
+2021-01-11 04:35:59 - Iniciou o Programa
+2021-01-11 04:36:08 - Menu do IRS
+2021-01-11 04:36:10 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 04:37:23 - Iniciou o Programa
+2021-01-11 04:37:34 - Menu do IRS
+2021-01-11 04:37:35 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 04:38:23 - Iniciou o Programa
+2021-01-11 04:38:25 - Menu do IRS
+2021-01-11 04:38:26 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 04:39:48 - Iniciou o Programa
+2021-01-11 04:39:56 - Menu do IRS
+2021-01-11 04:39:57 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 04:40:08 - Criou linha na Tabela do IRS
+2021-01-11 04:40:08 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 04:42:34 - Iniciou o Programa
+2021-01-11 04:42:35 - Menu do IRS
+2021-01-11 04:42:38 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 04:43:46 - Iniciou o Programa
+2021-01-11 04:43:56 - Menu do IRS
+2021-01-11 04:43:57 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 04:44:18 - Criou linha na Tabela do IRS
+2021-01-11 04:44:18 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 04:46:08 - Iniciou o Programa
+2021-01-11 04:46:18 - Iniciou o Programa
+2021-01-11 04:47:15 - Menu do IRS
+2021-01-11 04:47:18 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 04:47:41 - Criou linha na Tabela do IRS
+2021-01-11 04:47:41 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 04:48:21 - Iniciou o Programa
+2021-01-11 04:48:29 - Menu do IRS
+2021-01-11 04:48:29 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 04:48:32 - Criou linha na Tabela do IRS
+2021-01-11 04:48:32 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 04:48:36 - Criou linha na Tabela do IRS
+2021-01-11 04:48:36 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 04:48:43 - Criou linha na Tabela do IRS
+2021-01-11 04:48:43 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 04:48:45 - Criou linha na Tabela do IRS
+2021-01-11 04:48:45 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 04:49:00 - Iniciou o Programa
+2021-01-11 04:49:03 - Menu de Funcionario
+2021-01-11 04:49:11 - Iniciou o Programa
+2021-01-11 04:49:16 - Menu do IRS
+2021-01-11 04:49:17 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 04:50:21 - Iniciou o Programa
+2021-01-11 04:50:43 - Iniciou o Programa
+2021-01-11 04:50:47 - Menu do IRS
+2021-01-11 04:51:11 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 04:59:15 - Iniciou o Programa
+2021-01-11 04:59:22 - Menu do IRS
+2021-01-11 04:59:24 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:01:53 - Iniciou o Programa
+2021-01-11 05:01:56 - Menu do IRS
+2021-01-11 05:01:57 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:06:02 - Iniciou o Programa
+2021-01-11 05:06:06 - Menu do IRS
+2021-01-11 05:06:07 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:06:09 - Criou linha na Tabela do IRS
+2021-01-11 05:06:09 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:06:23 - Criou linha na Tabela do IRS
+2021-01-11 05:06:23 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:06:46 - Iniciou o Programa
+2021-01-11 05:06:49 - Menu do IRS
+2021-01-11 05:06:50 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:06:52 - Criou linha na Tabela do IRS
+2021-01-11 05:06:52 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:11:19 - Iniciou o Programa
+2021-01-11 05:11:21 - Menu do IRS
+2021-01-11 05:11:21 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:12:13 - Iniciou o Programa
+2021-01-11 05:12:37 - Iniciou o Programa
+2021-01-11 05:12:46 - Iniciou o Programa
+2021-01-11 05:12:47 - Menu do IRS
+2021-01-11 05:12:54 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:13:34 - Iniciou o Programa
+2021-01-11 05:13:38 - Menu do IRS
+2021-01-11 05:13:40 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:15:32 - Iniciou o Programa
+2021-01-11 05:15:40 - Menu do IRS
+2021-01-11 05:16:25 - Iniciou o Programa
+2021-01-11 05:16:26 - Menu da SS
+2021-01-11 05:16:30 - Voltou ao menu Principal
+2021-01-11 05:16:37 - Menu do IRS
+2021-01-11 05:16:40 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:18:21 - Iniciou o Programa
+2021-01-11 05:18:22 - Menu do IRS
+2021-01-11 05:18:24 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:18:45 - Iniciou o Programa
+2021-01-11 05:18:54 - Menu do IRS
+2021-01-11 05:19:38 - Iniciou o Programa
+2021-01-11 05:19:42 - Menu do IRS
+2021-01-11 05:19:42 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:20:04 - Iniciou o Programa
+2021-01-11 05:20:06 - Menu do IRS
+2021-01-11 05:20:08 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:20:11 - Criou linha na Tabela do IRS
+2021-01-11 05:20:11 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:20:47 - Iniciou o Programa
+2021-01-11 05:22:16 - Menu do IRS
+2021-01-11 05:22:21 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:22:25 - Criou linha na Tabela do IRS
+2021-01-11 05:22:25 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:22:32 - Criou linha na Tabela do IRS
+2021-01-11 05:22:32 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:24:04 - Iniciou o Programa
+2021-01-11 05:24:19 - Iniciou o Programa
+2021-01-11 05:24:20 - Menu do IRS
+2021-01-11 05:24:21 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:24:59 - Criou linha na Tabela do IRS
+2021-01-11 05:24:59 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:25:34 - Iniciou o Programa
+2021-01-11 05:25:36 - Menu do IRS
+2021-01-11 05:25:38 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:27:24 - Iniciou o Programa
+2021-01-11 05:27:26 - Menu do IRS
+2021-01-11 05:27:27 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:29:28 - Iniciou o Programa
+2021-01-11 05:29:30 - Menu do IRS
+2021-01-11 05:29:31 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:30:15 - Iniciou o Programa
+2021-01-11 05:30:17 - Menu do IRS
+2021-01-11 05:30:18 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:31:14 - Iniciou o Programa
+2021-01-11 05:31:48 - Menu de Funcionario
+2021-01-11 05:31:50 - Voltou ao menu Principal
+2021-01-11 05:31:54 - Menu do IRS
+2021-01-11 05:31:54 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:33:09 - Iniciou o Programa
+2021-01-11 05:33:11 - Menu do IRS
+2021-01-11 05:33:14 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:34:22 - Iniciou o Programa
+2021-01-11 05:34:24 - Menu do IRS
+2021-01-11 05:34:25 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:34:58 - Iniciou o Programa
+2021-01-11 05:36:06 - Iniciou o Programa
+2021-01-11 05:36:17 - Menu do IRS
+2021-01-11 05:36:18 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:38:53 - Iniciou o Programa
+2021-01-11 05:38:54 - Menu do IRS
+2021-01-11 05:38:55 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:39:25 - Criou linha na Tabela do IRS
+2021-01-11 05:39:25 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:41:30 - Iniciou o Programa
+2021-01-11 05:41:32 - Menu do IRS
+2021-01-11 05:41:38 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:41:45 - Criou linha na Tabela do IRS
+2021-01-11 05:41:45 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:42:05 - Iniciou o Programa
+2021-01-11 05:42:06 - Menu de Funcionario
+2021-01-11 05:42:13 - Voltou ao menu Principal
+2021-01-11 05:42:14 - Menu do IRS
+2021-01-11 05:42:15 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:43:08 - Criou linha na Tabela do IRS
+2021-01-11 05:43:08 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:43:16 - Iniciou o Programa
+2021-01-11 05:43:17 - Menu do IRS
+2021-01-11 05:43:18 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:43:48 - Iniciou o Programa
+2021-01-11 05:43:48 - Menu do IRS
+2021-01-11 05:43:50 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:43:53 - Criou linha na Tabela do IRS
+2021-01-11 05:43:53 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:44:08 - Criou linha na Tabela do IRS
+2021-01-11 05:44:08 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:44:31 - Voltou ao Menu das Tabelas do IRS
+2021-01-11 05:44:38 - Iniciou o Programa
+2021-01-11 05:44:40 - Menu de Funcionario
+2021-01-11 05:45:03 - Iniciou o Programa
+2021-01-11 05:45:12 - Menu do IRS
+2021-01-11 05:45:13 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:45:25 - Criou linha na Tabela do IRS
+2021-01-11 05:45:25 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:47:11 - Iniciou o Programa
+2021-01-11 05:47:13 - Menu do IRS
+2021-01-11 05:47:13 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:47:43 - Criou linha na Tabela do IRS
+2021-01-11 05:47:43 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:48:34 - Alterou linha na Tabela do IRS
+2021-01-11 05:48:35 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:49:26 - Iniciou o Programa
+2021-01-11 05:49:28 - Menu do IRS
+2021-01-11 05:49:29 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:49:56 - Criou linha na Tabela do IRS
+2021-01-11 05:49:56 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:51:27 - Iniciou o Programa
+2021-01-11 05:51:31 - Menu do IRS
+2021-01-11 05:51:32 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:51:47 - Criou linha na Tabela do IRS
+2021-01-11 05:51:47 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:51:50 - Apagou linha na Tabela do IRS
+2021-01-11 05:51:50 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:53:51 - Criou linha na Tabela do IRS
+2021-01-11 05:53:52 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:54:43 - Iniciou o Programa
+2021-01-11 05:54:44 - Menu do IRS
+2021-01-11 05:54:45 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:54:58 - Criou linha na Tabela do IRS
+2021-01-11 05:54:58 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:56:53 - Criou linha na Tabela do IRS
+2021-01-11 05:56:53 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:57:13 - Criou linha na Tabela do IRS
+2021-01-11 05:57:13 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 05:59:56 - Iniciou o Programa
+2021-01-11 06:00:25 - Menu do IRS
+2021-01-11 06:00:26 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 06:00:42 - Criou linha na Tabela do IRS
+2021-01-11 06:00:42 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 06:02:07 - Iniciou o Programa
+2021-01-11 06:02:10 - Menu do IRS
+2021-01-11 06:02:11 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 06:02:33 - Iniciou o Programa
+2021-01-11 06:02:35 - Menu do IRS
+2021-01-11 06:02:37 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 06:02:48 - Criou linha na Tabela do IRS
+2021-01-11 06:02:48 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 06:06:23 - Iniciou o Programa
+2021-01-11 06:06:24 - Menu do IRS
+2021-01-11 06:06:55 - Iniciou o Programa
+2021-01-11 06:07:03 - Iniciou o Programa
+2021-01-11 06:07:03 - Menu do IRS
+2021-01-11 06:07:05 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 06:07:15 - Criou linha na Tabela do IRS
+2021-01-11 06:07:15 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 06:08:41 - Iniciou o Programa
+2021-01-11 06:08:51 - Menu do IRS
+2021-01-11 06:08:52 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 06:09:01 - Criou linha na Tabela do IRS
+2021-01-11 06:09:01 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 06:11:02 - Iniciou o Programa
+2021-01-11 06:11:03 - Menu do IRS
+2021-01-11 06:11:07 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 06:11:17 - Criou linha na Tabela do IRS
+2021-01-11 06:11:17 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 06:12:01 - Criou linha na Tabela do IRS
+2021-01-11 06:12:01 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 06:12:36 - Iniciou o Programa
+2021-01-11 11:32:26 - Iniciou o Programa
+2021-01-11 11:32:31 - Menu do IRS
+2021-01-11 11:32:46 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 11:32:55 - Criou linha na Tabela do IRS
+2021-01-11 11:32:55 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 11:33:41 - Gravou a Tabela do IRS de Solteiro no ficheiro info\\tab_teste.csv
+2021-01-11 11:33:41 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 11:36:09 - Iniciou o Programa
+2021-01-11 11:36:11 - Menu do IRS
+2021-01-11 11:36:12 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 11:36:22 - Criou linha na Tabela do IRS
+2021-01-11 11:36:23 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 11:41:44 - Gravou a Tabela do IRS de Solteiro no ficheiro info\\tab_teste.csv
+2021-01-11 11:41:44 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 11:42:17 - Iniciou o Programa
+2021-01-11 11:42:19 - Menu do IRS
+2021-01-11 11:42:37 - Carregou a Tabela do IRS de Solteiro do ficheiro info\\tab_teste.csv
+2021-01-11 11:43:12 - Iniciou o Programa
+2021-01-11 11:43:21 - Menu do IRS
+2021-01-11 11:43:32 - Carregou a Tabela do IRS de Solteiro do ficheiro info\\tab_teste.csv
+2021-01-11 11:43:58 - Iniciou o Programa
+2021-01-11 11:43:59 - Menu do IRS
+2021-01-11 11:44:01 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 11:44:21 - Gravou a Tabela do IRS de Solteiro no ficheiro info\\tab_teste.csv
+2021-01-11 11:44:21 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 11:45:10 - Acedeu a Tabela de IRS de Solteiro info\\tab_teste.csv
+2021-01-11 11:45:11 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 11:47:14 - Iniciou o Programa
+2021-01-11 11:47:16 - Menu do IRS
+2021-01-11 11:47:17 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 11:47:21 - Criou linha na Tabela do IRS
+2021-01-11 11:47:21 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 11:47:30 - Apagou linha na Tabela do IRS
+2021-01-11 11:47:30 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 11:47:37 - Criou linha na Tabela do IRS
+2021-01-11 11:47:37 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 12:21:35 - Criou linha na Tabela do IRS
+2021-01-11 12:21:35 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 12:21:49 - Criou linha na Tabela do IRS
+2021-01-11 12:21:50 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 12:27:52 - Iniciou o Programa
+2021-01-11 12:28:02 - Menu do IRS
+2021-01-11 12:28:03 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 12:28:16 - Acedeu a Tabela de IRS de Solteiro info\\tab_teste.csv
+2021-01-11 12:28:16 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 12:30:13 - Iniciou o Programa
+2021-01-11 12:30:15 - Menu do IRS
+2021-01-11 12:53:58 - Carregou a Tabela do IRS de Solteiro do ficheiro info\\tab_teste.csv
+2021-01-11 12:54:06 - Carregou a Tabela do IRS de Casado 1 Titular do ficheiro info\\tab_teste.csv
+2021-01-11 12:54:08 - Carregou a Tabela do IRS de Casado 2 Titular do ficheiro info\\tab_teste.csv
+2021-01-11 13:07:23 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 13:07:35 - Criou linha na Tabela do IRS
+2021-01-11 13:07:35 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 13:08:16 - Criou linha na Tabela do IRS
+2021-01-11 13:08:16 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 13:34:27 - Gravou a Tabela do IRS de Solteiro no ficheiro info\\tab_teste.csv
+2021-01-11 13:34:27 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 13:36:41 - Iniciou o Programa
+2021-01-11 13:37:03 - Iniciou o Programa
+2021-01-11 13:37:04 - Menu de Funcionario
+2021-01-11 13:37:33 - Criou Funcionario
+2021-01-11 13:37:35 - Listou os funcionarios
+2021-01-11 13:40:41 - Iniciou o Programa
+2021-01-11 13:41:01 - Menu de Funcionario
+2021-01-11 13:41:48 - Criou Funcionario
+2021-01-11 13:41:50 - Listou os funcionarios
+2021-01-11 13:43:31 - Iniciou o Programa
+2021-01-11 13:43:32 - Menu de Funcionario
+2021-01-11 13:44:25 - Criou Funcionario
+2021-01-11 13:44:28 - Listou os funcionarios
+2021-01-11 13:47:10 - Voltou ao menu Principal
+2021-01-11 13:47:14 - Menu da SS
+2021-01-11 13:47:23 - Voltou ao menu Principal
+2021-01-11 13:56:12 - Menu do IRS
+2021-01-11 13:56:15 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 13:56:19 - Criou linha na Tabela do IRS
+2021-01-11 13:56:19 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 13:58:03 - Iniciou o Programa
+2021-01-11 13:58:07 - Menu do IRS
+2021-01-11 13:58:08 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 13:58:12 - Criou linha na Tabela do IRS
+2021-01-11 13:58:12 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 13:58:47 - Iniciou o Programa
+2021-01-11 13:58:51 - Menu do IRS
+2021-01-11 13:58:52 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 13:58:57 - Criou linha na Tabela do IRS
+2021-01-11 13:58:57 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 13:59:56 - Iniciou o Programa
+2021-01-11 13:59:57 - Menu do IRS
+2021-01-11 13:59:58 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:00:08 - Criou linha na Tabela do IRS
+2021-01-11 14:00:08 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:00:28 - Gravou a Tabela do IRS de Solteiro no ficheiro info\\tab_teste.csv
+2021-01-11 14:00:28 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:01:27 - Acedeu a Tabela de IRS de Solteiro info\\tab_teste.csv
+2021-01-11 14:01:27 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:04:11 - Acedeu a Tabela de IRS de Solteiro info\\tab_solteiro.txt
+2021-01-11 14:04:11 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:05:04 - Iniciou o Programa
+2021-01-11 14:05:23 - Menu do IRS
+2021-01-11 14:05:31 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:05:48 - Acedeu a Tabela de IRS de Solteiro info\\tab_solteiro.txt
+2021-01-11 14:05:48 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:23:45 - Iniciou o Programa
+2021-01-11 14:23:48 - Menu do IRS
+2021-01-11 14:23:50 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:25:36 - Gravou a Tabela do IRS de Solteiro no ficheiro info\\tab_solteiro.csv
+2021-01-11 14:25:37 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:26:23 - Acedeu a Tabela de IRS de Solteiro info\\tab_solteiro.csv
+2021-01-11 14:26:23 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:27:08 - Acedeu a Tabela de IRS de Solteiro info\\tab_IRS_solteiro.csv
+2021-01-11 14:27:08 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:30:49 - Iniciou o Programa
+2021-01-11 14:30:51 - Menu do IRS
+2021-01-11 14:30:54 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:31:14 - Acedeu a Tabela de IRS de Solteiro info\\tab_IRS_solteiro.csv
+2021-01-11 14:31:15 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:32:25 - Iniciou o Programa
+2021-01-11 14:32:47 - Menu do IRS
+2021-01-11 14:32:48 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:33:02 - Acedeu a Tabela de IRS de Solteiro info\\tab_IRS_solteiro.csv
+2021-01-11 14:33:02 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:33:53 - Iniciou o Programa
+2021-01-11 14:34:11 - Iniciou o Programa
+2021-01-11 14:34:18 - Menu do IRS
+2021-01-11 14:34:19 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:34:40 - Acedeu a Tabela de IRS de Solteiro info\\tab_IRS_solteiro.csv
+2021-01-11 14:34:41 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:35:44 - Iniciou o Programa
+2021-01-11 14:35:46 - Menu do IRS
+2021-01-11 14:35:47 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:36:10 - Acedeu a Tabela de IRS de Solteiro info\\tab_IRS_solteiro.csv
+2021-01-11 14:36:10 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:36:31 - Iniciou o Programa
+2021-01-11 14:36:33 - Menu do IRS
+2021-01-11 14:36:38 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:36:54 - Acedeu a Tabela de IRS de Solteiro info\\tab_IRS_solteiro.csv
+2021-01-11 14:36:54 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:37:35 - Iniciou o Programa
+2021-01-11 14:37:38 - Menu do IRS
+2021-01-11 14:37:45 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:38:08 - Acedeu a Tabela de IRS de Solteiro info\\tab_IRS_solteiro.csv
+2021-01-11 14:38:08 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:38:29 - Iniciou o Programa
+2021-01-11 14:38:40 - Menu do IRS
+2021-01-11 14:39:18 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:39:23 - Acedeu a Tabela de IRS de Solteiro info\\tab_IRS_solteiro.csv
+2021-01-11 14:39:23 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:43:42 - Iniciou o Programa
+2021-01-11 14:43:44 - Menu do IRS
+2021-01-11 14:43:45 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:43:59 - Acedeu a Tabela de IRS de Solteiro info\\tab_IRS_solteiro.csv
+2021-01-11 14:43:59 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:45:38 - Iniciou o Programa
+2021-01-11 14:45:41 - Menu do IRS
+2021-01-11 14:45:43 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:46:12 - Acedeu a Tabela de IRS de Solteiro info\\tab_IRS_solteiro.csv
+2021-01-11 14:46:12 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:48:35 - Iniciou o Programa
+2021-01-11 14:48:40 - Menu do IRS
+2021-01-11 14:48:48 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:49:17 - Acedeu a Tabela de IRS de Solteiro info\\tab_IRS_solteiro.csv
+2021-01-11 14:49:18 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:52:08 - Iniciou o Programa
+2021-01-11 14:52:22 - Menu do IRS
+2021-01-11 14:52:23 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 14:52:39 - Acedeu a Tabela de IRS de Solteiro info\\tab_IRS_solteiro.csv
+2021-01-11 14:52:39 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 15:43:20 - Iniciou o Programa
+2021-01-11 15:43:22 - Menu do IRS
+2021-01-11 15:48:53 - Carregou a Tabela do IRS de Solteiro do ficheiro info\\tab_IRS_solteiro.csv
+2021-01-11 15:49:02 - Carregou a Tabela do IRS de Casado 1 Titular do ficheiro ifs
+2021-01-11 15:49:08 - Iniciou o Programa
+2021-01-11 15:49:15 - Menu do IRS
+2021-01-11 15:49:46 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 15:50:30 - Acedeu a Tabela de IRS de Solteiro info\\tab_IRS_solteiro.csv
+2021-01-11 15:50:30 - Acedeu a Tabela de IRS de Solteiro
+2021-01-11 16:24:36 - Iniciou o Programa
+2021-01-12 01:39:06 - Iniciou o Programa
+2021-01-12 15:59:39 - Iniciou o Programa
+2021-01-12 15:59:45 - Menu da SS
+2021-01-12 16:00:04 - Adicionou criterio
+2021-01-12 16:01:15 - Iniciou o Programa
+2021-01-12 16:01:16 - Menu da SS
+2021-01-12 16:01:25 - Adicionou criterio
+2021-01-12 16:01:56 - Iniciou o Programa
+2021-01-12 16:02:01 - Menu da SS
+2021-01-12 16:02:09 - Adicionou criterio
+2021-01-12 16:03:09 - Adicionou criterio
+2021-01-12 16:03:28 - Adicionou criterio
+2021-01-12 16:06:34 - Alterou criterio
+2021-01-12 16:36:23 - Iniciou o Programa
+2021-01-12 16:37:40 - Iniciou o Programa
+2021-01-12 16:41:19 - Iniciou o Programa
+2021-01-12 16:43:49 - Menu da SS
+2021-01-12 17:10:04 - Iniciou o Programa
+2021-01-12 17:10:06 - Menu do IRS
+2021-01-12 17:10:08 - Acedeu a Tabela de IRS de Solteiro
+2021-01-12 20:53:37 - Iniciou o Programa
+2021-01-12 20:55:08 - Iniciou o Programa
+2021-01-12 22:26:27 - Iniciou o Programa
+2021-01-12 22:26:30 - Processou Salario
+2021-01-12 22:27:21 - Processou Salario
+2021-01-12 22:30:37 - Iniciou o Programa
+2021-01-12 22:30:49 - Processou Salario
+2021-01-12 22:32:12 - Adicionou criterios na Tabela de Bonus
+2021-01-12 22:36:17 - Iniciou o Programa
+2021-01-12 22:36:18 - Processou Salario
+2021-01-12 22:37:36 - Adicionou criterios na Tabela de Bonus
+2021-01-12 22:39:39 - Gravou a Tabela de Bonus no ficheiro `�0����k�
+2021-01-12 22:39:56 - Alterou criterios na Tabela de Bonus
+2021-01-12 22:42:36 - Iniciou o Programa
+2021-01-12 22:45:33 - Processou Salario
+2021-01-12 22:48:13 - Adicionou criterios na Tabela de Bonus
+2021-01-12 22:51:40 - Apagou criterios na Tabela de Bonus
+2021-01-12 22:52:18 - Carregou a Tabela de Bonus do ficheiro `�0����k�
+2021-01-12 22:52:56 - Carregou a Tabela de Bonus do ficheiro info\\tab_bonus.bin
+2021-01-12 22:57:46 - Voltou ao menu do processamento de salario
+2021-01-13 00:25:37 - Iniciou o Programa
+2021-01-13 03:23:10 - Iniciou o Programa
+2021-01-13 03:23:19 - Calculou Salarios
+2021-01-13 03:23:22 - Adicionou criterios na Tabela de Bonus
+2021-01-13 05:05:42 - Iniciou o Programa
+2021-01-13 05:05:45 - Calculou Salarios
+2021-01-13 05:06:23 - Adicionou criterios na Tabela de Bonus
+2021-01-13 13:00:56 - Iniciou o Programa
+2021-01-13 13:03:22 - Menu de Funcionario
+2021-01-13 13:04:28 - Criou Funcionario
+2021-01-13 13:04:32 - Listou os funcionarios
+2021-01-13 13:04:38 - Voltou ao menu Principal
+2021-01-13 13:04:52 - Processou Salario
+2021-01-13 13:05:05 - Calculou Salarios
+2021-01-13 13:05:32 - Calculou Salarios
+2021-01-13 13:07:26 - Adicionou criterios na Tabela de Bonus
+2021-01-13 13:09:55 - Gravou a Tabela de Bonus no ficheiro 
+2021-01-13 13:10:24 - Voltou ao menu do processamento de salario
+2021-01-13 13:10:31 - Menu da SS
+2021-01-13 13:11:19 - Carregou a Tabela da segurança social do ficheiro info\\tab_SS.bin
+2021-01-13 13:11:32 - Apagou criterio na Tabela de segurança social
+2021-01-13 13:11:34 - Apagou criterio na Tabela de segurança social
+2021-01-13 13:14:21 - Iniciou o Programa
+2021-01-13 13:14:31 - Menu da SS
+2021-01-13 13:15:28 - Adicionou criterio na Tabela de segurança social
+2021-01-13 13:16:20 - Voltou ao menu Principal
+2021-01-13 13:16:50 - Menu da SS
+2021-01-13 13:17:43 - Alterou criterio na Tabela de segurança social
+2021-01-13 13:18:02 - Adicionou criterio na Tabela de segurança social
+2021-01-13 13:18:29 - Alterou criterio na Tabela de segurança social
+2021-01-13 13:19:00 - Voltou ao menu Principal
+2021-01-13 13:20:17 - Menu da SS
+2021-01-13 13:22:25 - Adicionou criterio na Tabela de segurança social
+2021-01-13 13:22:41 - Adicionou criterio na Tabela de segurança social
+2021-01-13 13:23:47 - Gravou a Tabela da segurança social no ficheiro tab_test_ss.bin
+2021-01-13 13:23:57 - Iniciou o Programa
+2021-01-13 13:24:08 - Menu da SS
+2021-01-13 13:24:37 - Carregou a Tabela da segurança social do ficheiro tab_test_ss.bin
+2021-01-13 13:25:26 - Apagou criterio na Tabela de segurança social
+2021-01-13 13:28:37 - Iniciou o Programa
+2021-01-13 13:28:39 - Menu da SS
+2021-01-13 13:29:00 - Carregou a Tabela da segurança social do ficheiro tab_test_ss.bin
+2021-01-13 13:29:25 - Apagou criterio na Tabela de segurança social
+2021-01-13 13:34:37 - Iniciou o Programa
+2021-01-13 13:34:39 - Menu da SS
+2021-01-13 13:35:50 - Carregou a Tabela da segurança social do ficheiro tab_test_ss.bin
+2021-01-13 13:35:56 - Apagou criterio na Tabela de segurança social
+2021-01-13 13:37:06 - Iniciou o Programa
+2021-01-13 13:37:09 - Menu da SS
+2021-01-13 13:38:22 - Carregou a Tabela da segurança social do ficheiro tab_teste_ss.bin
+2021-01-13 13:39:38 - Carregou a Tabela da segurança social do ficheiro tab_test_ss.bin
+2021-01-13 13:39:42 - Apagou criterio na Tabela de segurança social
+2021-01-13 13:47:40 - Iniciou o Programa
+2021-01-13 13:47:49 - Processou Salario
+2021-01-13 13:47:59 - Menu da SS
+2021-01-13 13:48:17 - Carregou a Tabela da segurança social do ficheiro tab_test_ss.bin
+2021-01-13 13:48:20 - Apagou criterio na Tabela de segurança social
+2021-01-13 13:49:40 - Iniciou o Programa
+2021-01-13 13:49:45 - Menu da SS
+2021-01-13 13:49:52 - Carregou a Tabela da segurança social do ficheiro tab_test_ss.bin
+2021-01-13 13:49:57 - Apagou criterio na Tabela de segurança social
+2021-01-13 13:55:17 - Iniciou o Programa
+2021-01-13 13:55:21 - Menu da SS
+2021-01-13 13:55:46 - Carregou a Tabela da segurança social do ficheiro tab_test_ss.bin
+2021-01-13 13:55:50 - Apagou criterio na Tabela de segurança social
+2021-01-13 13:56:28 - Adicionou criterio na Tabela de segurança social
+2021-01-13 13:59:20 - Adicionou criterio na Tabela de segurança social
+2021-01-13 14:01:26 - Iniciou o Programa
+2021-01-13 14:01:31 - Menu do IRS
+2021-01-13 14:01:35 - Voltou ao menu Principal
+2021-01-13 14:01:36 - Menu da SS
+2021-01-13 14:01:45 - Carregou a Tabela da segurança social do ficheiro tab_test_ss.bin
+2021-01-13 14:01:48 - Apagou criterio na Tabela de segurança social
+2021-01-13 14:02:23 - Adicionou criterio na Tabela de segurança social
+2021-01-13 14:02:27 - Apagou criterio na Tabela de segurança social
+2021-01-13 18:18:40 - Iniciou o Programa
+2021-01-13 18:18:43 - Processou Salario
+2021-01-13 18:18:54 - Calculou Salarios
+2021-01-13 18:21:39 - Iniciou o Programa
+2021-01-13 18:21:42 - Processou Salario
+2021-01-13 18:21:51 - Acedeu ao menu de Listar depesas da empresa
+2021-01-13 18:22:01 - Listou ano
+2021-01-13 18:33:21 - Iniciou o Programa
+2021-01-13 18:33:23 - Processou Salario
+2021-01-13 18:33:27 - Acedeu ao menu de Listar depesas da empresa
+2021-01-13 18:33:32 - Listou ano
+2021-01-13 18:33:43 - Listou mês
+2021-01-13 18:35:06 - Iniciou o Programa
+2021-01-13 18:35:09 - Processou Salario
+2021-01-13 18:50:12 - Iniciou o Programa
+2021-01-13 18:51:17 - Iniciou o Programa
+2021-01-13 18:51:19 - Menu de Funcionario
+2021-01-13 18:51:22 - Listou os funcionarios
+2021-01-13 18:51:27 - Voltou ao menu Principal
+2021-01-13 18:51:28 - Processou Salario
+2021-01-13 18:52:47 - Calculou Salarios
+2021-01-13 18:53:01 - Iniciou o Programa
+2021-01-13 18:53:05 - Menu de Funcionario
+2021-01-13 18:55:39 - Criou Funcionario
+2021-01-13 18:55:43 - Voltou ao menu Principal
+2021-01-13 18:55:48 - Menu da SS
+2021-01-13 18:56:58 - Adicionou criterio na Tabela de segurança social
+2021-01-13 18:57:11 - Adicionou criterio na Tabela de segurança social
+2021-01-13 18:57:59 - Adicionou criterio na Tabela de segurança social
+2021-01-13 18:58:31 - Gravou a Tabela da segurança social no ficheiro info\\tab_ss.bin
+2021-01-13 18:58:42 - Voltou ao menu Principal
+2021-01-13 18:58:47 - Menu do IRS
+2021-01-13 18:59:32 - Carregou a Tabela do IRS de Solteiro do ficheiro tab_IRS_solteiro.csv
+2021-01-13 18:59:47 - Carregou a Tabela do IRS de Casado 1 Titular do ficheiro info\\tab_IRS_casado.csv
+2021-01-13 18:59:54 - Carregou a Tabela do IRS de Casado 2 Titular do ficheiro info\\tab_IRS_casado_2.csv
+2021-01-13 18:59:56 - Acedeu a Tabela de IRS de Solteiro
+2021-01-13 19:00:10 - Acedeu a Tabela de IRS de Solteiro info\\tab_IRS_solteiro.csv
+2021-01-13 19:00:10 - Acedeu a Tabela de IRS de Solteiro
+2021-01-13 19:00:21 - Voltou ao Menu das Tabelas do IRS
+2021-01-13 19:00:23 - Acedeu a Tabela de IRS de Casado 1 Titular
+2021-01-13 19:02:56 - Gravou a Tabela do IRS de Casado 1 Titular no ficheiro tab_test.txt
+2021-01-13 19:02:56 - Acedeu a Tabela de IRS de Casado 1 Titular
+2021-01-13 19:08:19 - Iniciou o Programa
+2021-01-13 19:08:28 - Menu do IRS
+2021-01-13 19:08:29 - Acedeu a Tabela de IRS de Solteiro
+2021-01-13 19:08:45 - Gravou a Tabela do IRS de Solteiro no ficheiro info\\tab_IRS_solteiro.csv
+2021-01-13 19:08:46 - Acedeu a Tabela de IRS de Solteiro
+2021-01-13 19:14:48 - Acedeu a Tabela de IRS de Solteiro info\\tab_IRS_solteiro.csv
+2021-01-13 19:14:48 - Acedeu a Tabela de IRS de Solteiro
+2021-01-13 19:17:20 - Iniciou o Programa
+2021-01-13 19:17:22 - Menu do IRS
+2021-01-13 19:17:27 - Acedeu a Tabela de IRS de Solteiro
+2021-01-13 19:17:38 - Acedeu a Tabela de IRS de Solteiro info\\tab_IRS_solteiro
+2021-01-13 19:17:38 - Acedeu a Tabela de IRS de Solteiro
+2021-01-13 19:17:49 - Acedeu a Tabela de IRS de Solteiro info\\tab_IRS_solteiro.csv
+2021-01-13 19:17:49 - Acedeu a Tabela de IRS de Solteiro
+2021-01-13 19:18:02 - Voltou ao Menu das Tabelas do IRS
+2021-01-13 19:18:05 - Acedeu a Tabela de IRS de Casado 1 Titular
+2021-01-13 19:18:15 - Acedeu a Tabela de IRS de Casado 1 Titular info\\tab_IRS_casado.csv
+2021-01-13 19:18:15 - Acedeu a Tabela de IRS de Casado 1 Titular
+2021-01-13 19:20:06 - Acedeu a Tabela de IRS de Casado 1 Titular info\\tab_IRS_solteiro.csv
+2021-01-13 19:20:07 - Acedeu a Tabela de IRS de Casado 1 Titular
+2021-01-13 19:20:36 - Iniciou o Programa
+2021-01-13 19:20:37 - Menu do IRS
+2021-01-13 19:20:39 - Acedeu a Tabela de IRS de Solteiro
+2021-01-13 19:20:43 - Acedeu a Tabela de IRS de Solteiro info\\tab_IRS_solteiro.csv
+2021-01-13 19:20:43 - Acedeu a Tabela de IRS de Solteiro
+2021-01-13 19:23:17 - Acedeu a Tabela de IRS de Solteiro info\\tab_IRS_solteiro.csv
+2021-01-13 19:23:17 - Acedeu a Tabela de IRS de Solteiro
+2021-01-13 19:23:51 - Criou linha na Tabela do IRS
+2021-01-13 19:23:51 - Acedeu a Tabela de IRS de Solteiro
+2021-01-13 19:24:06 - Gravou a Tabela do IRS de Solteiro no ficheiro 
+2021-01-13 19:24:06 - Acedeu a Tabela de IRS de Solteiro
+2021-01-13 19:24:17 - Apagou linha na Tabela do IRS
+2021-01-13 19:24:17 - Acedeu a Tabela de IRS de Solteiro
+2021-01-13 19:24:21 - Voltou ao Menu das Tabelas do IRS
+2021-01-13 19:24:23 - Acedeu a Tabela de IRS de Casado 1 Titular
+2021-01-13 19:24:36 - Acedeu a Tabela de IRS de Casado 1 Titular info\\tab_IRS_casado_1
+2021-01-13 19:24:36 - Acedeu a Tabela de IRS de Casado 1 Titular
+2021-01-13 19:24:48 - Acedeu a Tabela de IRS de Casado 1 Titular info\\tab_IRS_casado.csv
+2021-01-13 19:24:48 - Acedeu a Tabela de IRS de Casado 1 Titular
+2021-01-13 19:25:01 - Gravou a Tabela do IRS de Casado 1 Titular no ficheiro info\\tab_IRS_casado.csv
+2021-01-13 19:25:01 - Acedeu a Tabela de IRS de Casado 1 Titular
+2021-01-13 19:25:20 - Voltou ao Menu das Tabelas do IRS
+2021-01-13 19:25:23 - Acedeu a Tabela de IRS de Casado 2 Titulares
+2021-01-13 19:25:34 - Acedeu a Tabela de IRS de Casado 2 Titulares info\\tab_IRS_casado_2.csv
+2021-01-13 19:25:34 - Acedeu a Tabela de IRS de Casado 2 Titulares
+2021-01-13 19:25:40 - Gravou a Tabela do IRS de Casado 2 Titular no ficheiro info\\tab_IRS_casado_2.csv
+2021-01-13 19:25:40 - Acedeu a Tabela de IRS de Casado 2 Titulares
+2021-01-13 19:26:06 - Acedeu a Tabela de IRS de Casado 2 Titulares info\\tab_IRS_casado_2.csv
+2021-01-13 19:26:06 - Acedeu a Tabela de IRS de Casado 2 Titulares
+2021-01-13 19:26:11 - Voltou ao Menu das Tabelas do IRS
+2021-01-13 19:26:13 - Acedeu a Tabela de IRS de Solteiro
+2021-01-13 19:31:30 - Voltou ao Menu das Tabelas do IRS
+2021-01-13 19:32:14 - Voltou ao menu Principal
+2021-01-13 19:32:50 - Menu de Funcionario
+2021-01-13 19:34:57 - Criou Funcionario
+2021-01-13 19:35:08 - Listou os funcionarios
+2021-01-13 19:35:32 - Voltou ao menu Principal
+2021-01-13 19:35:52 - Menu da SS
+2021-01-13 19:36:04 - Carregou a Tabela da segurança social do ficheiro tab_SS.bin
+2021-01-13 19:36:22 - Carregou a Tabela da segurança social do ficheiro info\\tab_SS.bin
+2021-01-13 19:36:47 - Voltou ao menu Principal
+2021-01-13 19:36:55 - Processou Salario
+2021-01-13 19:40:38 - Iniciou o Programa
+2021-01-13 19:40:50 - Iniciou o Programa
+2021-01-13 19:40:53 - Menu do IRS
+2021-01-13 19:41:03 - Carregou a Tabela do IRS de Solteiro do ficheiro info\\tab_solteiro.csv
+2021-01-13 19:43:22 - Carregou a Tabela do IRS de Casado 1 Titular do ficheiro info\\tab_IRS_solteiro.csvcasado[C
+2021-01-13 19:43:45 - Iniciou o Programa
+2021-01-13 19:44:04 - Menu do IRS
+2021-01-13 19:44:23 - Carregou a Tabela do IRS de Solteiro do ficheiro info\\tab_IRS_solteiro.csv
+2021-01-13 19:44:36 - Carregou a Tabela do IRS de Casado 1 Titular do ficheiro info\\tab_IRS_casado.csv
+2021-01-13 19:44:50 - Carregou a Tabela do IRS de Casado 2 Titular do ficheiro info\\tab_IRS_casado_2.csv
+2021-01-13 19:44:54 - Acedeu a Tabela de IRS de Solteiro
+2021-01-13 19:44:56 - Voltou ao Menu das Tabelas do IRS
+2021-01-13 19:44:58 - Voltou ao menu Principal
+2021-01-13 19:45:10 - Menu da SS
+2021-01-13 19:45:50 - Carregou a Tabela da segurança social do ficheiro info\\tab_ss.bin
+2021-01-13 19:46:00 - Voltou ao menu Principal
+2021-01-13 19:46:10 - Menu de Funcionario
+2021-01-13 19:47:08 - Criou Funcionario
+2021-01-13 19:47:10 - Listou os funcionarios
+2021-01-13 19:47:51 - Editou Informação de Funcionario
+2021-01-13 19:48:00 - Listou os funcionarios
+2021-01-13 19:48:24 - Editou Informação de Funcionario
+2021-01-13 19:48:31 - Listou os funcionarios
+2021-01-13 19:48:36 - Voltou ao menu Principal
+2021-01-13 19:48:40 - Processou Salario
+2021-01-13 19:48:44 - Adicionou criterios na Tabela de Bonus
+2021-01-13 19:50:28 - Voltou ao menu do processamento de salario
+2021-01-13 19:51:41 - Iniciou o Programa
+2021-01-13 19:53:05 - Menu de Funcionario
+2021-01-13 19:54:14 - Criou Funcionario
+2021-01-13 19:54:20 - Listou os funcionarios
+2021-01-13 19:54:48 - Gravou os funcionarios no ficheiro info\\funcs.bin
+2021-01-13 19:55:03 - Carregou os funcionarios do ficheiro info\\funcs.bin
+2021-01-13 19:55:06 - Listou os funcionarios
+2021-01-13 19:55:09 - Voltou ao menu Principal
+2021-01-13 19:55:14 - Processou Salario
+2021-01-13 19:55:19 - Menu da SS
+2021-01-13 19:55:30 - Carregou a Tabela da segurança social do ficheiro info\\tab_ss.bin
+2021-01-13 19:55:32 - Voltou ao menu Principal
+2021-01-13 19:55:35 - Menu do IRS
+2021-01-13 19:55:50 - Carregou a Tabela do IRS de Solteiro do ficheiro info\\tab_IRS_solteiro.csv
+2021-01-13 19:56:00 - Carregou a Tabela do IRS de Casado 1 Titular do ficheiro info\\tab_IRS_casado.csv
+2021-01-13 19:56:07 - Carregou a Tabela do IRS de Casado 2 Titular do ficheiro info\\tab_IRS_casado_2.csv
+2021-01-13 19:56:10 - Acedeu a Tabela de IRS de Solteiro
+2021-01-13 19:56:12 - Voltou ao Menu das Tabelas do IRS
+2021-01-13 19:56:14 - Voltou ao menu Principal
+2021-01-13 19:56:22 - Processou Salario
+2021-01-13 19:56:34 - Adicionou criterios na Tabela de Bonus
+2021-01-13 19:57:14 - Adicionou criterios na Tabela de Bonus
+2021-01-13 19:58:24 - Gravou a Tabela de Bonus no ficheiro info\\tab_IRS_casado_2.csv
+2021-01-13 20:02:22 - Voltou ao menu do processamento de salario
+2021-01-13 20:12:41 - Iniciou o Programa
+2021-01-13 20:12:44 - Menu de Funcionario
+2021-01-13 20:12:56 - Carregou os funcionarios do ficheiro info\\funcs.bin
+2021-01-13 20:12:59 - Voltou ao menu Principal
+2021-01-13 20:13:01 - Menu da SS
+2021-01-13 20:13:21 - Carregou a Tabela da segurança social do ficheiro info\\tab_ss.bin
+2021-01-13 20:13:29 - Voltou ao menu Principal
+2021-01-13 20:13:40 - Menu do IRS
+2021-01-13 20:13:52 - Carregou a Tabela do IRS de Solteiro do ficheiro info\\tab_IRS_solteiro.csv
+2021-01-13 20:14:06 - Carregou a Tabela do IRS de Casado 1 Titular do ficheiro info\\tab_IRS_casado.csv
+2021-01-13 20:14:19 - Carregou a Tabela do IRS de Casado 2 Titular do ficheiro info\\tab_IRS_casado_2.csv
+2021-01-13 20:14:22 - Voltou ao menu Principal
+2021-01-13 20:14:23 - Processou Salario
+2021-01-13 20:14:32 - Carregou a Tabela de Bonus do ficheiro info\\tab_IRS_casado_2.csv
+2021-01-13 20:14:49 - Carregou a Tabela de Bonus do ficheiro tabela_bonus.bin
+2021-01-13 20:14:57 - Voltou ao menu do processamento de salario
+2021-01-13 20:18:13 - Iniciou o Programa
+2021-01-13 20:18:23 - Iniciou o Programa
+2021-01-13 20:24:53 - Iniciou o Programa
+2021-01-13 20:24:59 - Menu de Funcionario
+2021-01-13 20:25:09 - Carregou os funcionarios do ficheiro info\\funcs.bin
+2021-01-13 20:25:11 - Voltou ao menu Principal
+2021-01-13 20:25:14 - Menu da SS
+2021-01-13 20:25:23 - Carregou a Tabela da segurança social do ficheiro info\\tab_ss.bin
+2021-01-13 20:25:25 - Voltou ao menu Principal
+2021-01-13 20:25:27 - Processou Salario
+2021-01-13 20:25:31 - Menu do IRS
+2021-01-13 20:25:42 - Carregou a Tabela do IRS de Solteiro do ficheiro info\\tab_IRS_solteiro.csv
+2021-01-13 20:25:50 - Carregou a Tabela do IRS de Casado 1 Titular do ficheiro info\\tab_IRS_casado.csv
+2021-01-13 20:25:58 - Carregou a Tabela do IRS de Casado 2 Titular do ficheiro info\\tab_IRS_casado_2.csv
+2021-01-13 20:26:00 - Voltou ao menu Principal
+2021-01-13 20:26:06 - Processou Salario
+2021-01-13 20:26:14 - Carregou a Tabela de Bonus do ficheiro info\\tab_IRS_casado_2.csv
+2021-01-13 20:26:26 - Voltou ao menu do processamento de salario
+2021-01-13 20:28:38 - Iniciou o Programa
+2021-01-13 20:28:46 - Menu de Funcionario
+2021-01-13 20:28:54 - Carregou os funcionarios do ficheiro info\\funcs.bin
+2021-01-13 20:28:57 - Voltou ao menu Principal
+2021-01-13 20:28:58 - Menu da SS
+2021-01-13 20:29:01 - Voltou ao menu Principal
+2021-01-13 20:29:06 - Processou Salario
+2021-01-13 20:29:25 - Calculou Salarios
+2021-01-13 20:32:45 - Calculou Salarios
+2021-01-13 20:33:26 - Iniciou o Programa
+2021-01-13 20:33:28 - Processou Salario
+2021-01-13 20:38:30 - Calculou Salarios
+2021-01-13 20:41:53 - Calculou Salarios
+2021-01-13 20:42:49 - Calculou Salarios
+2021-01-13 20:45:02 - Calculou Salarios
+2021-01-13 20:47:17 - Iniciou o Programa
+2021-01-13 20:47:18 - Processou Salario
+2021-01-13 20:50:58 - Calculou Salarios
+2021-01-13 21:35:07 - Iniciou o Programa
+2021-01-13 21:35:24 - Processou Salario
+2021-01-13 21:36:14 - Iniciou o Programa
+2021-01-13 21:36:32 - Processou Salario
+2021-01-13 21:37:29 - Iniciou o Programa
+2021-01-13 21:45:32 - Processou Salario
+2021-01-13 21:51:07 - Calculou Salarios
+2021-01-13 21:51:22 - Acedeu ao menu de Listar depesas da empresa
+2021-01-13 21:51:31 - Listou mês
+2021-01-13 21:52:51 - Listou ano
+2021-01-13 21:55:10 - Listou mês
+2021-01-13 21:59:28 - Voltou ao menu do processamento de salario
+2021-01-13 22:06:17 - Iniciou o Programa
+2021-01-13 22:06:39 - Processou Salario
+2021-01-13 22:10:45 - Calculou Salarios
+2021-01-13 22:12:43 - Menu de Funcionario
+2021-01-13 22:12:47 - Listou os funcionarios
+2021-01-13 22:12:50 - Voltou ao menu Principal
+2021-01-13 22:13:01 - Menu do IRS
+2021-01-13 22:13:06 - Listou todas as Tabelas do IRS
+2021-01-13 22:13:32 - Acedeu a Tabela de IRS de Solteiro
+2021-01-13 22:13:35 - Voltou ao Menu das Tabelas do IRS
+2021-01-13 22:13:37 - Voltou ao menu Principal
+2021-01-13 22:13:41 - Menu da SS
+2021-01-13 22:13:43 - Voltou ao menu Principal
+2021-01-13 22:14:45 - Processou Salario
+2021-01-13 22:17:59 - Iniciou o Programa
+2021-01-13 22:20:39 - Processou Salario
+2021-01-13 22:22:27 - Calculou Salarios
+2021-01-13 22:22:31 - Acedeu ao menu de Listar depesas da empresa
+2021-01-13 22:22:35 - Listou mês
+2021-01-13 22:27:29 - Iniciou o Programa
+2021-01-13 22:27:32 - Processou Salario
+2021-01-13 22:30:28 - Calculou Salarios
+2021-01-13 22:31:11 - Acedeu ao menu de Listar depesas da empresa
+2021-01-13 22:31:23 - Listou mês
+2021-01-13 22:34:29 - Iniciou o Programa
+2021-01-13 22:34:38 - Processou Salario
+2021-01-13 22:36:44 - Calculou Salarios
+2021-01-13 22:38:11 - Calculou Salarios
+2021-01-13 22:41:50 - Iniciou o Programa
+2021-01-13 22:41:55 - Processou Salario
+2021-01-13 22:43:25 - Calculou Salarios
+2021-01-13 22:43:39 - Acedeu ao menu de Listar depesas da empresa
+2021-01-13 22:43:46 - Listou mês
+2021-01-13 22:44:35 - Listou ano
+2021-01-13 22:46:16 - Voltou ao menu do processamento de salario
+2021-01-13 22:46:32 - Acedeu ao menu de Listar depesas da empresa
+2021-01-13 22:46:38 - Listou ano
+2021-01-13 22:46:50 - Listou mês
+2021-01-13 22:47:23 - Voltou ao menu do processamento de salario
+2021-01-13 22:47:26 - Acedeu ao menu de Listar depesas da empresa
+2021-01-13 22:49:56 - Iniciou o Programa
+2021-01-13 22:52:27 - Processou Salario
+2021-01-13 22:55:46 - Iniciou o Programa
+2021-01-13 22:55:56 - Processou Salario
+2021-01-13 23:03:17 - Iniciou o Programa
+2021-01-13 23:03:19 - Processou Salario
+2021-01-13 23:03:52 - Iniciou o Programa
+2021-01-13 23:04:04 - Processou Salario
+2021-01-13 23:05:44 - Calculou Salarios
+2021-01-13 23:05:47 - Acedeu ao menu de Listar depesas da empresa
+2021-01-13 23:05:52 - Listou ano
+2021-01-13 23:06:05 - Voltou ao menu do processamento de salario
+2021-01-13 23:06:07 - Acedeu ao menu de Listar depesas da empresa
+2021-01-13 23:06:11 - Listou mês
+2021-01-13 23:07:03 - Voltou ao menu do processamento de salario
+2021-01-13 23:07:18 - Carregou informações monetarias no ficheiro  info\\top.csv
+2021-01-13 23:08:33 - Iniciou o Programa
+2021-01-13 23:08:50 - Iniciou o Programa
+2021-01-13 23:09:16 - Processou Salario
+2021-01-13 23:13:09 - Calculou Salarios
+2021-01-13 23:13:35 - Acedeu ao menu de Listar depesas da empresa
+2021-01-13 23:13:40 - Listou ano
+2021-01-13 23:16:24 - Listou mês
+2021-01-13 23:17:30 - Voltou ao menu do processamento de salario
+2021-01-13 23:17:53 - Carregou informações monetarias no ficheiro  info\\tab_mês.csv
+2021-01-13 23:20:53 - Iniciou o Programa
+2021-01-13 23:20:57 - Processou Salario
+2021-01-13 23:22:37 - Calculou Salarios
+2021-01-13 23:22:40 - Acedeu ao menu de Listar depesas da empresa
+2021-01-13 23:22:45 - Listou mês
+2021-01-13 23:38:02 - Iniciou o Programa
+2021-01-13 23:38:11 - Processou Salario
+2021-01-13 23:39:50 - Calculou Salarios
+2021-01-13 23:40:05 - Acedeu ao menu de Listar depesas da empresa
+2021-01-13 23:40:08 - Voltou ao menu do processamento de salario
+2021-01-13 23:40:26 - Carregou informações monetarias no ficheiro  info\\dias_trab_proc.csv
+2021-01-13 23:41:06 - Acedeu ao menu de Listar depesas da empresa
+2021-01-13 23:41:27 - Listou mês
+2021-01-13 23:49:10 - Iniciou o Programa
+2021-01-13 23:49:35 - Processou Salario
+2021-01-13 23:52:31 - Iniciou o Programa
+2021-01-13 23:52:42 - Processou Salario
+2021-01-13 23:53:46 - Calculou Salarios
+2021-01-13 23:53:50 - Acedeu ao menu de Listar depesas da empresa
+2021-01-13 23:54:05 - Listou mês
+2021-01-13 23:55:56 - Voltou ao menu do processamento de salario
+2021-01-13 23:56:36 - Carregou informações monetarias no ficheiro  info\\dias_trab_proc.csv
+2021-01-13 23:57:34 - Carregou informações monetarias no ficheiro  info\\dias_trab_sal.csv
+2021-01-14 00:00:37 - Menu de Funcionario
+2021-01-14 00:00:44 - Editou Informação de Funcionario
+2021-01-14 00:00:49 - Listou os funcionarios
+2021-01-14 00:01:47 - Voltou ao menu Principal
+2021-01-14 00:01:50 - Menu do IRS
+2021-01-14 00:02:06 - Acedeu a Tabela de IRS de Solteiro
+2021-01-14 00:15:04 - Voltou ao Menu das Tabelas do IRS
+2021-01-14 00:15:06 - Acedeu a Tabela de IRS de Casado 1 Titular
+2021-01-14 00:21:27 - Voltou ao Menu das Tabelas do IRS
+2021-01-14 00:26:52 - Acedeu a Tabela de IRS de Casado 2 Titulares
+2021-01-14 00:29:51 - Voltou ao Menu das Tabelas do IRS
+2021-01-14 00:30:00 - Voltou ao menu Principal
+2021-01-14 00:30:38 - Processou Salario
+2021-01-14 00:30:44 - Voltou ao menu do processamento de salario
+2021-01-14 00:30:52 - Menu de Funcionario
+2021-01-14 00:30:58 - Listou os funcionarios
+2021-01-14 00:37:10 - Voltou ao menu Principal
+2021-01-14 00:37:17 - Menu de Funcionario
+2021-01-14 00:39:22 - Criou Funcionario
+2021-01-14 00:40:09 - Removeu Funcionario
+2021-01-14 00:45:33 - Iniciou o Programa
+2021-01-14 00:45:37 - Menu de Funcionario
+2021-01-14 00:47:05 - Criou Funcionario
+2021-01-14 00:47:07 - Listou os funcionarios
+2021-01-14 00:47:22 - Voltou ao menu Principal
+2021-01-14 00:47:26 - Menu da SS
+2021-01-14 00:47:44 - Adicionou criterio na Tabela de segurança social
+2021-01-14 00:48:13 - Voltou ao menu Principal
+2021-01-14 00:48:17 - Menu do IRS
+2021-01-14 00:48:26 - Gravou a Tabela do IRS de Solteiro no ficheiro 2
+2021-01-14 00:48:28 - Gravou a Tabela do IRS de Casado 1 Titular no ficheiro 3
+2021-01-14 00:48:29 - Gravou a Tabela do IRS de Casado 2 Titular no ficheiro 1
+2021-01-14 00:48:42 - Carregou a Tabela do IRS de Solteiro do ficheiro info\\tab_IRS_solteiro.csv
+2021-01-14 00:48:51 - Carregou a Tabela do IRS de Casado 1 Titular do ficheiro info\\tab_IRS_solteiro.csv
+2021-01-14 00:49:16 - Carregou a Tabela do IRS de Casado 2 Titular do ficheiro info\\tab_IRS_solteiro.csv
+2021-01-14 00:49:19 - Acedeu a Tabela de IRS de Solteiro
+2021-01-14 00:53:41 - Voltou ao Menu das Tabelas do IRS
+2021-01-14 00:53:43 - Voltou ao menu Principal
+2021-01-14 00:53:44 - Processou Salario
+2021-01-14 00:53:48 - Carregou a Tabela de Bonus do ficheiro info\\tab_IRS_solteiro.csv
+2021-01-14 00:54:14 - Voltou ao menu do processamento de salario
+2021-01-14 00:54:42 - Processou Salario
+2021-01-14 00:54:57 - Calculou Salarios
+2021-01-14 00:55:43 - Carregou informações monetarias do ficheiro  a
+2021-01-14 00:56:00 - Calculou Salarios
+2021-01-14 00:56:30 - Carregou informações monetarias no ficheiro  info\\dias_trab_proc.csv
+2021-01-14 00:59:20 - Menu do IRS
+2021-01-14 00:59:22 - Acedeu a Tabela de IRS de Solteiro
+2021-01-14 01:04:15 - Iniciou o Programa
+2021-01-14 01:04:24 - Processou Salario
+2021-01-14 01:14:50 - Calculou Salarios
+2021-01-14 01:15:37 - Menu de Funcionario
+2021-01-14 01:15:39 - Listou os funcionarios
+2021-01-14 01:15:49 - Carregou os funcionarios do ficheiro info\\funcs.bin
+2021-01-14 01:15:51 - Listou os funcionarios
+2021-01-14 01:16:03 - Removeu Funcionario
+2021-01-14 01:17:00 - Criou Funcionario
+2021-01-14 01:18:46 - Editou Informação de Funcionario
+2021-01-14 01:18:47 - Listou os funcionarios
+2021-01-14 01:19:08 - Voltou ao menu Principal
+2021-01-14 01:19:20 - Menu da SS
+2021-01-14 01:19:29 - Carregou a Tabela da segurança social do ficheiro info\\tab_ss.bin
+2021-01-14 01:19:38 - Adicionou criterio na Tabela de segurança social
+2021-01-14 01:21:49 - Voltou ao menu Principal
+2021-01-14 01:21:55 - Menu do IRS
+2021-01-14 01:22:52 - Gravou a Tabela do IRS de Solteiro no ficheiro s
+2021-01-14 01:22:53 - Gravou a Tabela do IRS de Casado 1 Titular no ficheiro d
+2021-01-14 01:22:54 - Gravou a Tabela do IRS de Casado 2 Titular no ficheiro d
+2021-01-14 01:23:25 - Carregou a Tabela do IRS de Solteiro do ficheiro info\\tab_IRS_solteiro.csv
+2021-01-14 01:23:32 - Carregou a Tabela do IRS de Casado 1 Titular do ficheiro info\\tab_IRS_casado.csv
+2021-01-14 01:23:38 - Carregou a Tabela do IRS de Casado 2 Titular do ficheiro info\\tab_IRS_casado_2.csv
+2021-01-14 01:23:40 - Acedeu a Tabela de IRS de Solteiro
+2021-01-14 01:23:42 - Voltou ao Menu das Tabelas do IRS
+2021-01-14 01:23:43 - Acedeu a Tabela de IRS de Casado 2 Titulares
+2021-01-14 01:23:45 - Voltou ao Menu das Tabelas do IRS
+2021-01-14 01:23:45 - Acedeu a Tabela de IRS de Casado 1 Titular
+2021-01-14 01:23:48 - Voltou ao Menu das Tabelas do IRS
+2021-01-14 01:23:50 - Voltou ao menu Principal
+2021-01-14 01:23:51 - Processou Salario
+2021-01-14 01:24:17 - Calculou Salarios
+2021-01-14 01:24:21 - Acedeu ao menu de Listar depesas da empresa
+2021-01-14 01:24:27 - Listou mês
+2021-01-14 01:27:44 - Voltou ao menu do processamento de salario
+2021-01-14 01:28:02 - Voltou ao menu do processamento de salario
+2021-01-14 01:28:22 - Carregou informações monetarias no ficheiro  info\\dias_trab_proc.csv
+2021-01-14 01:31:43 - Acedeu ao menu de Listar depesas da empresa
+2021-01-14 01:31:46 - Listou mês
+2021-01-14 01:31:49 - Voltou ao menu do processamento de salario
+2021-01-14 01:32:04 - Carregou informações monetarias no ficheiro  info\\dias_proc.csv
+2021-01-14 01:33:16 - Menu do IRS
+2021-01-14 01:33:24 - Acedeu a Tabela de IRS de Casado 1 Titular
+2021-01-14 01:37:16 - Voltou ao Menu das Tabelas do IRS
+2021-01-14 01:37:20 - Voltou ao menu Principal
+2021-01-14 01:37:22 - Menu do IRS
+2021-01-14 01:37:24 - Voltou ao menu Principal
+2021-01-14 01:37:26 - Processou Salario
+2021-01-14 01:37:38 - Carregou informações monetarias do ficheiro  info\\dias_porc.csv
+2021-01-14 01:41:42 - Iniciou o Programa
+2021-01-14 01:41:45 - Processou Salario
+2021-01-14 01:42:42 - Iniciou o Programa
+2021-01-14 01:42:47 - Processou Salario
+2021-01-14 01:44:08 - Iniciou o Programa
+2021-01-14 01:44:13 - Menu do IRS
+2021-01-14 01:45:17 - Carregou a Tabela do IRS de Solteiro do ficheiro info\\dias_proc.csv
+2021-01-14 01:45:23 - Carregou a Tabela do IRS de Casado 1 Titular do ficheiro S
+2021-01-14 01:45:23 - Carregou a Tabela do IRS de Casado 2 Titular do ficheiro s
+2021-01-14 01:45:25 - Voltou ao menu Principal
+2021-01-14 01:45:26 - Processou Salario
+2021-01-14 01:47:02 - Iniciou o Programa
+2021-01-14 01:47:03 - Processou Salario
+2021-01-14 01:47:20 - Carregou informações monetarias do ficheiro  info\\dias_proc.csv
+2021-01-14 01:53:31 - Iniciou o Programa
+2021-01-14 01:53:35 - Processou Salario
+2021-01-14 01:53:48 - Carregou informações monetarias do ficheiro  info\\dias_proc.csv
+2021-01-14 01:54:38 - Iniciou o Programa
+2021-01-14 01:55:09 - Menu do IRS
+2021-01-14 01:55:19 - Voltou ao menu Principal
+2021-01-14 01:55:24 - Processou Salario
+2021-01-14 01:55:35 - Carregou informações monetarias do ficheiro  info\\dias_proc.csv
+2021-01-14 01:55:39 - Acedeu ao menu de Listar depesas da empresa
+2021-01-14 01:55:44 - Listou mês
+2021-01-14 02:05:00 - Iniciou o Programa
+2021-01-14 02:05:02 - Processou Salario
+2021-01-14 02:07:27 - Iniciou o Programa
+2021-01-14 02:07:35 - Processou Salario
+2021-01-14 02:09:47 - Iniciou o Programa
+2021-01-14 02:09:48 - Processou Salario
+2021-01-14 02:10:20 - Iniciou o Programa
+2021-01-14 02:10:21 - Processou Salario
+2021-01-14 02:11:03 - Iniciou o Programa
+2021-01-14 02:11:16 - Iniciou o Programa
+2021-01-14 02:11:20 - Processou Salario
+2021-01-14 02:12:28 - Iniciou o Programa
+2021-01-14 02:12:31 - Processou Salario
+2021-01-14 02:13:39 - Iniciou o Programa
+2021-01-14 02:14:01 - Iniciou o Programa
+2021-01-14 02:14:02 - Processou Salario
+2021-01-14 02:14:39 - Iniciou o Programa
+2021-01-14 02:14:47 - Processou Salario
+2021-01-14 02:15:21 - Iniciou o Programa
+2021-01-14 02:15:25 - Processou Salario
+2021-01-14 02:16:22 - Iniciou o Programa
+2021-01-14 02:16:47 - Iniciou o Programa
+2021-01-14 02:16:48 - Menu do IRS
+2021-01-14 02:16:51 - Voltou ao menu Principal
+2021-01-14 02:16:52 - Processou Salario
+2021-01-14 02:22:33 - Iniciou o Programa
+2021-01-14 02:22:34 - Processou Salario
+2021-01-14 02:22:45 - Carregou informações monetarias do ficheiro  info\\dias_proc.csv
+2021-01-14 02:22:56 - Acedeu ao menu de Listar depesas da empresa
+2021-01-14 02:23:00 - Listou mês
+2021-01-14 02:27:53 - Iniciou o Programa
+2021-01-14 02:28:54 - Iniciou o Programa
+2021-01-14 02:28:57 - Processou Salario
+2021-01-14 02:29:06 - Carregou informações monetarias do ficheiro  info\\dias_proc.csv
+2021-01-14 02:29:09 - Acedeu ao menu de Listar depesas da empresa
+2021-01-14 02:29:11 - Listou mês
+2021-01-14 02:30:35 - Iniciou o Programa
+2021-01-14 02:30:37 - Processou Salario
+2021-01-14 02:30:45 - Carregou informações monetarias do ficheiro  info\\dias_proc.csv
+2021-01-14 02:30:47 - Acedeu ao menu de Listar depesas da empresa
+2021-01-14 02:30:50 - Listou mês
+2021-01-14 02:45:17 - Iniciou o Programa
+2021-01-14 02:45:20 - Processou Salario
+2021-01-14 02:49:38 - Calculou Salarios
+2021-01-14 02:50:08 - Calculou Salarios
+2021-01-14 02:50:44 - Acedeu ao menu de Listar depesas da empresa
+2021-01-14 02:50:52 - Listou mês
+2021-01-14 02:51:15 - Voltou ao menu do processamento de salario
+2021-01-14 02:51:26 - Voltou ao menu do processamento de salario
+2021-01-14 02:51:35 - Menu de Funcionario
+2021-01-14 02:51:38 - Listou os funcionarios
+2021-01-14 03:09:03 - Iniciou o Programa
+2021-01-14 03:12:01 - Processou Salario
+2021-01-14 03:14:03 - Calculou Salarios
+2021-01-14 03:14:26 - Carregou informações monetarias do ficheiro  S
+2021-01-14 03:14:40 - Calculou Salarios
+2021-01-14 03:21:13 - Iniciou o Programa
+2021-01-14 03:21:14 - Processou Salario
+2021-01-14 03:22:43 - Calculou Salarios
+2021-01-14 03:23:43 - Calculou Salarios
+2021-01-14 03:25:12 - Iniciou o Programa
+2021-01-14 03:25:16 - Processou Salario
+2021-01-14 03:26:38 - Calculou Salarios
+2021-01-14 03:27:47 - Calculou Salarios
+2021-01-14 04:02:49 - Iniciou o Programa
+2021-01-14 04:02:54 - Processou Salario
+2021-01-14 04:04:27 - Calculou Salarios
+2021-01-14 04:14:20 - Iniciou o Programa
+2021-01-14 04:14:31 - Processou Salario
+2021-01-14 04:16:02 - Calculou Salarios
+2021-01-14 04:16:10 - Acedeu ao menu de Listar depesas da empresa
+2021-01-14 04:16:14 - Listou mês
+2021-01-14 04:17:39 - Voltou ao menu do processamento de salario
+2021-01-14 04:17:58 - Apagou criterios na Tabela de Bonus
+2021-01-14 04:18:03 - Apagou criterios na Tabela de Bonus
+2021-01-14 04:18:06 - Voltou ao menu do processamento de salario
+2021-01-14 04:18:13 - Adicionou criterios na Tabela de Bonus
+2021-01-14 04:18:31 - Adicionou criterios na Tabela de Bonus
+2021-01-14 04:18:58 - Voltou ao menu do processamento de salario
+2021-01-14 04:19:20 - Menu de Funcionario
+2021-01-14 04:20:13 - Voltou ao menu Principal
+2021-01-14 13:53:56 - Iniciou o Programa
+2021-01-14 13:54:09 - Menu de Funcionario
+2021-01-14 13:56:35 - Criou Funcionario
+2021-01-14 13:57:30 - Listou os funcionarios
+2021-01-14 14:00:15 - Criou Funcionario
+2021-01-14 14:00:17 - Listou os funcionarios
+2021-01-14 14:00:25 - Voltou ao menu Principal
+2021-01-14 14:00:28 - Menu da SS
+2021-01-14 14:00:34 - Voltou ao menu Principal
+2021-01-14 14:00:36 - Menu de Funcionario
+2021-01-14 14:00:46 - Gravou os funcionarios no ficheiro info\\funcs.bin
+2021-01-14 14:00:49 - Voltou ao menu Principal
+2021-01-14 14:00:51 - Menu da SS
+2021-01-14 14:01:01 - Carregou a Tabela da segurança social do ficheiro info\\tab_ss.bin
+2021-01-14 14:01:41 - Adicionou criterio na Tabela de segurança social
+2021-01-14 14:03:05 - Voltou ao menu Principal
+2021-01-14 14:03:07 - Menu do IRS
+2021-01-14 14:03:18 - Carregou a Tabela do IRS de Solteiro do ficheiro info\\tab_IRS_solteiro.csv
+2021-01-14 14:03:28 - Carregou a Tabela do IRS de Casado 1 Titular do ficheiro info\\tab_IRS_casado.csv
+2021-01-14 14:03:34 - Carregou a Tabela do IRS de Casado 2 Titular do ficheiro info\\tab_IRS_casado_2.csv
+2021-01-14 14:03:37 - Listou todas as Tabelas do IRS
+2021-01-14 14:03:41 - Voltou ao menu Principal
+2021-01-14 14:03:48 - Processou Salario
+2021-01-14 14:04:03 - Carregou a Tabela de Bonus do ficheiro info\\tab_IRS_casado_2.csv
+2021-01-14 14:04:26 - Adicionou criterios na Tabela de Bonus
+2021-01-14 14:04:57 - Adicionou criterios na Tabela de Bonus
+2021-01-14 14:05:17 - Adicionou criterios na Tabela de Bonus
+2021-01-14 14:05:58 - Apagou criterios na Tabela de Bonus
+2021-01-14 14:06:33 - Alterou criterios na Tabela de Bonus
+2021-01-14 14:13:03 - Voltou ao menu do processamento de salario
+2021-01-14 14:15:00 - Calculou Salarios
+2021-01-14 14:15:22 - Calculou Salarios
+2021-01-14 14:21:28 - Acedeu ao menu de Listar depesas da empresa
+2021-01-14 14:21:32 - Listou mês
+2021-01-14 14:23:28 - Listou ano
+2021-01-14 14:40:01 - Voltou ao menu do processamento de salario
+2021-01-14 14:40:07 - Menu de Funcionario
+2021-01-14 14:40:08 - Listou os funcionarios
+2021-01-14 14:51:51 - Voltou ao menu Principal
+2021-01-14 14:51:55 - Menu da SS
+2021-01-14 14:54:12 - Voltou ao menu Principal
+2021-01-14 14:54:14 - Menu do IRS
+2021-01-14 14:54:16 - Listou todas as Tabelas do IRS
+2021-01-14 14:57:32 - Iniciou o Programa
+2021-01-14 14:59:07 - Menu de Funcionario
+2021-01-14 14:59:27 - Iniciou o Programa
+2021-01-14 15:02:56 - Processou Salario
+2021-01-14 15:07:58 - Calculou Salarios
+2021-01-14 15:08:39 - Processou Salario
+2021-01-14 15:09:33 - Adicionou criterios na Tabela de Bonus
+2021-01-14 15:10:08 - Adicionou criterios na Tabela de Bonus
+2021-01-14 15:10:23 - Apagou criterios na Tabela de Bonus
+2021-01-14 15:10:25 - Adicionou criterios na Tabela de Bonus
+2021-01-14 15:11:50 - Iniciou o Programa
+2021-01-14 15:19:02 - Menu de Funcionario
+2021-01-14 15:19:07 - Voltou ao menu Principal
+2021-01-14 15:19:08 - Processou Salario
+2021-01-14 15:19:15 - Adicionou criterios na Tabela de Bonus
+2021-01-14 15:19:56 - Adicionou criterios na Tabela de Bonus
+2021-01-14 15:23:28 - Adicionou criterios na Tabela de Bonus
+2021-01-14 15:25:28 - Iniciou o Programa
+2021-01-14 15:30:49 - Processou Salario
+2021-01-14 15:32:48 - Adicionou criterios na Tabela de Bonus
+2021-01-14 15:34:18 - Adicionou criterios na Tabela de Bonus
+2021-01-14 15:38:48 - Alterou criterios na Tabela de Bonus
+2021-01-14 15:42:48 - Iniciou o Programa
+2021-01-14 15:42:52 - Processou Salario
+2021-01-14 15:43:16 - Adicionou criterios na Tabela de Bonus
+2021-01-14 15:43:54 - Adicionou criterios na Tabela de Bonus
+2021-01-14 15:44:52 - Alterou criterios na Tabela de Bonus
+2021-01-14 15:56:47 - Iniciou o Programa
+2021-01-14 15:56:49 - Processou Salario
+2021-01-14 15:56:52 - Adicionou criterios na Tabela de Bonus
+2021-01-14 15:58:23 - Adicionou criterios na Tabela de Bonus
+2021-01-14 15:59:12 - Alterou criterios na Tabela de Bonus
+2021-01-14 16:06:19 - Adicionou criterios na Tabela de Bonus
+2021-01-14 16:13:18 - Iniciou o Programa
+2021-01-14 16:13:19 - Processou Salario
+2021-01-14 16:13:24 - Adicionou criterios na Tabela de Bonus
+2021-01-14 16:15:04 - Adicionou criterios na Tabela de Bonus
+2021-01-14 16:16:03 - Alterou criterios na Tabela de Bonus
+2021-01-14 16:17:00 - Voltou ao menu do processamento de salario
+2021-01-14 16:18:12 - Calculou Salarios
+2021-01-14 16:18:21 - Acedeu ao menu de Listar depesas da empresa
+2021-01-14 16:18:24 - Listou mês
+2021-01-14 16:25:06 - Iniciou o Programa
+2021-01-14 16:25:10 - Processou Salario
+2021-01-14 16:25:37 - Calculou Salarios
+2021-01-14 16:25:48 - Adicionou criterios na Tabela de Bonus
+2021-01-14 16:29:39 - Adicionou criterios na Tabela de Bonus
+2021-01-14 16:30:28 - Gravou a Tabela de Bonus no ficheiro 
+2021-01-14 16:30:37 - Voltou ao menu do processamento de salario
+2021-01-14 16:31:30 - Calculou Salarios
+2021-01-14 16:31:32 - Acedeu ao menu de Listar depesas da empresa
+2021-01-14 16:31:36 - Listou mês
+2021-01-14 16:32:01 - Listou ano
+2021-01-14 16:37:20 - Voltou ao menu do processamento de salario
+2021-01-14 16:37:23 - Menu de Funcionario
+2021-01-14 16:37:25 - Listou os funcionarios
+2021-01-14 16:43:14 - Iniciou o Programa
+2021-01-14 16:43:21 - Processou Salario
+2021-01-14 16:44:59 - Calculou Salarios
+2021-01-14 16:47:18 - Voltou ao menu do processamento de salario
+2021-01-14 16:47:32 - Acedeu ao menu de Listar depesas da empresa
+2021-01-14 16:47:36 - Listou mês
+2021-01-14 16:50:21 - Iniciou o Programa
+2021-01-14 16:50:45 - Processou Salario
+2021-01-14 16:53:14 - Calculou Salarios
+2021-01-14 16:54:09 - Iniciou o Programa
+2021-01-14 16:54:14 - Processou Salario
+2021-01-14 16:57:55 - Calculou Salarios
+2021-01-14 16:58:00 - Acedeu ao menu de Listar depesas da empresa
+2021-01-14 16:58:02 - Listou mês
+2021-01-14 22:35:10 - Iniciou o Programa
+2021-01-14 22:42:21 - Processou Salario
+2021-01-14 22:44:03 - Calculou Salarios
+2021-01-14 22:44:24 - Calculou Salarios
+2021-01-14 22:45:31 - Calculou Salarios
+2021-01-14 22:45:36 - Acedeu ao menu de Listar depesas da empresa
+2021-01-14 22:45:40 - Listou mês
+2021-01-14 22:45:46 - Voltou ao menu do processamento de salario
+2021-01-14 22:47:23 - Voltou ao menu do processamento de salario
+2021-01-14 22:47:33 - Carregou informações monetarias do ficheiro  
+2021-01-14 22:47:46 - Carregou informações monetarias no ficheiro  info\\dias_proc.csv
+2021-01-14 22:49:18 - Voltou ao menu do processamento de salario
+2021-01-14 22:49:28 - Carregou informações monetarias do ficheiro  info\\dias_proc.csv
+2021-01-14 22:49:34 - Acedeu ao menu de Listar depesas da empresa
+2021-01-14 22:49:38 - Listou mês
+2021-01-14 22:54:07 - Iniciou o Programa
+2021-01-14 22:54:09 - Processou Salario
+2021-01-14 22:55:33 - Calculou Salarios
+2021-01-14 22:56:20 - Carregou informações monetarias no ficheiro  info\\dias_proc.csv
+2021-01-14 22:57:03 - Carregou informações monetarias do ficheiro  info\\dias_proc.csv
+2021-01-14 22:57:05 - Acedeu ao menu de Listar depesas da empresa
+2021-01-14 22:57:08 - Listou mês
+2021-01-14 23:36:06 - Iniciou o Programa
+2021-01-14 23:36:16 - Processou Salario
+2021-01-14 23:46:48 - Calculou Salarios
+2021-01-14 23:46:55 - Acedeu ao menu de Listar depesas da empresa
+2021-01-14 23:47:08 - Listou mês
+2021-01-14 23:47:44 - Voltou ao menu do processamento de salario
+2021-01-14 23:49:27 - Calculou Salarios
+2021-01-14 23:49:44 - Acedeu ao menu de Listar depesas da empresa
+2021-01-14 23:49:47 - Listou ano
+2021-01-14 23:49:54 - Voltou ao menu do processamento de salario
+2021-01-14 23:50:04 - Acedeu ao menu de Listar depesas da empresa
+2021-01-14 23:50:08 - Listou ano
+2021-01-14 23:52:14 - Listou mês
+2021-01-14 23:55:33 - Voltou ao menu do processamento de salario
+2021-01-14 23:55:51 - Carregou informações monetarias do ficheiro  S
+2021-01-14 23:56:10 - Carregou informações monetarias do ficheiro  info\\gay.bin
+2021-01-14 23:56:48 - Calculou Salarios
+2021-01-14 23:56:51 - Acedeu ao menu de Listar depesas da empresa
+2021-01-14 23:56:55 - Listou ano
+2021-01-14 23:57:18 - Listou mês
+2021-01-14 23:57:52 - Listou ano
+2021-01-14 23:58:32 - Voltou ao menu do processamento de salario
+2021-01-15 00:52:39 - Iniciou o Programa
+2021-01-15 00:54:09 - Iniciou o Programa
+2021-01-15 00:54:12 - Processou Salario
+2021-01-15 00:54:44 - Processou Salario
+2021-01-15 00:55:09 - Carregou informações monetarias do ficheiro  info\\dias_proc.csv
+2021-01-15 00:55:46 - Gravou informações monetarias relativas ao ano no ficheiro  info\\ano_teste.csv
+2021-01-15 01:02:45 - Saiu do Programa
+2021-01-15 01:02:51 - Iniciou o Programa
+2021-01-15 01:02:59 - Processou Salario
+2021-01-15 01:03:13 - Carregou informações monetarias do ficheiro  info\\dias_proc.csv
+2021-01-15 01:09:13 - Gravou informações monetarias relativas ao ano no ficheiro  info\\anos_teste.csv
+2021-01-15 01:09:56 - Acedeu ao menu de Listar depesas da empresa
+2021-01-15 01:09:58 - Listou ano
+2021-01-15 01:10:32 - Listou mês
+2021-01-15 01:16:03 - Voltou ao menu do processamento de salario
+2021-01-15 01:16:10 - Iniciou o Programa
+2021-01-15 01:16:12 - Processou Salario
+2021-01-15 01:16:39 - Carregou informações monetarias do ficheiro  info\\dias_proc.csv
+2021-01-15 01:16:57 - Gravou informações monetarias relativas ao ano no ficheiro  info\\anos_teste.csv
+2021-01-15 01:17:40 - Acedeu ao menu de Listar depesas da empresa
+2021-01-15 01:18:30 - Listou mês
+2021-01-15 01:22:05 - Voltou ao menu do processamento de salario
+2021-01-15 02:54:20 - Iniciou o Programa.
+2021-01-15 02:58:04 - Iniciou o Programa.
+2021-01-15 03:26:54 - Iniciou o Programa.
+2021-01-15 04:09:21 - Iniciou o Programa.
+2021-01-15 04:12:24 - Iniciou o Programa.
+2021-01-15 04:12:31 - Menu de Funcionario.
+2021-01-15 04:14:30 - Criou Funcionario.
+2021-01-15 04:15:34 - Criou Funcionario.
+2021-01-15 04:15:38 - Voltou ao menu Principal.
+2021-01-15 04:15:40 - Menu do IRS.
+2021-01-15 04:15:50 - Carregou a Tabela do IRS de Solteiro do ficheiro info\\tab_IRS_solteiro.csv
+2021-01-15 04:16:01 - Carregou a Tabela do IRS de Casado 1 Titular do ficheiro info\\tab_IRS_casado.csv
+2021-01-15 04:16:10 - Carregou a Tabela do IRS de Casado 2 Titular do ficheiro info\\tab_IRS_casado_2.csv
+2021-01-15 04:16:57 - Listou todas as Tabelas do IRS.
+2021-01-15 04:17:48 - Voltou ao menu Principal.
+2021-01-15 04:18:13 - Menu da SS.
+2021-01-15 04:18:29 - Carregou a Tabela da segurança social do ficheiro info\\tab_ss.bin
+2021-01-15 04:19:32 - Adicionou criterio na Tabela de segurança social.
+2021-01-15 04:19:56 - Voltou ao menu Principal.
+2021-01-15 04:20:06 - Processou Salario
+2021-01-15 04:20:13 - Voltou ao menu do processamento de salario.
+2021-01-15 04:20:16 - Menu de Funcionario.
+2021-01-15 04:20:18 - Listou os funcionarios.
+2021-01-15 04:20:39 - Voltou ao menu Principal.
+2021-01-15 04:20:41 - Processou Salario
+2021-01-15 04:20:47 - Adicionou criterios na Tabela de Bonus.
+2021-01-15 04:21:02 - Voltou ao menu do processamento de salario.
+2021-01-15 04:23:22 - Calculou Salarios
+2021-01-15 04:23:30 - Acedeu ao menu de Listar depesas da empresa
+2021-01-15 04:23:33 - Listou mes.
+2021-01-15 04:25:11 - Listou ano.
+2021-01-15 04:26:50 - Voltou ao menu do processamento de salario.
+2021-01-15 04:27:18 - Gravou informações monetarias relativas ao mês no ficheiro  info\\dias_proc_teste.csv
+2021-01-15 04:28:06 - Calculou Salarios
+2021-01-15 04:28:08 - Acedeu ao menu de Listar depesas da empresa
+2021-01-15 04:28:16 - Listou mes.
+2021-01-15 04:28:51 - Listou ano.
+2021-01-15 04:28:56 - Listou ano.
+2021-01-15 04:29:11 - Voltou ao menu do processamento de salario.
+2021-01-15 04:29:34 - Gravou informações monetarias relativas ao ano no ficheiro  info\\ano_proc.csv
+2021-01-15 05:35:41 - Iniciou o Programa.
+2021-01-15 05:39:53 - Iniciou o Programa.
+2021-01-15 05:39:54 - Processou Salario
+2021-01-15 05:43:13 - Iniciou o Programa.
+2021-01-15 05:43:15 - Processou Salario
+2021-01-15 05:44:14 - Calculou Salarios
+2021-01-15 05:44:21 - Acedeu ao menu de Listar depesas da empresa
+2021-01-15 05:44:32 - Listou mes.
+2021-01-15 05:45:10 - Voltou ao menu do processamento de salario.
+2021-01-15 05:45:13 - Menu de Funcionario.
+2021-01-15 05:45:25 - Editou Informação de Funcionario.
+2021-01-15 05:45:31 - Listou os funcionarios.
+2021-01-15 05:45:42 - Voltou ao menu Principal.
+2021-01-15 05:45:47 - Menu de Funcionario.
+2021-01-15 05:46:55 - Editou Informação de Funcionario.
+2021-01-15 05:46:58 - Listou os funcionarios.
+2021-01-15 05:48:43 - Iniciou o Programa.
+2021-01-15 05:48:49 - Menu de Funcionario.
+2021-01-15 05:48:56 - Carregou os funcionarios do ficheiro info\\funcs.bin
+2021-01-15 05:49:14 - Editou Informação de Funcionario.
+2021-01-15 05:49:22 - Listou os funcionarios.
+2021-01-15 05:49:28 - Editou Informação de Funcionario.
+2021-01-15 05:50:12 - Voltou ao menu Principal.
+2021-01-15 05:50:14 - Processou Salario
+2021-01-15 05:51:12 - Calculou Salarios
+2021-01-15 05:51:57 - Calculou Salarios
+2021-01-15 05:52:06 - Acedeu ao menu de Listar depesas da empresa
+2021-01-15 05:52:22 - Listou mes.
+2021-01-15 05:57:22 - Listou mes.
+2021-01-15 05:57:33 - Voltou ao menu do processamento de salario.
+2021-01-15 13:37:13 - Iniciou o Programa.
+2021-01-15 13:37:15 - Processou Salario
+2021-01-15 13:38:15 - Calculou Salarios
+2021-01-15 14:01:44 - Iniciou o Programa.
+2021-01-15 14:01:49 - Menu de Funcionario.
+2021-01-15 14:01:58 - Carregou os funcionarios do ficheiro info\\funcs.bin
+2021-01-15 14:02:05 - Voltou ao menu Principal.
+2021-01-15 14:02:06 - Processou Salario
+2021-01-15 14:02:08 - Acedeu ao menu da tabela de bonus.
+2021-01-15 14:05:03 - Gravou a Tabela de Bonus no ficheiro info\\funcs.bin
+2021-01-15 14:05:40 - Carregou a Tabela de Bonus do ficheiro info\\tabela_bonus.bin
+2021-01-15 14:05:50 - Listou o maior bonus que cada funcionario pode ter direito
+2021-01-15 14:06:09 - Voltou ao menu do processamento de salario.
+2021-01-15 14:07:41 - Iniciou o Programa.
+2021-01-15 14:08:00 - Menu de Funcionario.
+2021-01-15 14:08:06 - Carregou os funcionarios do ficheiro info\\funcs.bin
+2021-01-15 14:08:07 - Listou os funcionarios.
+2021-01-15 14:08:14 - Voltou ao menu Principal.
+2021-01-15 14:08:15 - Processou Salario
+2021-01-15 14:08:17 - Acedeu ao menu da tabela de bonus.
+2021-01-15 14:08:22 - Carregou a Tabela de Bonus do ficheiro info\\funcs.bin
+2021-01-15 14:08:33 - Listou o maior bonus que cada funcionario pode ter direito
+2021-01-15 14:09:09 - Iniciou o Programa.
+2021-01-15 14:09:19 - Menu de Funcionario.
+2021-01-15 14:09:32 - Carregou os funcionarios do ficheiro info\\funcs.bin
+2021-01-15 14:09:36 - Voltou ao menu Principal.
+2021-01-15 14:09:37 - Processou Salario
+2021-01-15 14:09:42 - Carregou informações monetarias do ficheiro  S
+2021-01-15 14:09:46 - Acedeu ao menu da tabela de bonus.
+2021-01-15 14:09:47 - Carregou a Tabela de Bonus do ficheiro S
+2021-01-15 14:09:56 - Listou o maior bonus que cada funcionario pode ter direito
+2021-01-15 14:17:33 - Iniciou o Programa.
+2021-01-15 14:19:33 - Menu de Funcionario.
+2021-01-15 14:20:00 - Carregou os funcionarios do ficheiro info\\funcs.bin
+2021-01-15 14:20:07 - Voltou ao menu Principal.
+2021-01-15 14:20:17 - Processou Salario
+2021-01-15 14:20:19 - Acedeu ao menu da tabela de bonus.
+2021-01-15 14:20:23 - Carregou a Tabela de Bonus do ficheiro info\\funcs.bin
+2021-01-15 14:21:24 - Listou o maior bonus que cada funcionario pode ter direito
+2021-01-15 14:29:23 - Iniciou o Programa.
+2021-01-15 14:29:24 - Menu de Funcionario.
+2021-01-15 14:29:32 - Carregou os funcionarios do ficheiro info\\funcs.bin
+2021-01-15 14:29:40 - Voltou ao menu Principal.
+2021-01-15 14:29:43 - Processou Salario
+2021-01-15 14:29:45 - Acedeu ao menu da tabela de bonus.
+2021-01-15 14:29:48 - Carregou a Tabela de Bonus do ficheiro info\\funcs.bin
+2021-01-15 14:29:55 - Listou o maior bonus que cada funcionario pode ter direito
+2021-01-15 14:33:47 - Voltou ao menu do processamento de salario.
+2021-01-15 14:35:30 - Iniciou o Programa.
+2021-01-15 14:35:33 - Menu de Funcionario.
+2021-01-15 14:35:40 - Carregou os funcionarios do ficheiro info\\funcs.bin
+2021-01-15 14:35:43 - Voltou ao menu Principal.
+2021-01-15 14:35:44 - Processou Salario
+2021-01-15 14:35:46 - Acedeu ao menu da tabela de bonus.
+2021-01-15 14:35:48 - Carregou a Tabela de Bonus do ficheiro info\\funcs.bin
+2021-01-15 14:35:56 - Listou o maior bonus que cada funcionario pode ter direito
+2021-01-15 14:36:50 - Voltou ao menu do processamento de salario.
+2021-01-15 19:31:08 - Iniciou o Programa.
+2021-01-15 19:35:14 - Menu de Funcionario.
+2021-01-15 19:35:35 - Carregou os funcionarios do ficheiro info\\funcs.csv
+2021-01-15 19:42:13 - Iniciou o Programa.
+2021-01-15 19:42:19 - Menu do IRS.
+2021-01-15 19:42:22 - Acedeu a Tabela de IRS de Solteiro.
+2021-01-15 19:42:34 - Acedeu a Tabela de IRS de Solteiro. info\\funcs.bin
+2021-01-15 19:42:34 - Acedeu a Tabela de IRS de Solteiro.
+2021-01-15 19:43:29 - Iniciou o Programa.
+2021-01-15 19:43:35 - Iniciou o Programa.
+2021-01-15 19:43:58 - Menu do IRS.
+2021-01-15 19:44:08 - Carregou a Tabela do IRS de Solteiro do ficheiro info\\funcs.bin
+2021-01-15 19:44:15 - Carregou a Tabela do IRS de Casado 1 Titular do ficheiro info\\funcs.bin
+2021-01-15 19:44:17 - Carregou a Tabela do IRS de Casado 2 Titular do ficheiro info\\funcs.bin
+2021-01-15 19:44:19 - Acedeu a Tabela de IRS de Solteiro.
+2021-01-15 19:47:16 - Iniciou o Programa.
+2021-01-15 19:48:13 - Iniciou o Programa.
+2021-01-15 19:48:15 - Menu do IRS.
+2021-01-15 19:48:17 - Acedeu a Tabela de IRS de Solteiro.
+2021-01-15 20:36:08 - Iniciou o Programa.
+2021-01-15 20:36:16 - Menu do IRS.
+2021-01-15 20:36:19 - Listou todas as Tabelas do IRS.
+2021-01-15 20:36:21 - Acedeu a Tabela de IRS de Solteiro.
+2021-01-15 20:36:34 - Gravou a Tabela do IRS de Solteiro no ficheiro info\\tab_IRS_cona
+2021-01-15 20:36:34 - Acedeu a Tabela de IRS de Solteiro.
+2021-01-15 20:37:10 - Acedeu a Tabela de IRS de Solteiro. info\\tab_IRS_solteiro.csv
+2021-01-15 20:37:10 - Acedeu a Tabela de IRS de Solteiro.
+2021-01-15 20:43:57 - Iniciou o Programa.
+2021-01-15 20:44:51 - Menu de Funcionario.
+2021-01-15 20:44:56 - Carregou os funcionarios do ficheiro info\\funcs.bin
+2021-01-15 20:45:26 - Gravou os funcionarios no ficheiro info\\funcs.bin.bin
+2021-01-15 20:45:31 - Listou os funcionarios.
+2021-01-15 20:45:37 - Voltou ao menu Principal.
+2021-01-15 20:46:36 - Processou Salario
+2021-01-15 20:46:42 - Carregou informações monetarias do ficheiro  info\\dias_proc
+2021-01-15 20:47:00 - Acedeu ao menu da tabela de bonus.
+2021-01-15 20:47:03 - Apagou criterios na Tabela de Bonus.
+2021-01-15 20:47:07 - Carregou a Tabela de Bonus do ficheiro info\\dias_proc
+2021-01-15 20:47:32 - Carregou a Tabela de Bonus do ficheiro info\\tabela_bonus.bin
+2021-01-15 20:48:15 - Gravou a Tabela de Bonus no ficheiro info\\tabela_bonus.bin.bin
+2021-01-15 20:50:34 - Iniciou o Programa.
+2021-01-15 20:51:52 - Iniciou o Programa.
+2021-01-15 20:52:08 - Menu do IRS.
+2021-01-15 20:52:20 - Carregou a Tabela do IRS de Solteiro do ficheiro info\\tab_IRS_solteiro
+2021-01-15 20:52:28 - Carregou a Tabela do IRS de Casado 1 Titular do ficheiro info\\tab_IRS_casado
+2021-01-15 20:52:37 - Carregou a Tabela do IRS de Casado 2 Titular do ficheiro info\\tab_IRS_casado_2
+2021-01-15 20:52:39 - Listou todas as Tabelas do IRS.
+2021-01-15 20:55:59 - Voltou ao menu Principal.
+2021-01-15 20:56:00 - Processou Salario
+2021-01-15 20:56:04 - Acedeu ao menu da tabela de bonus.
+2021-01-15 20:56:06 - Carregou a Tabela de Bonus do ficheiro info\\tab_IRS_casado_2.csv
+2021-01-15 20:56:13 - Voltou ao menu do processamento de salario.
+2021-01-15 20:56:31 - Calculou Salarios
+2021-01-15 20:56:33 - Acedeu ao menu de Listar depesas da empresa
+2021-01-15 20:56:36 - Listou mes.
+2021-01-15 20:58:35 - Listou ano.
+2021-01-15 20:59:16 - Listou mes.
+2021-01-15 21:00:57 - Voltou ao menu do processamento de salario.
+2021-01-15 21:01:36 - Gravou informações monetarias relativas ao ano no ficheiro  info\\ano.csv
+2021-01-15 21:02:05 - Gravou informações monetarias relativas ao mês no ficheiro  info\\mes.csv
+2021-01-15 21:02:23 - Gravou informações monetarias relativas ao mês no ficheiro  info\\mes.csv
+2021-01-15 21:02:36 - Carregou informações monetarias do ficheiro  info\\mes.csv
+2021-01-15 21:02:38 - Acedeu ao menu de Listar depesas da empresa
+2021-01-15 21:02:41 - Listou ano.
+2021-01-15 21:04:42 - Voltou ao menu do processamento de salario.
+2021-01-15 21:06:11 - Iniciou o Programa.
+2021-01-15 21:06:51 - Iniciou o Programa.
+2021-01-15 21:07:06 - Processou Salario
+2021-01-15 21:10:46 - Calculou Salarios
+2021-01-15 21:11:16 - Calculou Salarios
+2021-01-15 21:11:52 - Acedeu ao menu de Listar depesas da empresa
+2021-01-15 21:11:57 - Listou mes.
+2021-01-15 21:13:47 - Listou ano.
+2021-01-15 21:14:06 - Listou mes.
+2021-01-15 21:23:15 - Iniciou o Programa.
+2021-01-15 21:23:20 - Menu do IRS.
+2021-01-15 21:23:22 - Acedeu a Tabela de IRS de Solteiro.
+2021-01-15 21:23:32 - Acedeu a Tabela de IRS de Solteiro. info\\tab_IRS_solteiro.csv
+2021-01-15 21:23:32 - Acedeu a Tabela de IRS de Solteiro.
+2021-01-15 21:25:50 - Iniciou o Programa.
+2021-01-15 21:25:53 - Menu do IRS.
+2021-01-15 21:25:54 - Acedeu a Tabela de IRS de Solteiro.
+2021-01-15 21:26:01 - Acedeu a Tabela de IRS de Solteiro. info\\tab_IRS_solteiro.csv
+2021-01-15 21:26:01 - Acedeu a Tabela de IRS de Solteiro.
+2021-01-15 21:26:46 - Alterou linha na Tabela do IRS.
+2021-01-15 21:26:47 - Acedeu a Tabela de IRS de Solteiro.
+2021-01-15 21:28:58 - Voltou ao Menu das Tabelas do IRS.

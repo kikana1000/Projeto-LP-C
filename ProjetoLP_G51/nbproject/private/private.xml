@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>1</activeConfTypeElem>
+        <activeConfIndexElem>0</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="3">
+        <file>
+            <url>funcionarios.h</url>
+            <bookmark id="2">
+                <name/>
+                <line>16</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>Funções.c</url>
+            <bookmark id="1">
+                <name/>
+                <line>14</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>funcionarios.c</url>
+            <bookmark id="3">
+                <name/>
+                <line>28</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/New%20Folder/ProjetoLP_G51/Ficheiros.c</file>
+            <file>file:/E:/New%20Folder/ProjetoLP_G51/logs.h</file>
+            <file>file:/E:/New%20Folder/ProjetoLP_G51/Ficheiros.h</file>
+            <file>file:/E:/New%20Folder/ProjetoLP_G51/SegSoc.h</file>
+            <file>file:/E:/New%20Folder/ProjetoLP_G51/Tabelas_IRS.h</file>
+            <file>file:/E:/New%20Folder/ProjetoLP_G51/logs.c</file>
+            <file>file:/E:/New%20Folder/ProjetoLP_G51/input.c</file>
+            <file>file:/E:/New%20Folder/ProjetoLP_G51/SegSoc.c</file>
+            <file>file:/E:/New%20Folder/ProjetoLP_G51/main.c</file>
+            <file>file:/E:/New%20Folder/ProjetoLP_G51/Proc_Salario.h</file>
+            <file>file:/E:/New%20Folder/ProjetoLP_G51/funcionarios.h</file>
+            <file>file:/E:/New%20Folder/ProjetoLP_G51/Tabelas_IRS.c</file>
+            <file>file:/E:/New%20Folder/ProjetoLP_G51/input.h</file>
+            <file>file:/E:/New%20Folder/ProjetoLP_G51/Proc_Salario.c</file>
+        </group>
+    </open-files>
+</project-private>

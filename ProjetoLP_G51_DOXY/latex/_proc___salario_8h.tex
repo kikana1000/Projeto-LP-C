@@ -1,0 +1,834 @@
+\hypertarget{_proc___salario_8h}{}\doxysection{Projeto\+LP\+\_\+\+G51/\+Proc\+\_\+\+Salario.h File Reference}
+\label{_proc___salario_8h}\index{ProjetoLP\_G51/Proc\_Salario.h@{ProjetoLP\_G51/Proc\_Salario.h}}
+
+
+Este modulo contem todas as funções relativas ao processamento de salario.  
+
+
+{\ttfamily \#include \char`\"{}funcionarios.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Tabelas\+\_\+\+IRS.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Seg\+Soc.\+h\char`\"{}}\newline
+\doxysubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_linha__bonus}{Linha\+\_\+bonus}}
+\item 
+struct \mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}}
+\item 
+struct \mbox{\hyperlink{struct_empresa__func}{Empresa\+\_\+func}}
+\item 
+struct \mbox{\hyperlink{struct_funcionario__val}{Funcionario\+\_\+val}}
+\item 
+struct \mbox{\hyperlink{struct_info__funcionario__mes}{Info\+\_\+funcionario\+\_\+mes}}
+\item 
+struct \mbox{\hyperlink{struct_empresa__mes}{Empresa\+\_\+mes}}
+\item 
+struct \mbox{\hyperlink{struct_m_e_s}{MES}}
+\item 
+struct \mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_ac776425d759087a84c436116dd5b41c6}\label{_proc___salario_8h_ac776425d759087a84c436116dd5b41c6}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+VALOR\+\_\+\+BONUS\+\_\+\+PS}~\char`\"{}Insira a porcentagem de bónus \+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_ab0ce0f39b205676990c673d111e533f5}\label{_proc___salario_8h_ab0ce0f39b205676990c673d111e533f5}} 
+\#define {\bfseries MSG\+\_\+\+REMOV\+\_\+\+PS}~\char`\"{}Linha removida com sucesso.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_af64eed38008bc97df2d96909aa97379b}\label{_proc___salario_8h_af64eed38008bc97df2d96909aa97379b}} 
+\#define {\bfseries MSG\+\_\+\+TAB\+\_\+\+GUARDAR\+\_\+\+PS}~\char`\"{}Tabela guardada com sucesso.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_ac42288d7fdd67e79c4952cf4fd8c287a}\label{_proc___salario_8h_ac42288d7fdd67e79c4952cf4fd8c287a}} 
+\#define {\bfseries MSG\+\_\+\+CARR\+\_\+\+PS}~\char`\"{}Tabela de salário bónus carregada com sucesso.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a9e06b2e3d9d92a5292d3bb1077824b45}\label{_proc___salario_8h_a9e06b2e3d9d92a5292d3bb1077824b45}} 
+\#define {\bfseries MSG\+\_\+\+CRIADO\+\_\+\+PS}~\char`\"{}Linha adicionada à tabela de processamento de salário bónus.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a993d32b1a71283dc3edbfae35ede7c5c}\label{_proc___salario_8h_a993d32b1a71283dc3edbfae35ede7c5c}} 
+\#define {\bfseries MSG\+\_\+\+TABS\+\_\+\+BONUS\+\_\+\+ADD}~\char`\"{}Selecionada a opção de adicionar critérios para o processamento de bónus.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a111b677f1195d93b45be4051710e424e}\label{_proc___salario_8h_a111b677f1195d93b45be4051710e424e}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+SN\+\_\+\+DEP}~\char`\"{}Deseja que o criterio seja aplicado a idade do funcionario(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a165b1e52b54f31023dd38ecf32d35dc9}\label{_proc___salario_8h_a165b1e52b54f31023dd38ecf32d35dc9}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+SN\+\_\+\+ANOSSERVICO}~\char`\"{}Deseja que o criterio seja aplicado acima um nº de anos de serviço(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a9c777ff37166be7a2cf7f32c805df5ff}\label{_proc___salario_8h_a9c777ff37166be7a2cf7f32c805df5ff}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+SN\+\_\+\+BONUS}~\char`\"{}Deseja fazer o calculo do mês com a tabela do bonus(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a092cc5fe49b81c0fff6bd047786ce52d}\label{_proc___salario_8h_a092cc5fe49b81c0fff6bd047786ce52d}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+VALOR\+\_\+\+DEP}~\char`\"{}Insira acima de que idade a que se aplica o criterio\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_ad1ad5ccce3302c6b8a01d6a7316bba50}\label{_proc___salario_8h_ad1ad5ccce3302c6b8a01d6a7316bba50}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+VALOR\+\_\+\+ANOSSERVICO}~\char`\"{}Insira o número de anos de serviço\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_af79fab900515af7a44e5ce957a3c7973}\label{_proc___salario_8h_af79fab900515af7a44e5ce957a3c7973}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+VALOR\+\_\+\+DIASFALTAS}~\char`\"{}Insira o número de dias de faltas\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_afa560243ed87bf0b2b4a8a3901c60c96}\label{_proc___salario_8h_afa560243ed87bf0b2b4a8a3901c60c96}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+VALOR\+\_\+\+ESTADOCIVIL}~\char`\"{}Insira o estado civil(1-\/Solteiro $\vert$ 2-\/ Casado $\vert$ 3-\/ Viúvo )\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a4217814dcd6e38761ff7b1381f12133b}\label{_proc___salario_8h_a4217814dcd6e38761ff7b1381f12133b}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+SN\+\_\+\+DIASFALTAS}~\char`\"{}Deseja que o criterio seja aplicado abaixo um nº de dias de faltas(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_aeb92954ca2fce3798385b1111e71d85c}\label{_proc___salario_8h_aeb92954ca2fce3798385b1111e71d85c}} 
+\#define {\bfseries MSG\+\_\+\+EDIT\+\_\+\+ESTADOCIVIL}~\char`\"{}Deseja editar o estado civil que se aplica o critério(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a958f4d01f3ccf258ca40a4a169463bdf}\label{_proc___salario_8h_a958f4d01f3ccf258ca40a4a169463bdf}} 
+\#define {\bfseries MSG\+\_\+\+EDIT\+\_\+\+ANOSSERVICO}~\char`\"{}Deseja editar a quantidade de anos de serviço à empresa que se aplica o critério(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a2307de2d47f987d9c2cbc3f163a61449}\label{_proc___salario_8h_a2307de2d47f987d9c2cbc3f163a61449}} 
+\#define {\bfseries MSG\+\_\+\+REMOV\+\_\+\+TAB\+\_\+\+PS}~\char`\"{}Linha removida com sucesso.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a9c3d6259830c29c1ecab9f607efd8533}\label{_proc___salario_8h_a9c3d6259830c29c1ecab9f607efd8533}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+NLINHA\+\_\+\+PS}~\char`\"{}Insira o número da \mbox{\hyperlink{structlinha}{linha}} que deseja remover\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_aec65c7788423f894c1e257ad073e5e04}\label{_proc___salario_8h_aec65c7788423f894c1e257ad073e5e04}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+NLINHA\+\_\+\+EDIT\+\_\+\+PS}~\char`\"{}Insira o número da \mbox{\hyperlink{structlinha}{linha}} que deseja editar\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a83fdafaf0df5d22e8ae33d5ffc3bbf11}\label{_proc___salario_8h_a83fdafaf0df5d22e8ae33d5ffc3bbf11}} 
+\#define {\bfseries MSG\+\_\+\+EDIT\+\_\+\+DEP\+\_\+\+TAB\+\_\+\+PS}~\char`\"{}Deseja editar o número de dependentes(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a7a240ed5e5f2ee9478f89dcabcc7f991}\label{_proc___salario_8h_a7a240ed5e5f2ee9478f89dcabcc7f991}} 
+\#define {\bfseries MSG\+\_\+\+LINHA\+\_\+\+ADICIONADA\+\_\+\+PS}~\char`\"{}A \mbox{\hyperlink{structlinha}{linha}} foi adicionada\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a39d065f64eba6edcc7f16a395ed56c86}\label{_proc___salario_8h_a39d065f64eba6edcc7f16a395ed56c86}} 
+\#define {\bfseries MSG\+\_\+\+LISTAR}~\char`\"{}Deseja listar os valores calculados relativamente a?\textbackslash{}n\+Escolha uma das opções\+:\textbackslash{}n1.\+Ano\textbackslash{}n2.\+Mês\textbackslash{}n3.\+Funcionario/ano\textbackslash{}n0.\+Voltar ao menu anterior\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_aad32fa8d7416b6e3b930e9cd192214aa}\label{_proc___salario_8h_aad32fa8d7416b6e3b930e9cd192214aa}} 
+\#define {\bfseries MSG\+\_\+\+OBTER\+\_\+\+DATA}~\char`\"{}Insira o ano e o mês do ficheiro que deseja calcular\+:\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a17a54fabcf7d0e869b8fc07fd84100c1}\label{_proc___salario_8h_a17a54fabcf7d0e869b8fc07fd84100c1}} 
+\#define {\bfseries MSG\+\_\+\+OBTER\+\_\+\+DATA\+\_\+\+LISTAR}~\char`\"{}Insira o ano e o mês que deseja listar\+:\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_ae02f494e2c18c9873d01f8baac52bf80}\label{_proc___salario_8h_ae02f494e2c18c9873d01f8baac52bf80}} 
+\#define {\bfseries MSG\+\_\+\+OBTER\+\_\+\+MES}~\char`\"{}Mês\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a83993c4cc4f5cddc86c0ae7421a0c17b}\label{_proc___salario_8h_a83993c4cc4f5cddc86c0ae7421a0c17b}} 
+\#define {\bfseries MSG\+\_\+\+OBTER\+\_\+\+ONLY\+\_\+\+ANO}~\char`\"{}Insira o ano que deseja listar\+:\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_ae26c5d0280b2afcbf0953aa915cafa54}\label{_proc___salario_8h_ae26c5d0280b2afcbf0953aa915cafa54}} 
+\#define {\bfseries MSG\+\_\+\+GUARDAR\+\_\+\+MES}~\char`\"{}Insira o mês e o ano que deseja guardar em ficheiro!\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_ae213ee318a9541049499ea91dcf32107}\label{_proc___salario_8h_ae213ee318a9541049499ea91dcf32107}} 
+\#define {\bfseries MSG\+\_\+\+ANO\+\_\+\+DESPES}~\char`\"{}Insira o ano que deseja guardar em ficheiro as depesas\+:\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_ac47afe97f3094cac9e4808fdce45ff28}\label{_proc___salario_8h_ac47afe97f3094cac9e4808fdce45ff28}} 
+\#define {\bfseries MSG\+\_\+\+OBTER\+\_\+\+ANO}~\char`\"{}Ano\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_ab2c9c399823a28161f9f28576946c273}\label{_proc___salario_8h_ab2c9c399823a28161f9f28576946c273}} 
+\#define {\bfseries MSG\+\_\+\+MES\+\_\+\+EXISTE}~\char`\"{}O mês ja existe na memoria,deseja apaga-\/lo(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a45709fc1fcc99921633ed70b48d3c139}\label{_proc___salario_8h_a45709fc1fcc99921633ed70b48d3c139}} 
+\#define {\bfseries MSG\+\_\+\+SN\+\_\+\+APG\+\_\+\+FILE}~\char`\"{}Deseja apagar a informação no ficheiro(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a69e3027872f35d6d6026b0e36d1108ed}\label{_proc___salario_8h_a69e3027872f35d6d6026b0e36d1108ed}} 
+\#define {\bfseries MSG\+\_\+\+LER\+\_\+\+FILE\+\_\+\+PROC}~\char`\"{}Insira o destino do Ficheiro dos dias trabalhados do funcionario onde deseja carregar(Completo/Parcial)\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a58d377682ab41b5f137442e45980f983}\label{_proc___salario_8h_a58d377682ab41b5f137442e45980f983}} 
+\#define {\bfseries MSG\+\_\+\+FUNC\+\_\+\+MES\+\_\+\+FILE}~\char`\"{}Insira o destinho do ficheiro .csv\+:\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a39e8c4de54dff531bd9cb67987f1bcde}\label{_proc___salario_8h_a39e8c4de54dff531bd9cb67987f1bcde}} 
+\#define {\bfseries MSG\+\_\+\+INFO\+\_\+\+FUNC}~\char`\"{}\%d Funcionarios carregado com informação ao mes de trabalho de \%d/\%d\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a23a2fb4cdfe3eee81c219c9673ccdf5d}\label{_proc___salario_8h_a23a2fb4cdfe3eee81c219c9673ccdf5d}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+COD\+\_\+\+LIST}~\char`\"{}Insira o codigo do funcionario que deseja listar\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a6fd91c3e7e032c1539834bbc1e3bc4e6}\label{_proc___salario_8h_a6fd91c3e7e032c1539834bbc1e3bc4e6}} 
+\#define {\bfseries MSG\+\_\+\+N\+\_\+\+CARR\+\_\+\+PS}~\char`\"{}Erro ao carregar tabela de salário bónus.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a4d1781d3fd547dfe9ab881215413e0cb}\label{_proc___salario_8h_a4d1781d3fd547dfe9ab881215413e0cb}} 
+\#define {\bfseries VAL\+\_\+\+INV\+\_\+\+PS}~\char`\"{}Valor inserido inválido ou fora de limites.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a381435bbefe09c144a8f4aa411ae4a4c}\label{_proc___salario_8h_a381435bbefe09c144a8f4aa411ae4a4c}} 
+\#define {\bfseries INV\+\_\+\+DATA\+\_\+\+MES}~\char`\"{}Mês invalido.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_aca9d91729aa863c106dcac8693dfb82d}\label{_proc___salario_8h_aca9d91729aa863c106dcac8693dfb82d}} 
+\#define {\bfseries INV\+\_\+\+DATA\+\_\+\+ANO}~\char`\"{}Ano invalido.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_ad4039e64c0924e3c02da2d11419842d0}\label{_proc___salario_8h_ad4039e64c0924e3c02da2d11419842d0}} 
+\#define {\bfseries ERR\+\_\+\+VAZIA\+\_\+\+GUARDAR\+\_\+\+PS}~\char`\"{}Sem tabelas para Guardar em ficheiro.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_ac15952d624e6de335a8494d3367871e7}\label{_proc___salario_8h_ac15952d624e6de335a8494d3367871e7}} 
+\#define {\bfseries ERR\+\_\+\+FILE\+\_\+\+N\+\_\+\+EXISTE\+\_\+\+BONUS}~\char`\"{}Erro ao carregar tabela de salário bónus(não existe).\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a07b2a1c1aece4f600bd8f8027c27d47f}\label{_proc___salario_8h_a07b2a1c1aece4f600bd8f8027c27d47f}} 
+\#define {\bfseries ERR\+\_\+\+VAZIA\+\_\+\+LISTA\+\_\+\+PS}~\char`\"{}Tabela vazia. \textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a8968f2d17566dffd8a3e873eeb53aa32}\label{_proc___salario_8h_a8968f2d17566dffd8a3e873eeb53aa32}} 
+\#define {\bfseries ERR\+\_\+\+VAZIA\+\_\+\+LISTA\+\_\+\+BONUS}~\char`\"{}Tabela de bonus vazia. \textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a6ba1c374f3789126d8bdfd707cae3be4}\label{_proc___salario_8h_a6ba1c374f3789126d8bdfd707cae3be4}} 
+\#define {\bfseries ERR\+\_\+\+TAB\+\_\+\+SS}~\char`\"{}Em falta a tabela da Segurança Social!\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a02cbf90fa16ae1f34bf45d1131d5936b}\label{_proc___salario_8h_a02cbf90fa16ae1f34bf45d1131d5936b}} 
+\#define {\bfseries ERR\+\_\+\+FUNC}~\char`\"{}Em falta a informação dos funcionarios!\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_aa9a295df357ca2e9fb457421b84d7864}\label{_proc___salario_8h_aa9a295df357ca2e9fb457421b84d7864}} 
+\#define {\bfseries ERR\+\_\+\+FUNC\+\_\+\+N\+\_\+\+ATIV}~\char`\"{}Impossivel calcular o funcionario \%d pois ele não está ativo\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a398e3cc5cdb2b65bc30c0732c602e22d}\label{_proc___salario_8h_a398e3cc5cdb2b65bc30c0732c602e22d}} 
+\#define {\bfseries ERR\+\_\+\+CRIT\+\_\+\+EXIST}~\char`\"{}Já existe uma \mbox{\hyperlink{structlinha}{linha}} com estes criterios!\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a7c11ee009948a8dc4e09b8f6588d01f8}\label{_proc___salario_8h_a7c11ee009948a8dc4e09b8f6588d01f8}} 
+\#define {\bfseries ERR\+\_\+\+FUNC\+\_\+\+N\+\_\+\+MEM}~\char`\"{}Impossivel calcular o funcionario \%d pois não tem informação sobre ele!\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a1c1860ddf47887862782697b91ca878c}\label{_proc___salario_8h_a1c1860ddf47887862782697b91ca878c}} 
+\#define {\bfseries ERR\+\_\+\+FILE\+\_\+\+N\+\_\+\+GRAV\+\_\+\+PS}~\char`\"{}Nao conseguiu gravar a informação no ficheiro \%s\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a4827b6a6c885c915bcfcbd43b9ab46d3}\label{_proc___salario_8h_a4827b6a6c885c915bcfcbd43b9ab46d3}} 
+\#define {\bfseries ERR\+\_\+\+N\+\_\+\+TAB\+\_\+\+SS}~\char`\"{}Em falta a tabela da segurança social!\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a1e4e1b7cdf4ab65ff6deffdf7d574d5b}\label{_proc___salario_8h_a1e4e1b7cdf4ab65ff6deffdf7d574d5b}} 
+\#define {\bfseries ERR\+\_\+\+N\+\_\+\+TAB\+\_\+\+IRS\+\_\+\+SOLT}~\char`\"{}Em falta a tabela de irs de solteiro!\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_ad7e81b8c2acfed17d370e99325f90507}\label{_proc___salario_8h_ad7e81b8c2acfed17d370e99325f90507}} 
+\#define {\bfseries ERR\+\_\+\+N\+\_\+\+TAB\+\_\+\+IRS\+\_\+\+CAS\+\_\+1}~\char`\"{}Em falta a tabela de irs de casado 1 titular!\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a9d36cedd79f4dd3d38393401e6b547b9}\label{_proc___salario_8h_a9d36cedd79f4dd3d38393401e6b547b9}} 
+\#define {\bfseries ERR\+\_\+\+N\+\_\+\+TAB\+\_\+\+IRS\+\_\+\+CAS\+\_\+2}~\char`\"{}Em falta a tabela de irs de casado 2 titulares!\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a76120d801bd185b34ef338304c7eb367}\label{_proc___salario_8h_a76120d801bd185b34ef338304c7eb367}} 
+\#define {\bfseries ERR\+\_\+\+N\+\_\+\+FUNCS}~\char`\"{}Em falta a tabela da segurança social!\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a4827b6a6c885c915bcfcbd43b9ab46d3}\label{_proc___salario_8h_a4827b6a6c885c915bcfcbd43b9ab46d3}} 
+\#define {\bfseries ERR\+\_\+\+N\+\_\+\+TAB\+\_\+\+SS}~\char`\"{}Em falta a tabela da segurança social!\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a82e69de36d15625cf52c79ac4c34da2c}\label{_proc___salario_8h_a82e69de36d15625cf52c79ac4c34da2c}} 
+\#define {\bfseries ERR\+\_\+\+LISTAR\+\_\+\+MES}~\char`\"{}Não existe informação na memoria sobre o mês \%d do ano \%d!\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_aec1205efc2f3d839310d442620113dd5}\label{_proc___salario_8h_aec1205efc2f3d839310d442620113dd5}} 
+\#define {\bfseries ERR\+\_\+\+MESES\+\_\+\+EXIST}~\char`\"{}Apenas existe \%d meses na memoria!\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a51b66d6304424ca78188aec057936127}\label{_proc___salario_8h_a51b66d6304424ca78188aec057936127}} 
+\#define {\bfseries ERR\+\_\+\+MESES\+\_\+\+FUNC\+\_\+\+EXIST}~\char`\"{}Apenas existe informação de \%d meses sobre o funcionario \%d no ano \%d na memoria!\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a5da431f59b7e69d63d3301dc5f1583fb}\label{_proc___salario_8h_a5da431f59b7e69d63d3301dc5f1583fb}} 
+\#define {\bfseries ERR\+\_\+\+ANO\+\_\+\+N\+\_\+\+EXISTE}~\char`\"{}Não existe informação na memoria sobre o ano \%d!\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a38c0493ca4f61ec46c6c4fb1188004e0}\label{_proc___salario_8h_a38c0493ca4f61ec46c6c4fb1188004e0}} 
+\#define {\bfseries ERR\+\_\+\+FUNC\+\_\+\+S\+\_\+\+SAL\+\_\+\+ANO}~\char`\"{}Não existe informação sobre o funcionario \%d no ano \%d\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_ab296f37af6c12c1bb7d269f0364eb5c5}\label{_proc___salario_8h_ab296f37af6c12c1bb7d269f0364eb5c5}} 
+\#define {\bfseries ERR\+\_\+\+MESES\+\_\+0}~\char`\"{}Nao existe meses para guardar em ficheiro!\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a12e2bdfe4a3b2d272e5b6376cc48a10f}\label{_proc___salario_8h_a12e2bdfe4a3b2d272e5b6376cc48a10f}} 
+\#define {\bfseries ERR\+\_\+\+FILE\+\_\+\+N\+\_\+\+CARR\+\_\+\+PS}~\char`\"{}Erro ao carregar a tabela das informações mensais dos funcionários do ficheiro \%s (Sem funcionarios).\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_ad51c482572a4aca4169ed94715b0257d}\label{_proc___salario_8h_ad51c482572a4aca4169ed94715b0257d}} 
+\#define {\bfseries ERR\+\_\+\+FILE\+\_\+\+N\+\_\+\+EXISTE\+\_\+\+PS}~\char`\"{}Ficheiro \%s não existe.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a4396962384db1fa02f4b00463d77ef8f}\label{_proc___salario_8h_a4396962384db1fa02f4b00463d77ef8f}} 
+\#define {\bfseries OPC\+\_\+\+INV\+\_\+\+PS}~\char`\"{}Número de opção fora de limite.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a19d34ae55fb2e29df830c11df2219da8}\label{_proc___salario_8h_a19d34ae55fb2e29df830c11df2219da8}} 
+\#define {\bfseries MAX\+\_\+\+FILE}~100
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_adbea26422f3d67b79428fea21089cfe3}\label{_proc___salario_8h_adbea26422f3d67b79428fea21089cfe3}} 
+\#define {\bfseries CHAR\+\_\+\+SAIR}~\textquotesingle{}S\textquotesingle{}
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a41f65761efdb17d3b4520c1273bc74c5}\label{_proc___salario_8h_a41f65761efdb17d3b4520c1273bc74c5}} 
+\#define {\bfseries MIN\+\_\+\+BONUS\+\_\+\+PS}~1
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a82a11e50b78c5cd14a9c440102474181}\label{_proc___salario_8h_a82a11e50b78c5cd14a9c440102474181}} 
+\#define {\bfseries MAX\+\_\+\+BONUS\+\_\+\+PS}~100
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a8713ea41ff2d75b74a4ea18f3f0aa541}\label{_proc___salario_8h_a8713ea41ff2d75b74a4ea18f3f0aa541}} 
+\#define {\bfseries MIN\+\_\+\+DEP\+\_\+\+PS}~18
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a4acf87eedfc9f019c941b0790b384de0}\label{_proc___salario_8h_a4acf87eedfc9f019c941b0790b384de0}} 
+\#define {\bfseries MAX\+\_\+\+DEP\+\_\+\+PS}~120
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a465b41f29355ca03e8502f030069d4ec}\label{_proc___salario_8h_a465b41f29355ca03e8502f030069d4ec}} 
+\#define {\bfseries MIN\+\_\+\+ANOSSERVICO\+\_\+\+PS}~1
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_ad75e38de2fdfb0a01bff0367ea194f9b}\label{_proc___salario_8h_ad75e38de2fdfb0a01bff0367ea194f9b}} 
+\#define {\bfseries MAX\+\_\+\+ANOSSERVICO\+\_\+\+PS}~60
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_af7e3aeace2c49c11439897c53d0ab16b}\label{_proc___salario_8h_af7e3aeace2c49c11439897c53d0ab16b}} 
+\#define {\bfseries MIN\+\_\+\+ESTADOCIVIL\+\_\+\+PS}~1
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_ae4be6b4673f8d53baaa4936f34736141}\label{_proc___salario_8h_ae4be6b4673f8d53baaa4936f34736141}} 
+\#define {\bfseries MAX\+\_\+\+ESTADOCIVIL\+\_\+\+PS}~3
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_afb3c5b829cb25ae538a0fb55751ad53e}\label{_proc___salario_8h_afb3c5b829cb25ae538a0fb55751ad53e}} 
+\#define {\bfseries MIN\+\_\+\+LINHA\+\_\+\+PS}~1
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_afd9fa18b1051109e0ddfddd2452b31d8}\label{_proc___salario_8h_afd9fa18b1051109e0ddfddd2452b31d8}} 
+\#define {\bfseries VAL\+\_\+\+MIN\+\_\+\+OPC\+\_\+\+PS}~0
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a5380113a6801cb941e9054ae146e5a37}\label{_proc___salario_8h_a5380113a6801cb941e9054ae146e5a37}} 
+\#define {\bfseries VAL\+\_\+\+MAX\+\_\+\+OPC\+\_\+\+PS}~9
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a4431a09d6313946b9079a48f5a59ccab}\label{_proc___salario_8h_a4431a09d6313946b9079a48f5a59ccab}} 
+\#define {\bfseries MIN\+\_\+\+DIAS\+\_\+\+FALTAS}~0
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_aa6fc2ccd84505a35822a7f01af06a435}\label{_proc___salario_8h_aa6fc2ccd84505a35822a7f01af06a435}} 
+\#define {\bfseries MAX\+\_\+\+DIAS\+\_\+\+FALTAS}~30
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a903beb174d1a42d7bd6a1c59133da446}\label{_proc___salario_8h_a903beb174d1a42d7bd6a1c59133da446}} 
+\#define {\bfseries MIN\+\_\+\+ANO\+\_\+\+PS}~1900
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a43334c5e1e1471da1b53151a9585dfea}\label{_proc___salario_8h_a43334c5e1e1471da1b53151a9585dfea}} 
+\#define {\bfseries MIN\+\_\+\+MES\+\_\+\+PS}~1
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_ab3c45da78696b4bb387b048167d7139f}\label{_proc___salario_8h_ab3c45da78696b4bb387b048167d7139f}} 
+\#define {\bfseries MAX\+\_\+\+MES\+\_\+\+PS}~12
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_a734bc1a843f8816f588a30c77a0b1931}\label{_proc___salario_8h_a734bc1a843f8816f588a30c77a0b1931}} 
+\#define {\bfseries MAX\+\_\+\+DIASTRABALHO}~30
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_affb24f5f3c05c9d54592293813a49610}\label{_proc___salario_8h_affb24f5f3c05c9d54592293813a49610}} 
+\#define {\bfseries HORAS\+\_\+\+DIACOMP}~8
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_ae771a5884c2fb9455009783711736e54}\label{_proc___salario_8h_ae771a5884c2fb9455009783711736e54}} 
+\#define {\bfseries HORAS\+\_\+\+MEIODIAS}~4
+\item 
+\mbox{\Hypertarget{_proc___salario_8h_ae2797a5e45ac0ff391750cbd81b08eb0}\label{_proc___salario_8h_ae2797a5e45ac0ff391750cbd81b08eb0}} 
+\#define {\bfseries PORC\+\_\+\+EXTRA\+\_\+\+FIMSEMANA}~1.\+50
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_proc___salario_8h_ab4eb4a22a8e8cfedef568d0b11faec0b}{listar\+\_\+func\+\_\+bonus}} (\mbox{\hyperlink{struct_funcs}{Funcs}} funcs, \mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} tab)
+\item 
+void \mbox{\hyperlink{_proc___salario_8h_a526711ecda9c30f65a5bf0aa2f1d3680}{pergs\+\_\+criterio}} (\mbox{\hyperlink{struct_linha__bonus}{Linha\+\_\+bonus}} $\ast$\mbox{\hyperlink{structlinha}{linha}})
+\item 
+void \mbox{\hyperlink{_proc___salario_8h_a3d1405453658c513ea5e61f6c7a85f06}{calcular\+\_\+depesas\+\_\+emp}} (\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} $\ast$mes\+\_\+total, int mes, int func)
+\item 
+int \mbox{\hyperlink{_proc___salario_8h_abeeed699e241d2a6685d90b5386fa17b}{ver\+\_\+char}} (char $\ast$file, char letra)
+\item 
+int \mbox{\hyperlink{_proc___salario_8h_a1275dc704b6ecf8f68222e9f75220cf9}{carregar\+\_\+tab\+\_\+\+Funcionario\+\_\+\+Mes}} (\mbox{\hyperlink{struct_m_e_s}{MES}} $\ast$Tabs, char $\ast$file)
+\item 
+int \mbox{\hyperlink{_proc___salario_8h_a283749c6bc49b6689e7a057736811b71}{ver\+\_\+ano\+\_\+meses}} (\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} meses\+\_\+total, int ano)
+\item 
+int \mbox{\hyperlink{_proc___salario_8h_acfe625fe6ddd71dd184806a418f533e1}{ver\+\_\+criterio\+\_\+bonus}} (\mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} tabela, int nlinha)
+\item 
+void \mbox{\hyperlink{_proc___salario_8h_a086c1c7ff2787ab5c37ea651d5cbb802}{Proc\+\_\+\+Salario\+\_\+edit\+\_\+\+Bonus}} (\mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} $\ast$tabs)
+\item 
+void \mbox{\hyperlink{_proc___salario_8h_afd57deb783ba98a8b0deeb54e49d48cc}{Proc\+\_\+\+Salario\+\_\+remove\+\_\+\+Bonus}} (\mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} $\ast$tabs)
+\item 
+void \mbox{\hyperlink{_proc___salario_8h_ae13881d1076befc34600f2c13039fc0b}{guardar\+\_\+\+Proc\+\_\+\+Salario\+\_\+\+Bonus}} (\mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} tabs, char $\ast$file)
+\item 
+int \mbox{\hyperlink{_proc___salario_8h_a1862235b8d80ed13cb411ecddfb115fb}{carregar\+\_\+\+Proc\+\_\+\+Salario\+\_\+\+Bonus}} (\mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} $\ast$tabs, char $\ast$file)
+\item 
+void \mbox{\hyperlink{_proc___salario_8h_a5683a143f9e2b774d0945dc1e10da5be}{Proc\+\_\+\+Salario\+\_\+\+Bonus\+\_\+add}} (\mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} $\ast$tabs)
+\item 
+void \mbox{\hyperlink{_proc___salario_8h_a3f72e5b970474f4a05768caa99f42dc5}{expandir\+\_\+\+Proc\+\_\+\+Salario\+\_\+\+Bonus}} (\mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} $\ast$tabs)
+\item 
+void \mbox{\hyperlink{_proc___salario_8h_a2b4572e0f0a702cf18ba5d6aca435415}{Proc\+\_\+\+Salario\+\_\+\+Bonus\+\_\+list}} (\mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} tabs)
+\item 
+void \mbox{\hyperlink{_proc___salario_8h_a5dad4b7d6eedb076bde61c905a648772}{expandir\+\_\+meses}} (\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} $\ast$mes\+\_\+total)
+\item 
+int \mbox{\hyperlink{_proc___salario_8h_a5d6212f45fb063d3a022794a2d312a6a}{ver\+\_\+mes}} (\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} meses\+\_\+total, int ano, int mes)
+\item 
+void \mbox{\hyperlink{_proc___salario_8h_a8f28e69a67c3a4ebe13559d3defbb79a}{calculo\+\_\+salario}} (\mbox{\hyperlink{struct_funcs}{Funcs}} $\ast$func\+\_\+info, \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} $\ast$tab\+\_\+irs, \mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} $\ast$tab\+\_\+ss, \mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} $\ast$tab\+\_\+\+Bonus, \mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} $\ast$mes\+\_\+total)
+\item 
+void \mbox{\hyperlink{_proc___salario_8h_a7428a6680b0fbe4c05e9bd920690f3f0}{calcular\+\_\+\+Salario\+\_\+\+Tabela\+\_\+\+IRS}} (\mbox{\hyperlink{struct_info__funcionario__mes}{Info\+\_\+funcionario\+\_\+mes}} $\ast$funcionario, \mbox{\hyperlink{struct_func}{Func}} func, \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} $\ast$tabela)
+\item 
+void \mbox{\hyperlink{_proc___salario_8h_a69cacc73b0f08b53d9487c676056dd0e}{calcular\+\_\+\+Salario\+\_\+\+Tabela\+\_\+\+Seg\+Soc}} (\mbox{\hyperlink{struct_info__funcionario__mes}{Info\+\_\+funcionario\+\_\+mes}} $\ast$funcionario, \mbox{\hyperlink{struct_func}{Func}} func, \mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} tabela)
+\item 
+void \mbox{\hyperlink{_proc___salario_8h_a0e4bb40b7935fbbd2ffb92ac2eea0de6}{calculo\+\_\+bruto}} (\mbox{\hyperlink{struct_func}{Func}} func\+\_\+info, \mbox{\hyperlink{struct_info__funcionario__mes}{Info\+\_\+funcionario\+\_\+mes}} $\ast$func)
+\item 
+void \mbox{\hyperlink{_proc___salario_8h_a3018ee74855f4ae4c8d24300869f8796}{calcular\+\_\+\+Salario\+\_\+\+Bonus}} (\mbox{\hyperlink{struct_info__funcionario__mes}{Info\+\_\+funcionario\+\_\+mes}} $\ast$funcionario, \mbox{\hyperlink{struct_func}{Func}} func, \mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} tabela)
+\item 
+void \mbox{\hyperlink{_proc___salario_8h_a8142c47d80bd18574938033e8645864f}{menu\+\_\+\+Listar\+\_\+ano\+\_\+mes}} (\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} mes\+\_\+total)
+\item 
+void \mbox{\hyperlink{_proc___salario_8h_ac5536f36a06606f0a152b32844c8c117}{carregar\+\_\+\+Salario\+\_\+\+Calculado}} (\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} $\ast$mestotal, char $\ast$file)
+\item 
+void \mbox{\hyperlink{_proc___salario_8h_a3d750ebf5c91510ee5cb03966b7771ce}{guardar\+\_\+\+Salario\+\_\+\+Calculado}} (\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} $\ast$mestotal, char $\ast$file)
+\item 
+void \mbox{\hyperlink{_proc___salario_8h_ad06b86c82655c8bfdb2bfd0da3b069f2}{Listar\+\_\+ano\+\_\+comp}} (\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} meses\+\_\+total)
+\item 
+void \mbox{\hyperlink{_proc___salario_8h_aa7686f3f187629c4814d596c174a3508}{Listar\+\_\+mes}} (\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} meses\+\_\+total)
+\item 
+void \mbox{\hyperlink{_proc___salario_8h_a5249fafd69e7fc7bd380431d540a5e99}{guardar\+\_\+ficheiro\+\_\+\+Despesas\+\_\+ano}} (\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} mestotal, char $\ast$file)
+\item 
+int \mbox{\hyperlink{_proc___salario_8h_ad303e57e71cdacfdf6f680f39f4364d7}{ver\+\_\+func\+\_\+ano}} (\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} mes, int ano, int cod)
+\item 
+int \mbox{\hyperlink{_proc___salario_8h_a143e6b8c6dba731a635ae086185b5756}{ver\+\_\+func\+\_\+ano\+\_\+mes}} (\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} mesestotal, int ano, int cod, int mes)
+\item 
+void \mbox{\hyperlink{_proc___salario_8h_a4202b3b9d3cce5f1aa091d39c1e0cc24}{Listar\+\_\+funcionario\+\_\+ano}} (\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} mestotal)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Este modulo contem todas as funções relativas ao processamento de salario. 
+
+Projeto de LP -\/ G51 \begin{DoxyAuthor}{Author}
+André Eiras nº 8200587 1-\/C LSIRC 
+
+José Francisco nº 8200472 1-\/C LEI 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_proc___salario_8h_a3d1405453658c513ea5e61f6c7a85f06}\label{_proc___salario_8h_a3d1405453658c513ea5e61f6c7a85f06}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!calcular\_depesas\_emp@{calcular\_depesas\_emp}}
+\index{calcular\_depesas\_emp@{calcular\_depesas\_emp}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{calcular\_depesas\_emp()}{calcular\_depesas\_emp()}}
+{\footnotesize\ttfamily void calcular\+\_\+depesas\+\_\+emp (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} $\ast$}]{mes\+\_\+total,  }\item[{int}]{mes,  }\item[{int}]{func }\end{DoxyParamCaption})}
+
+Calcula as despesas que a empresa obteve nesse mes para esse funcionario
+
+
+\begin{DoxyParams}{Parameters}
+{\em mes\+\_\+total} & Recebe como argumento um apontador de toda a informação dos meses \\
+\hline
+{\em mes} & Recebe como argumento um int referente ao mes do calculo \\
+\hline
+{\em func} & Recebe como argumento um int referente ao funcionario do calculo \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_proc___salario_8h_a3018ee74855f4ae4c8d24300869f8796}\label{_proc___salario_8h_a3018ee74855f4ae4c8d24300869f8796}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!calcular\_Salario\_Bonus@{calcular\_Salario\_Bonus}}
+\index{calcular\_Salario\_Bonus@{calcular\_Salario\_Bonus}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{calcular\_Salario\_Bonus()}{calcular\_Salario\_Bonus()}}
+{\footnotesize\ttfamily void calcular\+\_\+\+Salario\+\_\+\+Bonus (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_info__funcionario__mes}{Info\+\_\+funcionario\+\_\+mes}} $\ast$}]{funcionario,  }\item[{\mbox{\hyperlink{struct_func}{Func}}}]{func,  }\item[{\mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}}}]{tabela }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo o calculo do valor bonus a ser atribuido ao funcionario
+
+
+\begin{DoxyParams}{Parameters}
+{\em funcionario} & Recebe como arguemento um apontador da struct \mbox{\hyperlink{struct_info__funcionario__mes}{Info\+\_\+funcionario\+\_\+mes}} \\
+\hline
+{\em func} & Recebe uma variavel da struct \mbox{\hyperlink{struct_func}{Func}} \\
+\hline
+{\em tabela} & Recebe uma variavel da struct Tab\+\_\+\+Bomnus \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_proc___salario_8h_a7428a6680b0fbe4c05e9bd920690f3f0}\label{_proc___salario_8h_a7428a6680b0fbe4c05e9bd920690f3f0}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!calcular\_Salario\_Tabela\_IRS@{calcular\_Salario\_Tabela\_IRS}}
+\index{calcular\_Salario\_Tabela\_IRS@{calcular\_Salario\_Tabela\_IRS}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{calcular\_Salario\_Tabela\_IRS()}{calcular\_Salario\_Tabela\_IRS()}}
+{\footnotesize\ttfamily void calcular\+\_\+\+Salario\+\_\+\+Tabela\+\_\+\+IRS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_info__funcionario__mes}{Info\+\_\+funcionario\+\_\+mes}} $\ast$}]{funcionario,  }\item[{\mbox{\hyperlink{struct_func}{Func}}}]{func,  }\item[{\mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} $\ast$}]{tabela }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo o calculo das taxas de IRS a aplicar ao salario bruto de um funcionario
+
+
+\begin{DoxyParams}{Parameters}
+{\em funcionario} & Recebe como argumento um apontador da struct \mbox{\hyperlink{struct_info__funcionario__mes}{Info\+\_\+funcionario\+\_\+mes}} \\
+\hline
+{\em func} & Recebe como argumento uma variavel da struct \mbox{\hyperlink{struct_func}{Func}} \\
+\hline
+{\em tabela} & Recebe como argumento um apontador da struct \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_proc___salario_8h_a69cacc73b0f08b53d9487c676056dd0e}\label{_proc___salario_8h_a69cacc73b0f08b53d9487c676056dd0e}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!calcular\_Salario\_Tabela\_SegSoc@{calcular\_Salario\_Tabela\_SegSoc}}
+\index{calcular\_Salario\_Tabela\_SegSoc@{calcular\_Salario\_Tabela\_SegSoc}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{calcular\_Salario\_Tabela\_SegSoc()}{calcular\_Salario\_Tabela\_SegSoc()}}
+{\footnotesize\ttfamily void calcular\+\_\+\+Salario\+\_\+\+Tabela\+\_\+\+Seg\+Soc (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_info__funcionario__mes}{Info\+\_\+funcionario\+\_\+mes}} $\ast$}]{funcionario,  }\item[{\mbox{\hyperlink{struct_func}{Func}}}]{func,  }\item[{\mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}}}]{tabela }\end{DoxyParamCaption})}
+
+Esta função tem como proposito o calculo das taxas da Segurança Social a serem aplicadas ao salario bruto de um funcionario
+
+
+\begin{DoxyParams}{Parameters}
+{\em funcionario} & Recebe como argumento um apontador da struct \mbox{\hyperlink{struct_info__funcionario__mes}{Info\+\_\+funcionario\+\_\+mes}} \\
+\hline
+{\em func} & Recebe como argumento uma variavel da struct \mbox{\hyperlink{struct_func}{Func}} \\
+\hline
+{\em tabela} & Recebe como um argumento uma variavel da struct \mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_proc___salario_8h_a0e4bb40b7935fbbd2ffb92ac2eea0de6}\label{_proc___salario_8h_a0e4bb40b7935fbbd2ffb92ac2eea0de6}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!calculo\_bruto@{calculo\_bruto}}
+\index{calculo\_bruto@{calculo\_bruto}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{calculo\_bruto()}{calculo\_bruto()}}
+{\footnotesize\ttfamily void calculo\+\_\+bruto (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_func}{Func}}}]{func\+\_\+info,  }\item[{\mbox{\hyperlink{struct_info__funcionario__mes}{Info\+\_\+funcionario\+\_\+mes}} $\ast$}]{func }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo o calculo do salario bruto de um funcionario
+
+
+\begin{DoxyParams}{Parameters}
+{\em func\+\_\+info} & Recebe como argumento uma variavel da struct \mbox{\hyperlink{struct_func}{Func}} \\
+\hline
+{\em func} & Recebe um apontador da struct \mbox{\hyperlink{struct_info__funcionario__mes}{Info\+\_\+funcionario\+\_\+mes}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_proc___salario_8h_a8f28e69a67c3a4ebe13559d3defbb79a}\label{_proc___salario_8h_a8f28e69a67c3a4ebe13559d3defbb79a}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!calculo\_salario@{calculo\_salario}}
+\index{calculo\_salario@{calculo\_salario}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{calculo\_salario()}{calculo\_salario()}}
+{\footnotesize\ttfamily void calculo\+\_\+salario (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_funcs}{Funcs}} $\ast$}]{func\+\_\+info,  }\item[{\mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} $\ast$}]{tab\+\_\+irs,  }\item[{\mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} $\ast$}]{tab\+\_\+ss,  }\item[{\mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} $\ast$}]{tab\+\_\+\+Bonus,  }\item[{\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} $\ast$}]{mes\+\_\+total }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo o carregamento de varios valores de varios ficheiros para carregamento para memoria dinamica de varias structs seguida do calculo de salario com as taxas e valores anteriormente acedidos
+
+
+\begin{DoxyParams}{Parameters}
+{\em func\+\_\+info} & Recebe como argumento um apontador da struct \mbox{\hyperlink{struct_funcs}{Funcs}} \\
+\hline
+{\em tab\+\_\+irs} & Recebe como argumento um apontador da struct \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} \\
+\hline
+{\em tab\+\_\+ss} & Recebe como argumento um apontador da struct \mbox{\hyperlink{struct_tab___s_s}{Tab\+\_\+\+SS}} \\
+\hline
+{\em tab\+\_\+\+Bonus} & Recebe como argumento um apontador da struct \mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} \\
+\hline
+{\em mes\+\_\+total} & Recebe como argumento um apontador da struct \mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_proc___salario_8h_a1862235b8d80ed13cb411ecddfb115fb}\label{_proc___salario_8h_a1862235b8d80ed13cb411ecddfb115fb}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!carregar\_Proc\_Salario\_Bonus@{carregar\_Proc\_Salario\_Bonus}}
+\index{carregar\_Proc\_Salario\_Bonus@{carregar\_Proc\_Salario\_Bonus}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{carregar\_Proc\_Salario\_Bonus()}{carregar\_Proc\_Salario\_Bonus()}}
+{\footnotesize\ttfamily int carregar\+\_\+\+Proc\+\_\+\+Salario\+\_\+\+Bonus (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} $\ast$}]{tabs,  }\item[{char $\ast$}]{file }\end{DoxyParamCaption})}
+
+Esta função tem o proposito de carregar para memória dinamica os valores de um ficheiro .csv
+
+
+\begin{DoxyParams}{Parameters}
+{\em tabs} & Recebe como argumento um apontador da struct \mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} \\
+\hline
+{\em file} & Recebe como argumento um array de caracteres \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+dá return de um inteiro com significado de um boolean 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_proc___salario_8h_ac5536f36a06606f0a152b32844c8c117}\label{_proc___salario_8h_ac5536f36a06606f0a152b32844c8c117}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!carregar\_Salario\_Calculado@{carregar\_Salario\_Calculado}}
+\index{carregar\_Salario\_Calculado@{carregar\_Salario\_Calculado}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{carregar\_Salario\_Calculado()}{carregar\_Salario\_Calculado()}}
+{\footnotesize\ttfamily void carregar\+\_\+\+Salario\+\_\+\+Calculado (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} $\ast$}]{mestotal,  }\item[{char $\ast$}]{file }\end{DoxyParamCaption})}
+
+Esta função tem o proposito de carregar para memoria dinamica de o ficheiro file os salarios anteriormente calculados
+
+
+\begin{DoxyParams}{Parameters}
+{\em mestotal} & Recebe um argumento do tipo apontador da struct \mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} \\
+\hline
+{\em file} & Recebe como argumento um array de caracteres \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_proc___salario_8h_a1275dc704b6ecf8f68222e9f75220cf9}\label{_proc___salario_8h_a1275dc704b6ecf8f68222e9f75220cf9}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!carregar\_tab\_Funcionario\_Mes@{carregar\_tab\_Funcionario\_Mes}}
+\index{carregar\_tab\_Funcionario\_Mes@{carregar\_tab\_Funcionario\_Mes}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{carregar\_tab\_Funcionario\_Mes()}{carregar\_tab\_Funcionario\_Mes()}}
+{\footnotesize\ttfamily int carregar\+\_\+tab\+\_\+\+Funcionario\+\_\+\+Mes (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_m_e_s}{MES}} $\ast$}]{Tabs,  }\item[{char $\ast$}]{file }\end{DoxyParamCaption})}
+
+Esta função carrega do ficheiro file as informações do mês de trabalho de cada funcionario nele
+
+
+\begin{DoxyParams}{Parameters}
+{\em Tabs} & Recebe como argumento um apontador para a informação relativa de cada mês \\
+\hline
+{\em file} & Recebe como argumento um array de carateres \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+um int que diz a quantidade e funcinarios que foram carregados do ficheiro 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_proc___salario_8h_a5dad4b7d6eedb076bde61c905a648772}\label{_proc___salario_8h_a5dad4b7d6eedb076bde61c905a648772}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!expandir\_meses@{expandir\_meses}}
+\index{expandir\_meses@{expandir\_meses}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{expandir\_meses()}{expandir\_meses()}}
+{\footnotesize\ttfamily void expandir\+\_\+meses (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} $\ast$}]{mes\+\_\+total }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo alocar mais espaço na memória dinamica para as variáveis da struct \mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em mes\+\_\+total} & Recebe como argumento um apontador da struct \mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_proc___salario_8h_a3f72e5b970474f4a05768caa99f42dc5}\label{_proc___salario_8h_a3f72e5b970474f4a05768caa99f42dc5}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!expandir\_Proc\_Salario\_Bonus@{expandir\_Proc\_Salario\_Bonus}}
+\index{expandir\_Proc\_Salario\_Bonus@{expandir\_Proc\_Salario\_Bonus}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{expandir\_Proc\_Salario\_Bonus()}{expandir\_Proc\_Salario\_Bonus()}}
+{\footnotesize\ttfamily void expandir\+\_\+\+Proc\+\_\+\+Salario\+\_\+\+Bonus (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} $\ast$}]{tabs }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo alocar mais espaço na memória dinamica para as variáveis da struct \mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em tabs} & Recebe como argumento um apontador da struct \mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_proc___salario_8h_a5249fafd69e7fc7bd380431d540a5e99}\label{_proc___salario_8h_a5249fafd69e7fc7bd380431d540a5e99}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!guardar\_ficheiro\_Despesas\_ano@{guardar\_ficheiro\_Despesas\_ano}}
+\index{guardar\_ficheiro\_Despesas\_ano@{guardar\_ficheiro\_Despesas\_ano}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{guardar\_ficheiro\_Despesas\_ano()}{guardar\_ficheiro\_Despesas\_ano()}}
+{\footnotesize\ttfamily void guardar\+\_\+ficheiro\+\_\+\+Despesas\+\_\+ano (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}}}]{mestotal,  }\item[{char $\ast$}]{file }\end{DoxyParamCaption})}
+
+Guarda as despesas do ano da empresa no ficheiro
+
+
+\begin{DoxyParams}{Parameters}
+{\em mestotal} & Recebe como argumento a variavel mestotal com a informação toda de cada mes \\
+\hline
+{\em file} & Recebe como argumento um array de characteres referente ao ficheiro \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_proc___salario_8h_ae13881d1076befc34600f2c13039fc0b}\label{_proc___salario_8h_ae13881d1076befc34600f2c13039fc0b}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!guardar\_Proc\_Salario\_Bonus@{guardar\_Proc\_Salario\_Bonus}}
+\index{guardar\_Proc\_Salario\_Bonus@{guardar\_Proc\_Salario\_Bonus}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{guardar\_Proc\_Salario\_Bonus()}{guardar\_Proc\_Salario\_Bonus()}}
+{\footnotesize\ttfamily void guardar\+\_\+\+Proc\+\_\+\+Salario\+\_\+\+Bonus (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}}}]{tabs,  }\item[{char $\ast$}]{file }\end{DoxyParamCaption})}
+
+Esta função tem como proposito guardar os dados para um ficheiro .csv
+
+
+\begin{DoxyParams}{Parameters}
+{\em tabs} & Recebe como argumento uma variavel da struct \mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} \\
+\hline
+{\em file} & Recebe como argumento um array de caracteres \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_proc___salario_8h_a3d750ebf5c91510ee5cb03966b7771ce}\label{_proc___salario_8h_a3d750ebf5c91510ee5cb03966b7771ce}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!guardar\_Salario\_Calculado@{guardar\_Salario\_Calculado}}
+\index{guardar\_Salario\_Calculado@{guardar\_Salario\_Calculado}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{guardar\_Salario\_Calculado()}{guardar\_Salario\_Calculado()}}
+{\footnotesize\ttfamily void guardar\+\_\+\+Salario\+\_\+\+Calculado (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} $\ast$}]{mestotal,  }\item[{char $\ast$}]{file }\end{DoxyParamCaption})}
+
+Esta função tem o objetivo de carregar para um ficheiro .csv os salarios calculados relativo a um mês em memoria dinamica
+
+
+\begin{DoxyParams}{Parameters}
+{\em mestotal} & Recebe como argumento um apontador da struct \mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} \\
+\hline
+{\em file} & Recebe como argumento um array de caracteres \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_proc___salario_8h_ad06b86c82655c8bfdb2bfd0da3b069f2}\label{_proc___salario_8h_ad06b86c82655c8bfdb2bfd0da3b069f2}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!Listar\_ano\_comp@{Listar\_ano\_comp}}
+\index{Listar\_ano\_comp@{Listar\_ano\_comp}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{Listar\_ano\_comp()}{Listar\_ano\_comp()}}
+{\footnotesize\ttfamily void Listar\+\_\+ano\+\_\+comp (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}}}]{meses\+\_\+total }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo listar o valor de cada ano já calculado
+
+
+\begin{DoxyParams}{Parameters}
+{\em meses\+\_\+total} & Recebe como argumento uma variavel da struct \mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_proc___salario_8h_ab4eb4a22a8e8cfedef568d0b11faec0b}\label{_proc___salario_8h_ab4eb4a22a8e8cfedef568d0b11faec0b}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!listar\_func\_bonus@{listar\_func\_bonus}}
+\index{listar\_func\_bonus@{listar\_func\_bonus}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{listar\_func\_bonus()}{listar\_func\_bonus()}}
+{\footnotesize\ttfamily void listar\+\_\+func\+\_\+bonus (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_funcs}{Funcs}}}]{funcs,  }\item[{\mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}}}]{tab }\end{DoxyParamCaption})}
+
+Lista o maior bonus na memoria que cada funcionario na memoria pode ter direito
+
+
+\begin{DoxyParams}{Parameters}
+{\em funcs} & Recebe a variavel dos funcionarios \\
+\hline
+{\em tab} & Recebe a variavel da tabela bonus \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_proc___salario_8h_a4202b3b9d3cce5f1aa091d39c1e0cc24}\label{_proc___salario_8h_a4202b3b9d3cce5f1aa091d39c1e0cc24}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!Listar\_funcionario\_ano@{Listar\_funcionario\_ano}}
+\index{Listar\_funcionario\_ano@{Listar\_funcionario\_ano}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{Listar\_funcionario\_ano()}{Listar\_funcionario\_ano()}}
+{\footnotesize\ttfamily void Listar\+\_\+funcionario\+\_\+ano (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}}}]{mestotal }\end{DoxyParamCaption})}
+
+Lista todos os meses calculados de um funcionario num certo mes
+
+
+\begin{DoxyParams}{Parameters}
+{\em mestotal} & Recebe como argumento uma variavel a estrutura \mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_proc___salario_8h_aa7686f3f187629c4814d596c174a3508}\label{_proc___salario_8h_aa7686f3f187629c4814d596c174a3508}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!Listar\_mes@{Listar\_mes}}
+\index{Listar\_mes@{Listar\_mes}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{Listar\_mes()}{Listar\_mes()}}
+{\footnotesize\ttfamily void Listar\+\_\+mes (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}}}]{meses\+\_\+total }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo de listar os meses já calculados
+
+
+\begin{DoxyParams}{Parameters}
+{\em meses\+\_\+total} & Recebe como argumento uma variavel da struct \mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_proc___salario_8h_a8142c47d80bd18574938033e8645864f}\label{_proc___salario_8h_a8142c47d80bd18574938033e8645864f}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!menu\_Listar\_ano\_mes@{menu\_Listar\_ano\_mes}}
+\index{menu\_Listar\_ano\_mes@{menu\_Listar\_ano\_mes}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{menu\_Listar\_ano\_mes()}{menu\_Listar\_ano\_mes()}}
+{\footnotesize\ttfamily void menu\+\_\+\+Listar\+\_\+ano\+\_\+mes (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}}}]{mes\+\_\+total }\end{DoxyParamCaption})}
+
+Esta função é o menu de listar os dados dos meses calculados 
+\begin{DoxyParams}{Parameters}
+{\em mes\+\_\+total} & Recebe como argumento uma variavel da struct \mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_proc___salario_8h_a526711ecda9c30f65a5bf0aa2f1d3680}\label{_proc___salario_8h_a526711ecda9c30f65a5bf0aa2f1d3680}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!pergs\_criterio@{pergs\_criterio}}
+\index{pergs\_criterio@{pergs\_criterio}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{pergs\_criterio()}{pergs\_criterio()}}
+{\footnotesize\ttfamily void pergs\+\_\+criterio (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_linha__bonus}{Linha\+\_\+bonus}} $\ast$}]{linha }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo declarar os tipos de criterios na linha especifica apontada na struct Linha\+\_\+\+Bonus
+
+
+\begin{DoxyParams}{Parameters}
+{\em linha} & Recebe como argumento um apontador da struct Linha\+\_\+\+Bonus \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_proc___salario_8h_a5683a143f9e2b774d0945dc1e10da5be}\label{_proc___salario_8h_a5683a143f9e2b774d0945dc1e10da5be}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!Proc\_Salario\_Bonus\_add@{Proc\_Salario\_Bonus\_add}}
+\index{Proc\_Salario\_Bonus\_add@{Proc\_Salario\_Bonus\_add}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{Proc\_Salario\_Bonus\_add()}{Proc\_Salario\_Bonus\_add()}}
+{\footnotesize\ttfamily void Proc\+\_\+\+Salario\+\_\+\+Bonus\+\_\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} $\ast$}]{tabs }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo acrescentar valores na memoria dinamica da struct da tabela \mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em tabs} & Recebe como argumento um apontador da struct \mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_proc___salario_8h_a2b4572e0f0a702cf18ba5d6aca435415}\label{_proc___salario_8h_a2b4572e0f0a702cf18ba5d6aca435415}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!Proc\_Salario\_Bonus\_list@{Proc\_Salario\_Bonus\_list}}
+\index{Proc\_Salario\_Bonus\_list@{Proc\_Salario\_Bonus\_list}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{Proc\_Salario\_Bonus\_list()}{Proc\_Salario\_Bonus\_list()}}
+{\footnotesize\ttfamily void Proc\+\_\+\+Salario\+\_\+\+Bonus\+\_\+list (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}}}]{tabs }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo imprimir no ecra as tabelas \mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} 
+\begin{DoxyParams}{Parameters}
+{\em tabs} & Recebe como argumento uma variavel da struct \mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_proc___salario_8h_a086c1c7ff2787ab5c37ea651d5cbb802}\label{_proc___salario_8h_a086c1c7ff2787ab5c37ea651d5cbb802}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!Proc\_Salario\_edit\_Bonus@{Proc\_Salario\_edit\_Bonus}}
+\index{Proc\_Salario\_edit\_Bonus@{Proc\_Salario\_edit\_Bonus}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{Proc\_Salario\_edit\_Bonus()}{Proc\_Salario\_edit\_Bonus()}}
+{\footnotesize\ttfamily void Proc\+\_\+\+Salario\+\_\+edit\+\_\+\+Bonus (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} $\ast$}]{tabs }\end{DoxyParamCaption})}
+
+Esta função tem o objetivo de editar os valores de uma linha especifica da struct \mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em tabs} & Recebe como argumento um apontador da struct \mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_proc___salario_8h_afd57deb783ba98a8b0deeb54e49d48cc}\label{_proc___salario_8h_afd57deb783ba98a8b0deeb54e49d48cc}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!Proc\_Salario\_remove\_Bonus@{Proc\_Salario\_remove\_Bonus}}
+\index{Proc\_Salario\_remove\_Bonus@{Proc\_Salario\_remove\_Bonus}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{Proc\_Salario\_remove\_Bonus()}{Proc\_Salario\_remove\_Bonus()}}
+{\footnotesize\ttfamily void Proc\+\_\+\+Salario\+\_\+remove\+\_\+\+Bonus (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} $\ast$}]{tabs }\end{DoxyParamCaption})}
+
+Esta função tem como proposito remover uma linha especifica da memoria dinamica da struct \mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em tabs} & Recebe como argumento um apontador da stuct \mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_proc___salario_8h_a283749c6bc49b6689e7a057736811b71}\label{_proc___salario_8h_a283749c6bc49b6689e7a057736811b71}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!ver\_ano\_meses@{ver\_ano\_meses}}
+\index{ver\_ano\_meses@{ver\_ano\_meses}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{ver\_ano\_meses()}{ver\_ano\_meses()}}
+{\footnotesize\ttfamily int ver\+\_\+ano\+\_\+meses (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}}}]{meses\+\_\+total,  }\item[{int}]{ano }\end{DoxyParamCaption})}
+
+Esta função verifica o numero do ano e e compara com o valor do ficheiro e da return de um inteiro com valor boolean
+
+
+\begin{DoxyParams}{Parameters}
+{\em meses\+\_\+total} & Recebe como argumento uma variavel da struct \mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} \\
+\hline
+{\em ano} & Recebe como argumento um inteiro \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+de um inteiro com valor de boolean 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_proc___salario_8h_abeeed699e241d2a6685d90b5386fa17b}\label{_proc___salario_8h_abeeed699e241d2a6685d90b5386fa17b}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!ver\_char@{ver\_char}}
+\index{ver\_char@{ver\_char}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{ver\_char()}{ver\_char()}}
+{\footnotesize\ttfamily int ver\+\_\+char (\begin{DoxyParamCaption}\item[{char $\ast$}]{file,  }\item[{char}]{letra }\end{DoxyParamCaption})}
+
+Esta função verifica o tipo de caracter e compara com o valor do ficheiro e da return de um inteiro com valor boolean
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & Recebe como argumento um array de caracteres \\
+\hline
+{\em letra} & Recebe como argumento um char \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+de um inteiro com valor de boolean 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_proc___salario_8h_acfe625fe6ddd71dd184806a418f533e1}\label{_proc___salario_8h_acfe625fe6ddd71dd184806a418f533e1}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!ver\_criterio\_bonus@{ver\_criterio\_bonus}}
+\index{ver\_criterio\_bonus@{ver\_criterio\_bonus}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{ver\_criterio\_bonus()}{ver\_criterio\_bonus()}}
+{\footnotesize\ttfamily int ver\+\_\+criterio\+\_\+bonus (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}}}]{tabela,  }\item[{int}]{nlinha }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo verificar se algum critério é igual aos valores já implementados da struct \mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em tabela} & Recebe como argumento uma variavel da struct \mbox{\hyperlink{struct_tab___bonus}{Tab\+\_\+\+Bonus}} \\
+\hline
+{\em nlinha} & um valor inteiro \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+de um valor inteiro 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_proc___salario_8h_ad303e57e71cdacfdf6f680f39f4364d7}\label{_proc___salario_8h_ad303e57e71cdacfdf6f680f39f4364d7}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!ver\_func\_ano@{ver\_func\_ano}}
+\index{ver\_func\_ano@{ver\_func\_ano}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{ver\_func\_ano()}{ver\_func\_ano()}}
+{\footnotesize\ttfamily int ver\+\_\+func\+\_\+ano (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}}}]{mes,  }\item[{int}]{ano,  }\item[{int}]{cod }\end{DoxyParamCaption})}
+
+Procura o cod funcionario num ano espefico de todos meses calculados e retorna a quantidade de meses calculados que ele aparece nesse mes
+
+
+\begin{DoxyParams}{Parameters}
+{\em mes} & Recebe como argumento uma variavel a estrutura \mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} \\
+\hline
+{\em ano} & Recebe como argumento um inteiro relativo ao ano \\
+\hline
+{\em cod} & Recebe como argumento um inteiro relativo ao codigo do funcionario \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna um int que se referem a quantidade de meses 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_proc___salario_8h_a143e6b8c6dba731a635ae086185b5756}\label{_proc___salario_8h_a143e6b8c6dba731a635ae086185b5756}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!ver\_func\_ano\_mes@{ver\_func\_ano\_mes}}
+\index{ver\_func\_ano\_mes@{ver\_func\_ano\_mes}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{ver\_func\_ano\_mes()}{ver\_func\_ano\_mes()}}
+{\footnotesize\ttfamily int ver\+\_\+func\+\_\+ano\+\_\+mes (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}}}]{mesestotal,  }\item[{int}]{ano,  }\item[{int}]{cod,  }\item[{int}]{mes }\end{DoxyParamCaption})}
+
+Procura o cod funcionario num ano e mes especifico de todos meses calculados e retorna o indice do funcionario
+
+
+\begin{DoxyParams}{Parameters}
+{\em mes} & Recebe como argumento uma variavel a estrutura \mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} \\
+\hline
+{\em ano} & Recebe como argumento um inteiro relativo ao ano \\
+\hline
+{\em cod} & Recebe como argumento um inteiro relativo ao codigo do funcionario \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna um int que se refere ao indice do funcionario no mes e no ano especifico 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_proc___salario_8h_a5d6212f45fb063d3a022794a2d312a6a}\label{_proc___salario_8h_a5d6212f45fb063d3a022794a2d312a6a}} 
+\index{Proc\_Salario.h@{Proc\_Salario.h}!ver\_mes@{ver\_mes}}
+\index{ver\_mes@{ver\_mes}!Proc\_Salario.h@{Proc\_Salario.h}}
+\doxysubsubsection{\texorpdfstring{ver\_mes()}{ver\_mes()}}
+{\footnotesize\ttfamily int ver\+\_\+mes (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}}}]{meses\+\_\+total,  }\item[{int}]{ano,  }\item[{int}]{mes }\end{DoxyParamCaption})}
+
+Esta função verifica o numero do mes e e compara com o valor do ficheiro e da return de um inteiro com valor boolean
+
+
+\begin{DoxyParams}{Parameters}
+{\em meses\+\_\+total} & Recebe como argumento uma variavel da struct \mbox{\hyperlink{struct_m_e_s_e_s___t_o_t_a_l}{MESES\+\_\+\+TOTAL}} \\
+\hline
+{\em ano} & Recebe um valor inteiro \\
+\hline
+{\em mes} & Recebe um valor inteiro \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+de um inteiro com valor de boolean 
+\end{DoxyReturn}

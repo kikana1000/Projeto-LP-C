@@ -1,0 +1,548 @@
+\hypertarget{funcionarios_8h}{}\doxysection{Projeto\+LP\+\_\+\+G51/funcionarios.h File Reference}
+\label{funcionarios_8h}\index{ProjetoLP\_G51/funcionarios.h@{ProjetoLP\_G51/funcionarios.h}}
+
+
+Este modulo contem todas as funções relativas aos funcionarios.  
+
+
+\doxysubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_data}{Data}}
+\item 
+struct \mbox{\hyperlink{struct_func}{Func}}
+\item 
+struct \mbox{\hyperlink{struct_funcs}{Funcs}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_ad3336dd0d4fdd5a182bd0fd8dc18a987}\label{funcionarios_8h_ad3336dd0d4fdd5a182bd0fd8dc18a987}} 
+\#define {\bfseries MSG\+\_\+\+CALC\+\_\+\+AUTO\+\_\+\+NASC}~\char`\"{}Deseja inserir a data atual na data de entrada(S/N)?\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a71109bbe24a519a9227ee3a00c66e8b0}\label{funcionarios_8h_a71109bbe24a519a9227ee3a00c66e8b0}} 
+\#define {\bfseries MSG\+\_\+\+CALC\+\_\+\+AUTO\+\_\+\+SAIDA}~\char`\"{}Deseja inserir a data atual na data de Saida(S/N)?\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_affc08377c1275b4a31a607117a82d9ef}\label{funcionarios_8h_affc08377c1275b4a31a607117a82d9ef}} 
+\#define {\bfseries MSG\+\_\+\+FUNC\+\_\+\+ADD}~\char`\"{}Opção de adicionar Funcionario escolhida.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a19bbe334eae1581c79a5010e980d76cc}\label{funcionarios_8h_a19bbe334eae1581c79a5010e980d76cc}} 
+\#define {\bfseries MSG\+\_\+\+FUNC\+\_\+\+EDIT}~\char`\"{}Opção de editar Funcionario escolhida.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a9a5afaff30bfd5224b2657503d133363}\label{funcionarios_8h_a9a5afaff30bfd5224b2657503d133363}} 
+\#define {\bfseries MSG\+\_\+\+FUNC\+\_\+\+REMOVE}~\char`\"{}Opção de remover Funcionario escolhida.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_aef41a6e2b8e0cf38c555f03644bfdc59}\label{funcionarios_8h_aef41a6e2b8e0cf38c555f03644bfdc59}} 
+\#define {\bfseries MSG\+\_\+\+CRIADO}~\char`\"{}Funcionario foi criado.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_ac4ceb0e42b3d4fcf90b69165924673a2}\label{funcionarios_8h_ac4ceb0e42b3d4fcf90b69165924673a2}} 
+\#define {\bfseries MSG\+\_\+\+REMOV}~\char`\"{}Funcionario foi removido.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a0b8e3a82b8b00164bf94419368afa6e1}\label{funcionarios_8h_a0b8e3a82b8b00164bf94419368afa6e1}} 
+\#define {\bfseries MSG\+\_\+\+EDIT}~\char`\"{}Funcionario foi editado.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a9df39e3eba7bc2233e1a1797dede6101}\label{funcionarios_8h_a9df39e3eba7bc2233e1a1797dede6101}} 
+\#define {\bfseries MSG\+\_\+\+LIST}~\char`\"{}Funcionarios foram todos listados.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a10698e9a09903008113ba37ff89bf14e}\label{funcionarios_8h_a10698e9a09903008113ba37ff89bf14e}} 
+\#define {\bfseries MSG\+\_\+\+FUNC\+\_\+\+CARR}~\char`\"{}Funcionarios Carregados do Ficheiro \%s.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a6bee5f357b6810d911ab244e350a7f27}\label{funcionarios_8h_a6bee5f357b6810d911ab244e350a7f27}} 
+\#define {\bfseries MSG\+\_\+\+FUNC\+\_\+\+GRAV}~\char`\"{}Funcionarios guardado no Ficheiro \%s.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_ab10e80af5170ff9ee3d3620ede2c0501}\label{funcionarios_8h_ab10e80af5170ff9ee3d3620ede2c0501}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+NOME}~\char`\"{}Insira o Nome do funcionario\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a24fb77db85e0e4b30f9c8125921cbf55}\label{funcionarios_8h_a24fb77db85e0e4b30f9c8125921cbf55}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+COD}~\char`\"{}Insira o codigo do funcionario(MAX 4 NUM)\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_aad9f628afabff9696a94509616ebcb3f}\label{funcionarios_8h_aad9f628afabff9696a94509616ebcb3f}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+REM\+\_\+\+COD}~\char`\"{}Insira o codigo do funcionario que deseja remover(MAX 4 NUM)\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_ab59c6629f6824c4c1a43f68fd0739ef7}\label{funcionarios_8h_ab59c6629f6824c4c1a43f68fd0739ef7}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+EDIT\+\_\+\+COD}~\char`\"{}Insira o codigo do funcionario que deseja editar(MAX 4 NUM)\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a3c1ae0c88f0d87b0392d83c04f45a07a}\label{funcionarios_8h_a3c1ae0c88f0d87b0392d83c04f45a07a}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+TEL}~\char`\"{}Insira o telemovel do funcionario(MAX 9 NUM)\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_af2c51d05f09a535fd5c679064a905fb3}\label{funcionarios_8h_af2c51d05f09a535fd5c679064a905fb3}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+DATA\+\_\+\+ENTR}~\char`\"{}Insira a data de entrada do Funcionario\+:\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a484a38152233e0fb1c9fcab134075105}\label{funcionarios_8h_a484a38152233e0fb1c9fcab134075105}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+DATA\+\_\+\+SAIDA}~\char`\"{}Insira a data de saida do Funcionario\+:\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_aef3e2ef0ac95cb40ae7fe8b3ee0a9ce2}\label{funcionarios_8h_aef3e2ef0ac95cb40ae7fe8b3ee0a9ce2}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+DATA\+\_\+\+NASC}~\char`\"{}Insira a data de nascimento do Funcionario\+:\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a41e2d51c76a7ee73c90a522f6872245d}\label{funcionarios_8h_a41e2d51c76a7ee73c90a522f6872245d}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+DATA\+\_\+\+DIA}~\char`\"{}-\/$>$Dia(1-\/31)\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a98d637cd76690f235ad1566e5acb4d3c}\label{funcionarios_8h_a98d637cd76690f235ad1566e5acb4d3c}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+DATA\+\_\+\+MES}~\char`\"{}-\/$>$Mes(1-\/12)\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a20273ed2d482d7fa97abc90d4bbeff9b}\label{funcionarios_8h_a20273ed2d482d7fa97abc90d4bbeff9b}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+DATA\+\_\+\+ANO}~\char`\"{}-\/$>$Ano\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a8647293f448b877b9547bb47059c7b5d}\label{funcionarios_8h_a8647293f448b877b9547bb47059c7b5d}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+DEP}~\char`\"{}Insira o numero de dependentes do funcionario\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a7f192d65407ba500d4e37234c0a9e006}\label{funcionarios_8h_a7f192d65407ba500d4e37234c0a9e006}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+CARGO}~\char`\"{}Insira o cargo do funcionario na sua funcao(1-\/Chefe/2-\/Administrador/3-\/Funcionario)\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_aa14f731f244013175d2a10a0f3f7141b}\label{funcionarios_8h_aa14f731f244013175d2a10a0f3f7141b}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+FUNCAO}~\char`\"{}Insira a funcao do funcionario\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a09213816729efe91382e38737864fce5}\label{funcionarios_8h_a09213816729efe91382e38737864fce5}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+ESTCIVIL}~\char`\"{}Insira o estado civil do funcionario(1-\/Solteiro/2-\/Casado/3-\/Viuvo)\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a89ea1852cb3530fa48505e27ae47b8d4}\label{funcionarios_8h_a89ea1852cb3530fa48505e27ae47b8d4}} 
+\#define {\bfseries MSG\+\_\+\+FUNC\+\_\+\+LIST}~\char`\"{}Opção de listar Funcionarios escolhida.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a31ee6c5dd6fb9521f659b5e590e24911}\label{funcionarios_8h_a31ee6c5dd6fb9521f659b5e590e24911}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+VALOR\+\_\+\+HORA}~\char`\"{}Insira o valor que o funcionario irá receber a hora\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a9bf0565c08733d7ff8cfe3b7ab012de8}\label{funcionarios_8h_a9bf0565c08733d7ff8cfe3b7ab012de8}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+VALOR\+\_\+\+SUB}~\char`\"{}Insira o valor que o funcionario irá receber de subsidio\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a98ccfb066871cc3e9c3c1a7f1ab6367d}\label{funcionarios_8h_a98ccfb066871cc3e9c3c1a7f1ab6367d}} 
+\#define {\bfseries MSG\+\_\+\+EDIT\+\_\+\+COD}~\char`\"{}Deseja editar o codigo do funcionario(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a6a393ce2b15c29df11a6ce3f206a6152}\label{funcionarios_8h_a6a393ce2b15c29df11a6ce3f206a6152}} 
+\#define {\bfseries MSG\+\_\+\+EDIT\+\_\+\+NOME}~\char`\"{}Deseja editar o Nome do funcionario(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_aa0beb15c69ae6ad6cf0be36f5eb08eaf}\label{funcionarios_8h_aa0beb15c69ae6ad6cf0be36f5eb08eaf}} 
+\#define {\bfseries MSG\+\_\+\+EDIT\+\_\+\+DATA\+\_\+\+NASC}~\char`\"{}Deseja editar a data de nascimento do funcionario(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a374b18786cd84cef0c32bd9b52cdc8e3}\label{funcionarios_8h_a374b18786cd84cef0c32bd9b52cdc8e3}} 
+\#define {\bfseries MSG\+\_\+\+EDIT\+\_\+\+DATA\+\_\+\+ENTR}~\char`\"{}Deseja editar a data de entrada do funcionario(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_af3d1404e778775e6b9996c3a80d9ba27}\label{funcionarios_8h_af3d1404e778775e6b9996c3a80d9ba27}} 
+\#define {\bfseries MSG\+\_\+\+EDIT\+\_\+\+TEL}~\char`\"{}Deseja editar o numero de telemovel do funcionario(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a12303a06b6876014743fccb1feeaf9d1}\label{funcionarios_8h_a12303a06b6876014743fccb1feeaf9d1}} 
+\#define {\bfseries MSG\+\_\+\+EDIT\+\_\+\+DEP}~\char`\"{}Deseja editar o numero de dependentes do funcionario(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a98f7fb72eb4ccbe7aa81cce933e34cb3}\label{funcionarios_8h_a98f7fb72eb4ccbe7aa81cce933e34cb3}} 
+\#define {\bfseries MSG\+\_\+\+EDIT\+\_\+\+VAL\+\_\+\+HORA}~\char`\"{}Deseja editar quanto o funcionario recebe por hora(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_af87a7e634c036fd71fda1be220f4cc10}\label{funcionarios_8h_af87a7e634c036fd71fda1be220f4cc10}} 
+\#define {\bfseries MSG\+\_\+\+EDIT\+\_\+\+VAL\+\_\+\+SUB}~\char`\"{}Deseja editar quanto o funcionario recebe do subsidio de alimentação(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a28329f2efab63ccf3ca4246da8850c6a}\label{funcionarios_8h_a28329f2efab63ccf3ca4246da8850c6a}} 
+\#define {\bfseries MSG\+\_\+\+EDIT\+\_\+\+CARGO}~\char`\"{}Deseja editar o cargo na sua função do funcionario(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_ae99316b2d3dd2cfc4407cb3116ebf4fb}\label{funcionarios_8h_ae99316b2d3dd2cfc4407cb3116ebf4fb}} 
+\#define {\bfseries MSG\+\_\+\+EDIT\+\_\+\+FUNCAO}~\char`\"{}Deseja editar a funcao do funcionario(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_afb9e53ef61a1cf0606d6fe1601f1100c}\label{funcionarios_8h_afb9e53ef61a1cf0606d6fe1601f1100c}} 
+\#define {\bfseries MSG\+\_\+\+EDIT\+\_\+\+ESTCIV}~\char`\"{}Deseja editar o estado civil do funcionario(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_afcbd42840d39d8291d39f2b40d37ac5d}\label{funcionarios_8h_afcbd42840d39d8291d39f2b40d37ac5d}} 
+\#define {\bfseries MSG\+\_\+\+EDIT\+\_\+\+ATIVO}~\char`\"{}O funcionario ainda está ativo(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a39b2c3221977d59e4173f91104e1b95f}\label{funcionarios_8h_a39b2c3221977d59e4173f91104e1b95f}} 
+\#define {\bfseries PERG\+\_\+\+ESTCIV\+\_\+\+TITULAR}~\char`\"{}Apenas este funcionario trabalha no casamento(S/N)? \char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a02d5c2a99f9d12eaa4e86bf4bc0960ef}\label{funcionarios_8h_a02d5c2a99f9d12eaa4e86bf4bc0960ef}} 
+\#define {\bfseries MSG\+\_\+\+EDIT\+\_\+\+ATIVO\+\_\+\+DATA}~\char`\"{}Insira a data de saida do funcionario\+:\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_ad9fda1b6003107c8ae0bb7cc536d3274}\label{funcionarios_8h_ad9fda1b6003107c8ae0bb7cc536d3274}} 
+\#define {\bfseries MSG\+\_\+\+FUNC\+\_\+\+N\+\_\+\+CARR}~\char`\"{}Ficheiro \%s sem funcionarios.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_ac33393b46b6ba8cf12fc323d3f7465f8}\label{funcionarios_8h_ac33393b46b6ba8cf12fc323d3f7465f8}} 
+\#define {\bfseries MSG\+\_\+\+PERG\+\_\+\+FUNC\+\_\+\+GUARDAR}~\char`\"{}Deseja Guardar os funcionarios em ficheiro(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_ab99e75ba1ee33ece4743521cc82f433a}\label{funcionarios_8h_ab99e75ba1ee33ece4743521cc82f433a}} 
+\#define {\bfseries ERR\+\_\+\+FILE\+\_\+\+FUNC}~\char`\"{}Tipo de ficheiro invalido(.csv/.txt/.bin)!\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a33a796574d3239cd71d4768bdf37381c}\label{funcionarios_8h_a33a796574d3239cd71d4768bdf37381c}} 
+\#define {\bfseries ERR\+\_\+\+CALC\+\_\+\+IDADE}~\char`\"{}A data de nascimento do funcionario \%d está incorreta\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_aeebd25c4eca40ba5b69ea34e8466e7fa}\label{funcionarios_8h_aeebd25c4eca40ba5b69ea34e8466e7fa}} 
+\#define {\bfseries ERR\+\_\+\+CALC\+\_\+\+ANOS\+\_\+\+SERVIÇO}~\char`\"{}A data de nascimento do funcionario \%d está incorreta\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_aecbf8d76e7620ed0b1a2fdb38b4560fb}\label{funcionarios_8h_aecbf8d76e7620ed0b1a2fdb38b4560fb}} 
+\#define {\bfseries ERR\+\_\+\+VAZIA\+\_\+\+LIST}~\char`\"{}Sem funcionarios para listar.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a102f1bdad7761f49906a0ca673818c0c}\label{funcionarios_8h_a102f1bdad7761f49906a0ca673818c0c}} 
+\#define {\bfseries ERR\+\_\+\+VAZIA\+\_\+\+GUARDAR}~\char`\"{}Sem funcionarios para guardar no ficheiro \%s.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_ab7316acc1c2da6d617a82e1c85ef3890}\label{funcionarios_8h_ab7316acc1c2da6d617a82e1c85ef3890}} 
+\#define {\bfseries ERR\+\_\+\+EXISTE}~\char`\"{}Funcionario já existe.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a7e2defd4f3ca78217dc1ccd8f673e9da}\label{funcionarios_8h_a7e2defd4f3ca78217dc1ccd8f673e9da}} 
+\#define {\bfseries ERR\+\_\+\+N\+\_\+\+EXISTE}~\char`\"{}Funcionario não existe.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a03d7c627b123e99eff152a1394772f4f}\label{funcionarios_8h_a03d7c627b123e99eff152a1394772f4f}} 
+\#define {\bfseries ERR\+\_\+\+FILE\+\_\+\+FUNC\+\_\+\+N\+\_\+\+EXISTE}~\char`\"{}O ficheiro \%s nao existe\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_af6d23d1348d021dea18af1747b7a7766}\label{funcionarios_8h_af6d23d1348d021dea18af1747b7a7766}} 
+\#define {\bfseries ERR\+\_\+\+REMOV}~\char`\"{}Funcionario ja foi removido.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a97c7fb49048e7f1836616707c45587a9}\label{funcionarios_8h_a97c7fb49048e7f1836616707c45587a9}} 
+\#define {\bfseries ERR\+\_\+\+DATA\+\_\+\+ENTR}~\char`\"{}Idade Insuficiente\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a0ae37140b84ef61307c2faa423de4653}\label{funcionarios_8h_a0ae37140b84ef61307c2faa423de4653}} 
+\#define {\bfseries ERR\+\_\+\+DATA\+\_\+\+SAIDA}~\char`\"{}A data de entrada tem de ser menor que a data de saida\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a9081d8ed99ed168ee88e9f55ae8fb21b}\label{funcionarios_8h_a9081d8ed99ed168ee88e9f55ae8fb21b}} 
+\#define {\bfseries VAL\+\_\+\+INV}~\char`\"{}Informação inserida invalida!\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{funcionarios_8h_ac1321b1ab018a8ec5cc9477940ad222b}\label{funcionarios_8h_ac1321b1ab018a8ec5cc9477940ad222b}} 
+\#define {\bfseries MAX\+\_\+\+CARG}~3
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a7f0a90f8674e73200e212ef13c540972}\label{funcionarios_8h_a7f0a90f8674e73200e212ef13c540972}} 
+\#define {\bfseries MIN\+\_\+\+CARG}~1
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a5fddcdd4a7e51cfc06f856a5d420333b}\label{funcionarios_8h_a5fddcdd4a7e51cfc06f856a5d420333b}} 
+\#define {\bfseries MAX\+\_\+\+ESTCIV}~3
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a9c65fb0f72e1acf5f430bcc3052b5d4d}\label{funcionarios_8h_a9c65fb0f72e1acf5f430bcc3052b5d4d}} 
+\#define {\bfseries MIN\+\_\+\+ESTCIV}~1
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a84dddea9cc219c8832c17c7caae4415a}\label{funcionarios_8h_a84dddea9cc219c8832c17c7caae4415a}} 
+\#define {\bfseries MIN\+\_\+\+DEP}~0
+\item 
+\mbox{\Hypertarget{funcionarios_8h_ad4a4378a588f1f2dea18cf8828dc919e}\label{funcionarios_8h_ad4a4378a588f1f2dea18cf8828dc919e}} 
+\#define {\bfseries MAX\+\_\+\+DEP}~20
+\item 
+\mbox{\Hypertarget{funcionarios_8h_ab3cd48cf7938247491e7bc4f382d2942}\label{funcionarios_8h_ab3cd48cf7938247491e7bc4f382d2942}} 
+\#define {\bfseries MAX\+\_\+\+COD}~9999
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a4bb166f2c0c8ac7f14cb7c607d9bddd4}\label{funcionarios_8h_a4bb166f2c0c8ac7f14cb7c607d9bddd4}} 
+\#define {\bfseries MIN\+\_\+\+COD}~0
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a79d0e0302b277bfa3a259b8115dd6b66}\label{funcionarios_8h_a79d0e0302b277bfa3a259b8115dd6b66}} 
+\#define {\bfseries MIN\+\_\+\+TEL}~900000000
+\item 
+\mbox{\Hypertarget{funcionarios_8h_ae146d8cf1e1e5d8861e00c561ddaaae5}\label{funcionarios_8h_ae146d8cf1e1e5d8861e00c561ddaaae5}} 
+\#define {\bfseries MAX\+\_\+\+TEL}~999999999
+\item 
+\mbox{\Hypertarget{funcionarios_8h_ab5187269936538ffb8ccbbe7115ffdbc}\label{funcionarios_8h_ab5187269936538ffb8ccbbe7115ffdbc}} 
+\#define {\bfseries MAX\+\_\+\+STRING}~100
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a715ec15d20019b7a9fd5cb4c4cf8d89b}\label{funcionarios_8h_a715ec15d20019b7a9fd5cb4c4cf8d89b}} 
+\#define {\bfseries MIN\+\_\+\+ANO}~1900
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a94473d1d56ec7d179e0706516677e6c8}\label{funcionarios_8h_a94473d1d56ec7d179e0706516677e6c8}} 
+\#define {\bfseries MAX\+\_\+\+ANO}~2021
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a809db1131200a1c50356b1bc36610fd0}\label{funcionarios_8h_a809db1131200a1c50356b1bc36610fd0}} 
+\#define {\bfseries MIN\+\_\+\+MES}~1
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a483736b729190c49a52050522daab25a}\label{funcionarios_8h_a483736b729190c49a52050522daab25a}} 
+\#define {\bfseries MAX\+\_\+\+MES}~12
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a8d1f443e76253e41d028088667d01705}\label{funcionarios_8h_a8d1f443e76253e41d028088667d01705}} 
+\#define {\bfseries MIN\+\_\+\+DIA}~0
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a63bf2ce2f2b7130c0f5c7c04fd5dd8f9}\label{funcionarios_8h_a63bf2ce2f2b7130c0f5c7c04fd5dd8f9}} 
+\#define {\bfseries MAX\+\_\+\+DIA}~31
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a96b5217a0cc47821a45300e5821da783}\label{funcionarios_8h_a96b5217a0cc47821a45300e5821da783}} 
+\#define {\bfseries MAX\+\_\+\+VAL}~99999
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a0b7d3509aaa80be4c33c5d503be7aded}\label{funcionarios_8h_a0b7d3509aaa80be4c33c5d503be7aded}} 
+\#define {\bfseries MIN\+\_\+\+VAL}~0
+\item 
+\mbox{\Hypertarget{funcionarios_8h_a4b82bea44204f388e617b9e98b23ff56}\label{funcionarios_8h_a4b82bea44204f388e617b9e98b23ff56}} 
+\#define {\bfseries IDADE\+\_\+\+MINIMA}~15
+\end{DoxyCompactItemize}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef enum \mbox{\hyperlink{funcionarios_8h_af6a258d8f3ee5206d682d799316314b1}{bool}} \mbox{\hyperlink{funcionarios_8h_aa0cb7a899eb9ce6d95177ec0a5cb9d84}{Bool}}
+\item 
+typedef enum \mbox{\hyperlink{funcionarios_8h_aea88661e3d869903d8bba15815c0efd4}{estciv}} \mbox{\hyperlink{funcionarios_8h_afa0ea89363d62a775c61aa3449290949}{Est\+\_\+civil}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{funcionarios_8h_ad202395025143887571b4a5f857b1ac1}{Cargo}} \{ {\bfseries Chefe} = 1
+, {\bfseries Administrador} = 2
+, {\bfseries Funcionario} = 3
+ \}
+\item 
+enum \mbox{\hyperlink{funcionarios_8h_af6a258d8f3ee5206d682d799316314b1}{bool}} \{ {\bfseries Nao\+\_\+ativo}
+, {\bfseries Ativo}
+ \}
+\item 
+enum \mbox{\hyperlink{funcionarios_8h_aea88661e3d869903d8bba15815c0efd4}{estciv}} \{ {\bfseries Solteiro} = 1
+, {\bfseries Casado\+\_\+1} = 2
+, {\bfseries Viuvo} = 3
+, {\bfseries Casado\+\_\+2} = 4
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{funcionarios_8h_a4e6ba7d449d8837fe9039c85ef29cc0c}{calcular\+\_\+idades}} (\mbox{\hyperlink{struct_func}{Func}} $\ast$funcs)
+\item 
+void \mbox{\hyperlink{funcionarios_8h_a22352e9504b65a1d768fe2a84aa476f4}{expandir\+\_\+\+Funcs}} (\mbox{\hyperlink{struct_funcs}{Funcs}} $\ast$funcs)
+\item 
+void \mbox{\hyperlink{funcionarios_8h_af66162903c8a8d59ba29df855034d774}{func\+\_\+list}} (\mbox{\hyperlink{struct_funcs}{Funcs}} funcs)
+\item 
+void \mbox{\hyperlink{funcionarios_8h_afb44004f9cb3224230522236f1dabada}{func\+\_\+list\+\_\+ativo}} (\mbox{\hyperlink{struct_funcs}{Funcs}} funcs)
+\item 
+void \mbox{\hyperlink{funcionarios_8h_aecc27e381612f67d2b1a70bb1b8ffb1f}{func\+\_\+list\+\_\+n\+\_\+ativo}} (\mbox{\hyperlink{struct_funcs}{Funcs}} funcs)
+\item 
+void \mbox{\hyperlink{funcionarios_8h_ab5e956c80f7610cbd3b9b6182a9a1be4}{func\+\_\+edit}} (\mbox{\hyperlink{struct_funcs}{Funcs}} $\ast$funcs)
+\item 
+void \mbox{\hyperlink{funcionarios_8h_ad69766cca14a2b42a9d81b753d650f8a}{func\+\_\+add}} (\mbox{\hyperlink{struct_funcs}{Funcs}} $\ast$funcs)
+\item 
+void \mbox{\hyperlink{funcionarios_8h_a8f53bb87ab21f8ea386da0fd5cc6ffda}{func\+\_\+remove}} (\mbox{\hyperlink{struct_funcs}{Funcs}} $\ast$funcs)
+\item 
+int \mbox{\hyperlink{funcionarios_8h_a52c248ad47493acb5fe3e259617a780f}{func\+\_\+search}} (\mbox{\hyperlink{struct_funcs}{Funcs}} $\ast$funcs, int cod)
+\item 
+int \mbox{\hyperlink{funcionarios_8h_ad1d916deaed2a333e3e13193503a50cc}{ver\+\_\+tel}} (int num, char $\ast$err)
+\item 
+int \mbox{\hyperlink{funcionarios_8h_a0d9bf18c18d77fa9e3cf9b2ae667d31f}{ver\+\_\+data}} (\mbox{\hyperlink{struct_data}{Data}} data\+\_\+menor, \mbox{\hyperlink{struct_data}{Data}} data\+\_\+maior, int anos\+\_\+minimos, char $\ast$err)
+\item 
+int \mbox{\hyperlink{funcionarios_8h_a851b7ccee9336af2aabb2c6adf5ae837}{carregar\+\_\+\+Funcs}} (\mbox{\hyperlink{struct_funcs}{Funcs}} $\ast$funcs, char $\ast$file)
+\item 
+void \mbox{\hyperlink{funcionarios_8h_a8e3c09c6bdc6609599c845385ce5ac98}{guardar\+\_\+\+Funcs}} (\mbox{\hyperlink{struct_funcs}{Funcs}} $\ast$funcs, char $\ast$file)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Este modulo contem todas as funções relativas aos funcionarios. 
+
+Projeto de LP -\/ G51 \begin{DoxyAuthor}{Author}
+André Eiras nº 8200587 1-\/C LSIRC 
+
+José Francisco nº 8200472 1-\/C LEI 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{funcionarios_8h_aa0cb7a899eb9ce6d95177ec0a5cb9d84}\label{funcionarios_8h_aa0cb7a899eb9ce6d95177ec0a5cb9d84}} 
+\index{funcionarios.h@{funcionarios.h}!Bool@{Bool}}
+\index{Bool@{Bool}!funcionarios.h@{funcionarios.h}}
+\doxysubsubsection{\texorpdfstring{Bool}{Bool}}
+{\footnotesize\ttfamily typedef enum \mbox{\hyperlink{funcionarios_8h_af6a258d8f3ee5206d682d799316314b1}{bool}} \mbox{\hyperlink{funcionarios_8h_aa0cb7a899eb9ce6d95177ec0a5cb9d84}{Bool}}}
+
+Enumeração de bool \mbox{\Hypertarget{funcionarios_8h_afa0ea89363d62a775c61aa3449290949}\label{funcionarios_8h_afa0ea89363d62a775c61aa3449290949}} 
+\index{funcionarios.h@{funcionarios.h}!Est\_civil@{Est\_civil}}
+\index{Est\_civil@{Est\_civil}!funcionarios.h@{funcionarios.h}}
+\doxysubsubsection{\texorpdfstring{Est\_civil}{Est\_civil}}
+{\footnotesize\ttfamily typedef enum \mbox{\hyperlink{funcionarios_8h_aea88661e3d869903d8bba15815c0efd4}{estciv}} \mbox{\hyperlink{funcionarios_8h_afa0ea89363d62a775c61aa3449290949}{Est\+\_\+civil}}}
+
+Enumeração relativa ao estado civil do funcionario 
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{funcionarios_8h_af6a258d8f3ee5206d682d799316314b1}\label{funcionarios_8h_af6a258d8f3ee5206d682d799316314b1}} 
+\index{funcionarios.h@{funcionarios.h}!bool@{bool}}
+\index{bool@{bool}!funcionarios.h@{funcionarios.h}}
+\doxysubsubsection{\texorpdfstring{bool}{bool}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{funcionarios_8h_af6a258d8f3ee5206d682d799316314b1}{bool}}}
+
+Enumeração de bool \mbox{\Hypertarget{funcionarios_8h_ad202395025143887571b4a5f857b1ac1}\label{funcionarios_8h_ad202395025143887571b4a5f857b1ac1}} 
+\index{funcionarios.h@{funcionarios.h}!Cargo@{Cargo}}
+\index{Cargo@{Cargo}!funcionarios.h@{funcionarios.h}}
+\doxysubsubsection{\texorpdfstring{Cargo}{Cargo}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{funcionarios_8h_ad202395025143887571b4a5f857b1ac1}{Cargo}}}
+
+Enumeração relativa aos cargos gerais \mbox{\Hypertarget{funcionarios_8h_aea88661e3d869903d8bba15815c0efd4}\label{funcionarios_8h_aea88661e3d869903d8bba15815c0efd4}} 
+\index{funcionarios.h@{funcionarios.h}!estciv@{estciv}}
+\index{estciv@{estciv}!funcionarios.h@{funcionarios.h}}
+\doxysubsubsection{\texorpdfstring{estciv}{estciv}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{funcionarios_8h_aea88661e3d869903d8bba15815c0efd4}{estciv}}}
+
+Enumeração relativa ao estado civil do funcionario 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{funcionarios_8h_a4e6ba7d449d8837fe9039c85ef29cc0c}\label{funcionarios_8h_a4e6ba7d449d8837fe9039c85ef29cc0c}} 
+\index{funcionarios.h@{funcionarios.h}!calcular\_idades@{calcular\_idades}}
+\index{calcular\_idades@{calcular\_idades}!funcionarios.h@{funcionarios.h}}
+\doxysubsubsection{\texorpdfstring{calcular\_idades()}{calcular\_idades()}}
+{\footnotesize\ttfamily void calcular\+\_\+idades (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_func}{Func}} $\ast$}]{funcs }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo o calculo da idade do funcionario e dos anos de servico em anos/meses/dias
+
+
+\begin{DoxyParams}{Parameters}
+{\em func} & recebe como argumento um apontador da struct de \mbox{\hyperlink{struct_func}{Func}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{funcionarios_8h_a851b7ccee9336af2aabb2c6adf5ae837}\label{funcionarios_8h_a851b7ccee9336af2aabb2c6adf5ae837}} 
+\index{funcionarios.h@{funcionarios.h}!carregar\_Funcs@{carregar\_Funcs}}
+\index{carregar\_Funcs@{carregar\_Funcs}!funcionarios.h@{funcionarios.h}}
+\doxysubsubsection{\texorpdfstring{carregar\_Funcs()}{carregar\_Funcs()}}
+{\footnotesize\ttfamily int carregar\+\_\+\+Funcs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_funcs}{Funcs}} $\ast$}]{funcs,  }\item[{char $\ast$}]{file }\end{DoxyParamCaption})}
+
+Esta função tem como proposito carregar para a memoria dinamica as informações dos funcionarios de um ficheiro (.bin)
+
+
+\begin{DoxyParams}{Parameters}
+{\em funcs} & recebe como argumento um apontador da struct \mbox{\hyperlink{struct_funcs}{Funcs}} \\
+\hline
+{\em file} & recebe como argumento um array de caracteres \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+de um inteiro com valor de boolean 
+\end{DoxyReturn}
+\mbox{\Hypertarget{funcionarios_8h_a22352e9504b65a1d768fe2a84aa476f4}\label{funcionarios_8h_a22352e9504b65a1d768fe2a84aa476f4}} 
+\index{funcionarios.h@{funcionarios.h}!expandir\_Funcs@{expandir\_Funcs}}
+\index{expandir\_Funcs@{expandir\_Funcs}!funcionarios.h@{funcionarios.h}}
+\doxysubsubsection{\texorpdfstring{expandir\_Funcs()}{expandir\_Funcs()}}
+{\footnotesize\ttfamily void expandir\+\_\+\+Funcs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_funcs}{Funcs}} $\ast$}]{funcs }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo alocar mais memoria dinamica para as variaveis da struct \mbox{\hyperlink{struct_funcs}{Funcs}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em funcs} & recebe como argumento um apontador da struct \mbox{\hyperlink{struct_funcs}{Funcs}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{funcionarios_8h_ad69766cca14a2b42a9d81b753d650f8a}\label{funcionarios_8h_ad69766cca14a2b42a9d81b753d650f8a}} 
+\index{funcionarios.h@{funcionarios.h}!func\_add@{func\_add}}
+\index{func\_add@{func\_add}!funcionarios.h@{funcionarios.h}}
+\doxysubsubsection{\texorpdfstring{func\_add()}{func\_add()}}
+{\footnotesize\ttfamily void func\+\_\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_funcs}{Funcs}} $\ast$}]{funcs }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo Adicionar um funcionario na memoria dinamica
+
+
+\begin{DoxyParams}{Parameters}
+{\em funcs} & recebe como argumento um apontador da struct \mbox{\hyperlink{struct_funcs}{Funcs}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{funcionarios_8h_ab5e956c80f7610cbd3b9b6182a9a1be4}\label{funcionarios_8h_ab5e956c80f7610cbd3b9b6182a9a1be4}} 
+\index{funcionarios.h@{funcionarios.h}!func\_edit@{func\_edit}}
+\index{func\_edit@{func\_edit}!funcionarios.h@{funcionarios.h}}
+\doxysubsubsection{\texorpdfstring{func\_edit()}{func\_edit()}}
+{\footnotesize\ttfamily void func\+\_\+edit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_funcs}{Funcs}} $\ast$}]{funcs }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo a edição de um funcionario especifico alocado em memoria dinamica
+
+
+\begin{DoxyParams}{Parameters}
+{\em funcs} & recebe como argumento um apontador da struct \mbox{\hyperlink{struct_funcs}{Funcs}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{funcionarios_8h_af66162903c8a8d59ba29df855034d774}\label{funcionarios_8h_af66162903c8a8d59ba29df855034d774}} 
+\index{funcionarios.h@{funcionarios.h}!func\_list@{func\_list}}
+\index{func\_list@{func\_list}!funcionarios.h@{funcionarios.h}}
+\doxysubsubsection{\texorpdfstring{func\_list()}{func\_list()}}
+{\footnotesize\ttfamily void func\+\_\+list (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_funcs}{Funcs}}}]{funcs }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo listar no monitor os funcionarios existentes e todas as suas propriedades
+
+
+\begin{DoxyParams}{Parameters}
+{\em funcs} & recebe como argumento uma variavel da struct \mbox{\hyperlink{struct_funcs}{Funcs}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{funcionarios_8h_afb44004f9cb3224230522236f1dabada}\label{funcionarios_8h_afb44004f9cb3224230522236f1dabada}} 
+\index{funcionarios.h@{funcionarios.h}!func\_list\_ativo@{func\_list\_ativo}}
+\index{func\_list\_ativo@{func\_list\_ativo}!funcionarios.h@{funcionarios.h}}
+\doxysubsubsection{\texorpdfstring{func\_list\_ativo()}{func\_list\_ativo()}}
+{\footnotesize\ttfamily void func\+\_\+list\+\_\+ativo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_funcs}{Funcs}}}]{funcs }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo listar no ecra todos os funcionarios ativos existentes e as suas propriedades
+
+
+\begin{DoxyParams}{Parameters}
+{\em funcs} & recebe como argumento uma variavel da struct \mbox{\hyperlink{struct_funcs}{Funcs}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{funcionarios_8h_aecc27e381612f67d2b1a70bb1b8ffb1f}\label{funcionarios_8h_aecc27e381612f67d2b1a70bb1b8ffb1f}} 
+\index{funcionarios.h@{funcionarios.h}!func\_list\_n\_ativo@{func\_list\_n\_ativo}}
+\index{func\_list\_n\_ativo@{func\_list\_n\_ativo}!funcionarios.h@{funcionarios.h}}
+\doxysubsubsection{\texorpdfstring{func\_list\_n\_ativo()}{func\_list\_n\_ativo()}}
+{\footnotesize\ttfamily void func\+\_\+list\+\_\+n\+\_\+ativo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_funcs}{Funcs}}}]{funcs }\end{DoxyParamCaption})}
+
+Esta função tem como proposito listar no ecra todos os funcionarios não ativos no ecra e todas as suas propriedades
+
+
+\begin{DoxyParams}{Parameters}
+{\em funcs} & recebe como argumento uma variavel da struct \mbox{\hyperlink{struct_funcs}{Funcs}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{funcionarios_8h_a8f53bb87ab21f8ea386da0fd5cc6ffda}\label{funcionarios_8h_a8f53bb87ab21f8ea386da0fd5cc6ffda}} 
+\index{funcionarios.h@{funcionarios.h}!func\_remove@{func\_remove}}
+\index{func\_remove@{func\_remove}!funcionarios.h@{funcionarios.h}}
+\doxysubsubsection{\texorpdfstring{func\_remove()}{func\_remove()}}
+{\footnotesize\ttfamily void func\+\_\+remove (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_funcs}{Funcs}} $\ast$}]{funcs }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo eliminar um funcionario especifico da struct \mbox{\hyperlink{struct_funcs}{Funcs}} mudando certos valores de modo a este permanecer nos ficheiros mas como inativo
+
+
+\begin{DoxyParams}{Parameters}
+{\em funcs} & recebe como argumento um apontador da struct \mbox{\hyperlink{struct_funcs}{Funcs}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{funcionarios_8h_a52c248ad47493acb5fe3e259617a780f}\label{funcionarios_8h_a52c248ad47493acb5fe3e259617a780f}} 
+\index{funcionarios.h@{funcionarios.h}!func\_search@{func\_search}}
+\index{func\_search@{func\_search}!funcionarios.h@{funcionarios.h}}
+\doxysubsubsection{\texorpdfstring{func\_search()}{func\_search()}}
+{\footnotesize\ttfamily int func\+\_\+search (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_funcs}{Funcs}} $\ast$}]{funcs,  }\item[{int}]{cod }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo a pesquisa com o retorno do indice do funcionario requesitado
+
+
+\begin{DoxyParams}{Parameters}
+{\em funcs} & recebe como argumento um apontador da struct \mbox{\hyperlink{struct_funcs}{Funcs}} \\
+\hline
+{\em cod} & recebe como argumento um inteiro \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+de um inteiro do indice ou de um valor com significa boolean 
+\end{DoxyReturn}
+\mbox{\Hypertarget{funcionarios_8h_a8e3c09c6bdc6609599c845385ce5ac98}\label{funcionarios_8h_a8e3c09c6bdc6609599c845385ce5ac98}} 
+\index{funcionarios.h@{funcionarios.h}!guardar\_Funcs@{guardar\_Funcs}}
+\index{guardar\_Funcs@{guardar\_Funcs}!funcionarios.h@{funcionarios.h}}
+\doxysubsubsection{\texorpdfstring{guardar\_Funcs()}{guardar\_Funcs()}}
+{\footnotesize\ttfamily void guardar\+\_\+\+Funcs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_funcs}{Funcs}} $\ast$}]{funcs,  }\item[{char $\ast$}]{file }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo gravar as informações dos funcionarios alocados em memoria dinamica para um ficheiro (.bin)
+
+
+\begin{DoxyParams}{Parameters}
+{\em funcs} & recebe como argumento um apontador da struct \mbox{\hyperlink{struct_funcs}{Funcs}} \\
+\hline
+{\em file} & recebe como argumento um array de caracteres \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{funcionarios_8h_a0d9bf18c18d77fa9e3cf9b2ae667d31f}\label{funcionarios_8h_a0d9bf18c18d77fa9e3cf9b2ae667d31f}} 
+\index{funcionarios.h@{funcionarios.h}!ver\_data@{ver\_data}}
+\index{ver\_data@{ver\_data}!funcionarios.h@{funcionarios.h}}
+\doxysubsubsection{\texorpdfstring{ver\_data()}{ver\_data()}}
+{\footnotesize\ttfamily int ver\+\_\+data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_data}{Data}}}]{data\+\_\+menor,  }\item[{\mbox{\hyperlink{struct_data}{Data}}}]{data\+\_\+maior,  }\item[{int}]{anos\+\_\+minimos,  }\item[{char $\ast$}]{err }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo fazer uma verificação de data dando return de um inteiro
+
+
+\begin{DoxyParams}{Parameters}
+{\em data\+\_\+menor} & recebe como argumento uma variavel da struct \mbox{\hyperlink{struct_data}{Data}} \\
+\hline
+{\em data\+\_\+maior} & recebe como argumento uma variavel da struct \mbox{\hyperlink{struct_data}{Data}} \\
+\hline
+{\em anos\+\_\+minimos} & recebe como argumento um inteiro \\
+\hline
+{\em err} & recebe como argumento um array de caracteres \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+dá return de um inteiro com valor de boolean 
+\end{DoxyReturn}
+\mbox{\Hypertarget{funcionarios_8h_ad1d916deaed2a333e3e13193503a50cc}\label{funcionarios_8h_ad1d916deaed2a333e3e13193503a50cc}} 
+\index{funcionarios.h@{funcionarios.h}!ver\_tel@{ver\_tel}}
+\index{ver\_tel@{ver\_tel}!funcionarios.h@{funcionarios.h}}
+\doxysubsubsection{\texorpdfstring{ver\_tel()}{ver\_tel()}}
+{\footnotesize\ttfamily int ver\+\_\+tel (\begin{DoxyParamCaption}\item[{int}]{num,  }\item[{char $\ast$}]{err }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo verificar se os dados do nº. de telemovel estão dentro dos parametros definidos
+
+
+\begin{DoxyParams}{Parameters}
+{\em num} & recebe como argumento um inteiro \\
+\hline
+{\em err} & recebe como argumento um array de caracteres \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+de um inteiro com o valor de boolean 
+\end{DoxyReturn}

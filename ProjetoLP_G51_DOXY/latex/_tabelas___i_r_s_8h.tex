@@ -1,0 +1,362 @@
+\hypertarget{_tabelas___i_r_s_8h}{}\doxysection{Projeto\+LP\+\_\+\+G51/\+Tabelas\+\_\+\+IRS.h File Reference}
+\label{_tabelas___i_r_s_8h}\index{ProjetoLP\_G51/Tabelas\_IRS.h@{ProjetoLP\_G51/Tabelas\_IRS.h}}
+
+
+Este modulo contem todas as funções relativas as tabelas de IRS.  
+
+
+\doxysubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structlinha}{linha}}
+\item 
+struct \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_ae0ee6bbf0248aee4edc9df0c08c864ce}\label{_tabelas___i_r_s_8h_ae0ee6bbf0248aee4edc9df0c08c864ce}} 
+\#define {\bfseries FILE\+\_\+\+TAB\+\_\+0}~\char`\"{}info\textbackslash{}\textbackslash{}\+Tab\+\_\+solteiro.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_af8525f33b00c0d526ce1c03f63e44048}\label{_tabelas___i_r_s_8h_af8525f33b00c0d526ce1c03f63e44048}} 
+\#define {\bfseries FILE\+\_\+\+TAB\+\_\+1}~\char`\"{}info\textbackslash{}\textbackslash{}\+Tab\+\_\+casado.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a78daeb9fd39badb1cb6cd1ae6497f3d1}\label{_tabelas___i_r_s_8h_a78daeb9fd39badb1cb6cd1ae6497f3d1}} 
+\#define {\bfseries FILE\+\_\+\+TAB\+\_\+2}~\char`\"{}info\textbackslash{}\textbackslash{}\+Tab\+\_\+casado\+\_\+2.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_acf139d1cbab66288fbd22ffa51ccab22}\label{_tabelas___i_r_s_8h_acf139d1cbab66288fbd22ffa51ccab22}} 
+\#define {\bfseries MSG\+\_\+\+VAL\+\_\+\+IGUAL}~\char`\"{}\%.\+1f€ igualado a \%.\+1f€\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_ab9e52088f966ce06340efceb2b79422e}\label{_tabelas___i_r_s_8h_ab9e52088f966ce06340efceb2b79422e}} 
+\#define {\bfseries MSG\+\_\+\+PRINT\+\_\+\+TAB\+\_\+0}~\char`\"{}\textbackslash{}t-\/Tabela de IRS de Solteiro-\/\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_aab16413dc88bdb3dea508b8bdb58e08b}\label{_tabelas___i_r_s_8h_aab16413dc88bdb3dea508b8bdb58e08b}} 
+\#define {\bfseries MSG\+\_\+\+PRINT\+\_\+\+TAB\+\_\+1}~\char`\"{}\textbackslash{}t-\/Tabela de IRS de Casado 1 Titular-\/\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a91a5b7b16307f49e6c1e72c3be0516a6}\label{_tabelas___i_r_s_8h_a91a5b7b16307f49e6c1e72c3be0516a6}} 
+\#define {\bfseries MSG\+\_\+\+PRINT\+\_\+\+TAB\+\_\+2}~\char`\"{}\textbackslash{}t-\/Tabela de IRS de Casado 2 Titulares-\/\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a83e361c5f3a2f42a36906f8e994880ae}\label{_tabelas___i_r_s_8h_a83e361c5f3a2f42a36906f8e994880ae}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+NLINHA\+\_\+\+CRIAR}~\char`\"{}Insira o nº da \mbox{\hyperlink{structlinha}{linha}} que irá inserir uma nova \mbox{\hyperlink{structlinha}{linha}}(A \mbox{\hyperlink{structlinha}{linha}} inserida irá passar a \mbox{\hyperlink{structlinha}{linha}} inserida atual e as seguintes para as proximas linhas)\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a9d37133ed659b93f4143b1beaad28fdf}\label{_tabelas___i_r_s_8h_a9d37133ed659b93f4143b1beaad28fdf}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+NLINHA\+\_\+\+APG}~\char`\"{}Insira o nº da \mbox{\hyperlink{structlinha}{linha}} que deseja apagar\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a34412f7c58d09ce4025139b0199e4841}\label{_tabelas___i_r_s_8h_a34412f7c58d09ce4025139b0199e4841}} 
+\#define {\bfseries MSG\+\_\+\+TAB\+\_\+\+IRS\+\_\+\+LINHA\+\_\+\+CRIADA}~\char`\"{}A \mbox{\hyperlink{structlinha}{linha}} \%d foi criada.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a25ffb04c4fd9c94a9cd19e60a54beeaa}\label{_tabelas___i_r_s_8h_a25ffb04c4fd9c94a9cd19e60a54beeaa}} 
+\#define {\bfseries MSG\+\_\+\+TAB\+\_\+\+IRS\+\_\+\+LINHA\+\_\+\+ALT}~\char`\"{}A \mbox{\hyperlink{structlinha}{linha}} \%d foi alterada.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a4e87e283ead991f19adaa1198889f95f}\label{_tabelas___i_r_s_8h_a4e87e283ead991f19adaa1198889f95f}} 
+\#define {\bfseries MSG\+\_\+\+TAB\+\_\+\+IRS\+\_\+\+LINHA\+\_\+\+APG}~\char`\"{}A \mbox{\hyperlink{structlinha}{linha}} \%d foi apagada.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a96c02f65c4b3aaeb67794da38e8b4caf}\label{_tabelas___i_r_s_8h_a96c02f65c4b3aaeb67794da38e8b4caf}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+NLINHA\+\_\+\+ALT}~\char`\"{}Insira nº da \mbox{\hyperlink{structlinha}{linha}} que deseja alterar\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_aa68282b7102f0f149d994f627fb8233e}\label{_tabelas___i_r_s_8h_aa68282b7102f0f149d994f627fb8233e}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+PORC\+\_\+\+D0}~\char`\"{}Insira o valor da percentagem da taxa de 0 dependentes\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a9f25e17510aee2e7194b1faef4d85db2}\label{_tabelas___i_r_s_8h_a9f25e17510aee2e7194b1faef4d85db2}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+PORC\+\_\+\+D1}~\char`\"{}Insira o valor da percentagem da taxa de 1 dependentes\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_aaf45ef43824f273d35e072c8d55d827d}\label{_tabelas___i_r_s_8h_aaf45ef43824f273d35e072c8d55d827d}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+PORC\+\_\+\+D2}~\char`\"{}Insira o valor da percentagem da taxa de 2 dependentes\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a25c37cd0e92317573539d008e5dd820a}\label{_tabelas___i_r_s_8h_a25c37cd0e92317573539d008e5dd820a}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+PORC\+\_\+\+D3}~\char`\"{}Insira o valor da percentagem da taxa de 3 dependentes\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a9b23df0d44a5823bbf387ccfbb981d15}\label{_tabelas___i_r_s_8h_a9b23df0d44a5823bbf387ccfbb981d15}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+PORC\+\_\+\+D4}~\char`\"{}Insira o valor da percentagem da taxa de 4 dependentes\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a0923d51e84ea5b98352b85949ba879f4}\label{_tabelas___i_r_s_8h_a0923d51e84ea5b98352b85949ba879f4}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+PORC\+\_\+\+D5}~\char`\"{}Insira o valor da percentagem da taxa de 5+ dependentes\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_ae3b93c874528ba113be1cbc629856031}\label{_tabelas___i_r_s_8h_ae3b93c874528ba113be1cbc629856031}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+VAL\+\_\+\+ATE}~\char`\"{}Insira até que valor as taxas devem ser aplicadas\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_ad99593dc3fe49a5163c62056385885a1}\label{_tabelas___i_r_s_8h_ad99593dc3fe49a5163c62056385885a1}} 
+\#define {\bfseries MSG\+\_\+\+OBT\+\_\+\+VAL\+\_\+\+SUP}~\char`\"{}Insira apartir de que valor as taxas devem ser aplicadas\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a2fd7fc0f017fc40295e2c6f0ed26c1f2}\label{_tabelas___i_r_s_8h_a2fd7fc0f017fc40295e2c6f0ed26c1f2}} 
+\#define {\bfseries MSG\+\_\+\+PERG\+\_\+\+TABS\+\_\+\+IRS\+\_\+\+GUARDAR}~\char`\"{}Deseja Guardar as Tabelas em ficheiros(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a7b1556a916952187827281c8fda377d0}\label{_tabelas___i_r_s_8h_a7b1556a916952187827281c8fda377d0}} 
+\#define {\bfseries MSG\+\_\+\+INFO\+\_\+\+GRAV}~\char`\"{}Gravou a Tabela no ficheiro \%s\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a4ed6b2b21ec367c459dc6f41df4401c5}\label{_tabelas___i_r_s_8h_a4ed6b2b21ec367c459dc6f41df4401c5}} 
+\#define {\bfseries MSG\+\_\+\+LER\+\_\+\+FILE\+\_\+\+TAB\+\_\+\+IRS\+\_\+1}~\char`\"{}Insira o destino do Ficheiro da Tabela de IRS de Solteiro onde deseja carregar(Completo/Parcial)\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a131b56f3839c18349ca43fc1c9d356bd}\label{_tabelas___i_r_s_8h_a131b56f3839c18349ca43fc1c9d356bd}} 
+\#define {\bfseries MSG\+\_\+\+LER\+\_\+\+FILE\+\_\+\+TAB\+\_\+\+IRS\+\_\+3}~\char`\"{}Insira o destino do Ficheiro da Tabela de IRS de Casado 2 Titulares onde deseja carregar(Completo/Parcial)\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_ae7c3df8aba782f426f5f42576d09e193}\label{_tabelas___i_r_s_8h_ae7c3df8aba782f426f5f42576d09e193}} 
+\#define {\bfseries MSG\+\_\+\+LER\+\_\+\+FILE\+\_\+\+TAB\+\_\+\+IRS\+\_\+2}~\char`\"{}Insira o destino do Ficheiro da Tabela de IRS de Casado 1 Titular onde deseja carregar(Completo/Parcial)\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_aca0820e9f63391e69899c4accdbb4e31}\label{_tabelas___i_r_s_8h_aca0820e9f63391e69899c4accdbb4e31}} 
+\#define {\bfseries MSG\+\_\+\+GRAV\+\_\+\+FILE\+\_\+\+TAB\+\_\+\+IRS\+\_\+1}~\char`\"{}Insira o destino do Ficheiro da Tabela de IRS de Solteiro onde deseja guardar(Completo/Parcial)\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a5a8d9aad465ee8f23018b53d95aeb97a}\label{_tabelas___i_r_s_8h_a5a8d9aad465ee8f23018b53d95aeb97a}} 
+\#define {\bfseries MSG\+\_\+\+GRAV\+\_\+\+FILE\+\_\+\+TAB\+\_\+\+IRS\+\_\+3}~\char`\"{}Insira o destino do Ficheiro da Tabela de IRS de Casado 2 Titulares onde deseja guardar(Completo/Parcial)\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a12bf5da21b4f8ea419818372beac603f}\label{_tabelas___i_r_s_8h_a12bf5da21b4f8ea419818372beac603f}} 
+\#define {\bfseries MSG\+\_\+\+GRAV\+\_\+\+FILE\+\_\+\+TAB\+\_\+\+IRS\+\_\+2}~\char`\"{}Insira o destino do Ficheiro da Tabela de IRS de Casado 1 Titular onde deseja guardar(Completo/Parcial)\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a3dee5e7ff4b072db2b97d17dee92e6ae}\label{_tabelas___i_r_s_8h_a3dee5e7ff4b072db2b97d17dee92e6ae}} 
+\#define {\bfseries ERR\+\_\+\+FILE\+\_\+\+N\+\_\+\+EXISTE}~\char`\"{}O ficheiro \%s nao existe\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a480001ff4598a22da1c2f1ff81365723}\label{_tabelas___i_r_s_8h_a480001ff4598a22da1c2f1ff81365723}} 
+\#define {\bfseries ERR\+\_\+\+FILE\+\_\+\+N\+\_\+\+CARR}~\char`\"{}O ficheiro \%s nao contém tabela\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_ac1d80526f495bc19b8ab9671c5449eb8}\label{_tabelas___i_r_s_8h_ac1d80526f495bc19b8ab9671c5449eb8}} 
+\#define {\bfseries ERR\+\_\+\+FILE\+\_\+\+N\+\_\+\+GRAV}~\char`\"{}A tabela não contém linhas para guardar\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a4a07671c33dd704d445734f344befe60}\label{_tabelas___i_r_s_8h_a4a07671c33dd704d445734f344befe60}} 
+\#define {\bfseries ERR\+\_\+\+TAB\+\_\+\+IRS\+\_\+\+VAZIA}~\char`\"{}A tabela está vazia\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_aeec351ffe68a6204f4291e114e211287}\label{_tabelas___i_r_s_8h_aeec351ffe68a6204f4291e114e211287}} 
+\#define {\bfseries ERR\+\_\+\+ULT\+\_\+\+LINHA}~\char`\"{}Na Tabela a ultima \mbox{\hyperlink{structlinha}{linha}} e penultima \mbox{\hyperlink{structlinha}{linha}} têm de ter valor (€) iguais\+:\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a8136f111c3f315574bad7e3e6822e29b}\label{_tabelas___i_r_s_8h_a8136f111c3f315574bad7e3e6822e29b}} 
+\#define {\bfseries MSG\+\_\+\+CONT\+\_\+\+ERR\+\_\+\+ULT\+\_\+\+LINHA}~\char`\"{}Deseja igualar as linhas(S/N)?\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a023394a6d4a03ccfd2164a0fd04af160}\label{_tabelas___i_r_s_8h_a023394a6d4a03ccfd2164a0fd04af160}} 
+\#define {\bfseries MSG\+\_\+\+CONT\+\_\+\+ERR\+\_\+\+ULT\+\_\+\+LINHA\+\_\+\+OBT\+\_\+\+NLINHA}~\char`\"{}Insira o nº da \mbox{\hyperlink{structlinha}{linha}} que deseja que ambos os valores fiquem iguais\+:\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a2714f0bc57ea3921013ca26a5d74e917}\label{_tabelas___i_r_s_8h_a2714f0bc57ea3921013ca26a5d74e917}} 
+\#define {\bfseries ERR\+\_\+\+FILE\+\_\+\+IRS}~\char`\"{}Tipo de ficheiro invalido(.csv)!\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_ae7f826bc749a789f024500ae50f6814e}\label{_tabelas___i_r_s_8h_ae7f826bc749a789f024500ae50f6814e}} 
+\#define {\bfseries OPC\+\_\+\+INV\+\_\+\+TAB\+\_\+\+IRS}~\char`\"{}Opção invalida.\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a215662bd0d043fb3b86c4328e58aaec5}\label{_tabelas___i_r_s_8h_a215662bd0d043fb3b86c4328e58aaec5}} 
+\#define {\bfseries VAL\+\_\+\+INV\+\_\+\+LINHA}~\char`\"{}Linha invalida\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a481522a214280cd858e2956350ed23f5}\label{_tabelas___i_r_s_8h_a481522a214280cd858e2956350ed23f5}} 
+\#define {\bfseries VAL\+\_\+\+INV\+\_\+\+VALOR}~\char`\"{}Valor invalido\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a74d1c5d04c3b1fdf49e359856705887a}\label{_tabelas___i_r_s_8h_a74d1c5d04c3b1fdf49e359856705887a}} 
+\#define {\bfseries VAL\+\_\+\+INV\+\_\+\+PORC}~\char`\"{}Porcentagem invalida\textbackslash{}n\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a5ca4c95d8ad8d7c4a37f210af52c12ef}\label{_tabelas___i_r_s_8h_a5ca4c95d8ad8d7c4a37f210af52c12ef}} 
+\#define {\bfseries MIN\+\_\+\+LINHA}~1
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a5aad6fbe80ac3962d9a3f7f97d9898a2}\label{_tabelas___i_r_s_8h_a5aad6fbe80ac3962d9a3f7f97d9898a2}} 
+\#define {\bfseries MAX\+\_\+\+TAX}~100
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_abc260e2b902129b5158105f5628a9ec9}\label{_tabelas___i_r_s_8h_abc260e2b902129b5158105f5628a9ec9}} 
+\#define {\bfseries MIN\+\_\+\+VAL\+\_\+\+IRS}~0
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_aa7eef5e51b8f3ddd4a545a447c7f9aaf}\label{_tabelas___i_r_s_8h_aa7eef5e51b8f3ddd4a545a447c7f9aaf}} 
+\#define {\bfseries MAX\+\_\+\+VAL\+\_\+\+IRS}~99999.\+0
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_ab3f9c55a2cfcb4b3aad158ca2cc364f6}\label{_tabelas___i_r_s_8h_ab3f9c55a2cfcb4b3aad158ca2cc364f6}} 
+\#define {\bfseries QUANT\+\_\+\+TABS}~3
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a9db37cd75be1d2f3cfc2703673801cb0}\label{_tabelas___i_r_s_8h_a9db37cd75be1d2f3cfc2703673801cb0}} 
+\#define {\bfseries COLUNAS}~7
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a3f5b36dbfced0124453318a98de615c4}\label{_tabelas___i_r_s_8h_a3f5b36dbfced0124453318a98de615c4}} 
+\#define {\bfseries VAL\+\_\+\+MIN\+\_\+\+OPC\+\_\+\+TAB\+\_\+\+IRS}~0
+\item 
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_aac313e092f8c790735a52fd860034c49}\label{_tabelas___i_r_s_8h_aac313e092f8c790735a52fd860034c49}} 
+\#define {\bfseries VAL\+\_\+\+MAX\+\_\+\+OPC\+\_\+\+TAB\+\_\+\+IRS}~9
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{_tabelas___i_r_s_8h_a20b63400a2430a8dc9027003e8d282b6}{carregar\+\_\+tab\+\_\+\+IRS}} (\mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} $\ast$Tabs, char $\ast$file)
+\item 
+void \mbox{\hyperlink{_tabelas___i_r_s_8h_af56829a94beb289c852454569bf59fa5}{print\+\_\+tab}} (\mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} Tabs)
+\item 
+void \mbox{\hyperlink{_tabelas___i_r_s_8h_a6a66e2ff43439079e83e68535b225abe}{guardar\+\_\+tab}} (\mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} $\ast$Tabs, char $\ast$file)
+\item 
+void \mbox{\hyperlink{_tabelas___i_r_s_8h_a6842f2106e1d4c0410d87061a5bba667}{apagar\+\_\+linha}} (\mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} $\ast$Tabs)
+\item 
+void \mbox{\hyperlink{_tabelas___i_r_s_8h_abc9a670febfe53d6beea70ff19a202d3}{criar\+\_\+linha}} (\mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} $\ast$Tabs)
+\item 
+void \mbox{\hyperlink{_tabelas___i_r_s_8h_a74dbddd8c1573a9981492b5bc40e532f}{alt\+\_\+linha}} (\mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} $\ast$Tabs)
+\item 
+void \mbox{\hyperlink{_tabelas___i_r_s_8h_af574347e58da6be1a2e29f1daf1323e4}{ver\+\_\+vals}} (\mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} $\ast$Tabs)
+\item 
+void \mbox{\hyperlink{_tabelas___i_r_s_8h_ab22fcf277154f417bacfc632ad80a87b}{expandir\+\_\+linhas}} (\mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} $\ast$Tabs)
+\item 
+void \mbox{\hyperlink{_tabelas___i_r_s_8h_aed3e86789eb878dd8c4d8b92d24ee430}{swap\+\_\+linhas\+\_\+criar}} (\mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} $\ast$Tabs, int \mbox{\hyperlink{structlinha}{linha}})
+\item 
+void \mbox{\hyperlink{_tabelas___i_r_s_8h_a9caf195b2967ad99db806c6928c30682}{swap\+\_\+linhas\+\_\+eliminar}} (\mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} $\ast$Tabs, int \mbox{\hyperlink{structlinha}{linha}})
+\item 
+void \mbox{\hyperlink{_tabelas___i_r_s_8h_afff250a003a612ba6abe38f6b32b915c}{load\+\_\+min\+\_\+max}} (\mbox{\hyperlink{structlinha}{linha}} $\ast$min, \mbox{\hyperlink{structlinha}{linha}} $\ast$max, \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} Tabs, int nlinha)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Este modulo contem todas as funções relativas as tabelas de IRS. 
+
+Projeto de LP -\/ G51 \begin{DoxyAuthor}{Author}
+André Eiras nº 8200587 1-\/C LSIRC 
+
+José Francisco nº 8200472 1-\/C LEI 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a74dbddd8c1573a9981492b5bc40e532f}\label{_tabelas___i_r_s_8h_a74dbddd8c1573a9981492b5bc40e532f}} 
+\index{Tabelas\_IRS.h@{Tabelas\_IRS.h}!alt\_linha@{alt\_linha}}
+\index{alt\_linha@{alt\_linha}!Tabelas\_IRS.h@{Tabelas\_IRS.h}}
+\doxysubsubsection{\texorpdfstring{alt\_linha()}{alt\_linha()}}
+{\footnotesize\ttfamily void alt\+\_\+linha (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} $\ast$}]{Tabs }\end{DoxyParamCaption})}
+
+Esta função serve para alterar os valores de uma linha especifica da struct de \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em Tabs} & recebe como argumento um apontador da struct \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a6842f2106e1d4c0410d87061a5bba667}\label{_tabelas___i_r_s_8h_a6842f2106e1d4c0410d87061a5bba667}} 
+\index{Tabelas\_IRS.h@{Tabelas\_IRS.h}!apagar\_linha@{apagar\_linha}}
+\index{apagar\_linha@{apagar\_linha}!Tabelas\_IRS.h@{Tabelas\_IRS.h}}
+\doxysubsubsection{\texorpdfstring{apagar\_linha()}{apagar\_linha()}}
+{\footnotesize\ttfamily void apagar\+\_\+linha (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} $\ast$}]{Tabs }\end{DoxyParamCaption})}
+
+Esta função tem como finalidade apagar valores de uma linha especifica da struct \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em Tabs} & recebe como argumento um apontador da struct \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a20b63400a2430a8dc9027003e8d282b6}\label{_tabelas___i_r_s_8h_a20b63400a2430a8dc9027003e8d282b6}} 
+\index{Tabelas\_IRS.h@{Tabelas\_IRS.h}!carregar\_tab\_IRS@{carregar\_tab\_IRS}}
+\index{carregar\_tab\_IRS@{carregar\_tab\_IRS}!Tabelas\_IRS.h@{Tabelas\_IRS.h}}
+\doxysubsubsection{\texorpdfstring{carregar\_tab\_IRS()}{carregar\_tab\_IRS()}}
+{\footnotesize\ttfamily int carregar\+\_\+tab\+\_\+\+IRS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} $\ast$}]{Tabs,  }\item[{char $\ast$}]{file }\end{DoxyParamCaption})}
+
+Esta função tem o propósito de carregar de uma ficheiro em .csv para memória dinámica os valores de uma tabela de IRS
+
+
+\begin{DoxyParams}{Parameters}
+{\em Tabs} & recebe como argumento um apontador da struct \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} \\
+\hline
+{\em file} & recebe como argumento um array de caracteres \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+dá return de um inteiro com significado de um boolean 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_abc9a670febfe53d6beea70ff19a202d3}\label{_tabelas___i_r_s_8h_abc9a670febfe53d6beea70ff19a202d3}} 
+\index{Tabelas\_IRS.h@{Tabelas\_IRS.h}!criar\_linha@{criar\_linha}}
+\index{criar\_linha@{criar\_linha}!Tabelas\_IRS.h@{Tabelas\_IRS.h}}
+\doxysubsubsection{\texorpdfstring{criar\_linha()}{criar\_linha()}}
+{\footnotesize\ttfamily void criar\+\_\+linha (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} $\ast$}]{Tabs }\end{DoxyParamCaption})}
+
+Esta função serve para linha com valores inseridos pelo utilizador para serem inseridos na struct de \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em Tabs} & recebe como argumento um apontador da struct \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_ab22fcf277154f417bacfc632ad80a87b}\label{_tabelas___i_r_s_8h_ab22fcf277154f417bacfc632ad80a87b}} 
+\index{Tabelas\_IRS.h@{Tabelas\_IRS.h}!expandir\_linhas@{expandir\_linhas}}
+\index{expandir\_linhas@{expandir\_linhas}!Tabelas\_IRS.h@{Tabelas\_IRS.h}}
+\doxysubsubsection{\texorpdfstring{expandir\_linhas()}{expandir\_linhas()}}
+{\footnotesize\ttfamily void expandir\+\_\+linhas (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} $\ast$}]{Tabs }\end{DoxyParamCaption})}
+
+Esta função tem como objetivo alocar mais espaço na memória dinamica para as variáveis da struct \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em Tabs} & recebe como argumento um apontador da struct \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a6a66e2ff43439079e83e68535b225abe}\label{_tabelas___i_r_s_8h_a6a66e2ff43439079e83e68535b225abe}} 
+\index{Tabelas\_IRS.h@{Tabelas\_IRS.h}!guardar\_tab@{guardar\_tab}}
+\index{guardar\_tab@{guardar\_tab}!Tabelas\_IRS.h@{Tabelas\_IRS.h}}
+\doxysubsubsection{\texorpdfstring{guardar\_tab()}{guardar\_tab()}}
+{\footnotesize\ttfamily void guardar\+\_\+tab (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} $\ast$}]{Tabs,  }\item[{char $\ast$}]{file }\end{DoxyParamCaption})}
+
+Esta função tem como finalidade guardar o valor das variáveis para um ficheiro .csv
+
+
+\begin{DoxyParams}{Parameters}
+{\em Tabs} & recebe como argumento um apontador da struct \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} \\
+\hline
+{\em file} & recebe como argumento um array de caracteres \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_afff250a003a612ba6abe38f6b32b915c}\label{_tabelas___i_r_s_8h_afff250a003a612ba6abe38f6b32b915c}} 
+\index{Tabelas\_IRS.h@{Tabelas\_IRS.h}!load\_min\_max@{load\_min\_max}}
+\index{load\_min\_max@{load\_min\_max}!Tabelas\_IRS.h@{Tabelas\_IRS.h}}
+\doxysubsubsection{\texorpdfstring{load\_min\_max()}{load\_min\_max()}}
+{\footnotesize\ttfamily void load\+\_\+min\+\_\+max (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structlinha}{linha}} $\ast$}]{min,  }\item[{\mbox{\hyperlink{structlinha}{linha}} $\ast$}]{max,  }\item[{\mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}}}]{Tabs,  }\item[{int}]{nlinha }\end{DoxyParamCaption})}
+
+Esta função carrega os valores mínimmos e máximos de cada linha referente à struct linha referente à \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em min} & recebe como argumento um apontador da struct linha \\
+\hline
+{\em max} & recebe como argumento um apontador da struct linha \\
+\hline
+{\em Tabs} & recebe como argumento uma variavel da struct \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} \\
+\hline
+{\em nlinha} & recebe como argumento um inteiro \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_af56829a94beb289c852454569bf59fa5}\label{_tabelas___i_r_s_8h_af56829a94beb289c852454569bf59fa5}} 
+\index{Tabelas\_IRS.h@{Tabelas\_IRS.h}!print\_tab@{print\_tab}}
+\index{print\_tab@{print\_tab}!Tabelas\_IRS.h@{Tabelas\_IRS.h}}
+\doxysubsubsection{\texorpdfstring{print\_tab()}{print\_tab()}}
+{\footnotesize\ttfamily void print\+\_\+tab (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}}}]{Tabs }\end{DoxyParamCaption})}
+
+Esta função imprime os valores da variavel da estrutura \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em Tabs} & recebe como argumento uma variavel da estrutura \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_aed3e86789eb878dd8c4d8b92d24ee430}\label{_tabelas___i_r_s_8h_aed3e86789eb878dd8c4d8b92d24ee430}} 
+\index{Tabelas\_IRS.h@{Tabelas\_IRS.h}!swap\_linhas\_criar@{swap\_linhas\_criar}}
+\index{swap\_linhas\_criar@{swap\_linhas\_criar}!Tabelas\_IRS.h@{Tabelas\_IRS.h}}
+\doxysubsubsection{\texorpdfstring{swap\_linhas\_criar()}{swap\_linhas\_criar()}}
+{\footnotesize\ttfamily void swap\+\_\+linhas\+\_\+criar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} $\ast$}]{Tabs,  }\item[{int}]{linha }\end{DoxyParamCaption})}
+
+Esta função troca as linhas para a criação da linha no meio da tabela da stuct \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em Tabs} & recebe como argumento um apontador da struct \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} \\
+\hline
+{\em linha} & recebe como argumento um inteiro \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_a9caf195b2967ad99db806c6928c30682}\label{_tabelas___i_r_s_8h_a9caf195b2967ad99db806c6928c30682}} 
+\index{Tabelas\_IRS.h@{Tabelas\_IRS.h}!swap\_linhas\_eliminar@{swap\_linhas\_eliminar}}
+\index{swap\_linhas\_eliminar@{swap\_linhas\_eliminar}!Tabelas\_IRS.h@{Tabelas\_IRS.h}}
+\doxysubsubsection{\texorpdfstring{swap\_linhas\_eliminar()}{swap\_linhas\_eliminar()}}
+{\footnotesize\ttfamily void swap\+\_\+linhas\+\_\+eliminar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} $\ast$}]{Tabs,  }\item[{int}]{linha }\end{DoxyParamCaption})}
+
+Esta função troca as linhas para a eliminação da linha no meio da tabela da stuct \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em Tabs} & recebe como argumento um apontador da struct \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} \\
+\hline
+{\em linha} & recebe como argumento um inteiro \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabelas___i_r_s_8h_af574347e58da6be1a2e29f1daf1323e4}\label{_tabelas___i_r_s_8h_af574347e58da6be1a2e29f1daf1323e4}} 
+\index{Tabelas\_IRS.h@{Tabelas\_IRS.h}!ver\_vals@{ver\_vals}}
+\index{ver\_vals@{ver\_vals}!Tabelas\_IRS.h@{Tabelas\_IRS.h}}
+\doxysubsubsection{\texorpdfstring{ver\_vals()}{ver\_vals()}}
+{\footnotesize\ttfamily void ver\+\_\+vals (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} $\ast$}]{Tabs }\end{DoxyParamCaption})}
+
+Esta função serve para imprimir no ecra os valores de uma linha especifica da struct de \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em Tabs} & recebe como argumento um apontador da struct \mbox{\hyperlink{struct_tab___i_r_s}{Tab\+\_\+\+IRS}} \\
+\hline
+\end{DoxyParams}
